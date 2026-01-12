@@ -1,0 +1,33 @@
+{
+  "header": {
+    "title": "إبدأ الآن"
+  },
+  "left": {
+    "downloadApp": "حمل التطبيق",
+    "followUs": "تابعنا على السوشيال ميديا"
+  },
+  "right": {
+    "mainPages": "صفحات رئيسية",
+    "services": "الخدمات",
+    "links": {
+      "about": "من نحن",
+      "services": "الخدمات",
+      "aboutApp": "عن التطبيق",
+      "packages": "الباقات",
+      "faq": "الأسئلة الشائعة",
+      "blog": "المدونة",
+      "contact": "تواصل معنا",
+      "privacy": "سياسة الخصوصية"
+    },
+    "serviceLinks": {
+      "attendance": "إدارة الحضور والإنصراف",
+      "performance": "متابعة الآداء",
+      "payroll": "إدارة الرواتب والمزايا",
+      "orders": "إدارة الطلبات",
+      "recruitment": "إدارة التوظيف"
+    }
+  },
+  "bottom": {
+    "copyright": "جميع الحقوق محفوظة اتجاه@2024"
+  }
+}

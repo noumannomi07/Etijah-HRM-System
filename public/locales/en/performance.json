@@ -1,0 +1,60 @@
+{
+  "pageTitle": "Performance Indicator",
+  "breadcrumb": {
+    "performanceIndicator": "Performance Indicator",
+    "evaluativeStandard": "Evaluative Standard"
+  },
+  "table": {
+    "headers": {
+      "employee": "Employee",
+      "department": "Department",
+      "workOffice": "Work Office",
+      "firstQuarter": "First Quarter",
+      "secondQuarter": "Second Quarter",
+      "thirdQuarter": "Third Quarter",
+      "fourthQuarter": "Fourth Quarter",
+      "actions": ""
+    }
+  },
+  "quarters": {
+    "first": "First Quarter",
+    "second": "Second Quarter",
+    "third": "Third Quarter",
+    "fourth": "Fourth Quarter"
+  },
+  "status": {
+    "notEvaluated": "Not Evaluated",
+    "pending": "Pending"
+  },
+  "buttons": {
+    "view": "View",
+    "edit": "Edit",
+    "save": "Save",
+    "cancel": "Cancel",
+    "editEvaluation": "Edit Evaluation",
+    "saving": "Saving"
+  },
+  "evaluation": {
+    "standard": "Standard",
+    "firstQuarterRating": "First Quarter Rating/5",
+    "secondQuarterRating": "Second Quarter Rating/5",
+    "thirdQuarterRating": "Third Quarter Rating/5",
+    "fourthQuarterRating": "Fourth Quarter Rating/5",
+    "notes": "Notes",
+    "percentage": "Percentage",
+    "finalPercentage": "Final Percentage",
+    "goodRate": "Good Rate",
+    "needsImprovement": "Needs Improvement",
+    "cannotEditNow": "Cannot edit at the moment",
+    "rating": "Rating",
+    "performanceExcellent": "Excellent Final Performance",
+    "performanceVeryGood": "Very Good Performance",
+    "performanceAcceptable": "Acceptable Performance"
+  },
+  "messages": {
+    "updateSuccess": "Updated successfully!",
+    "updateError": "An error occurred",
+    "errorFetchingData": "An error occurred while fetching data."
+  }
+}
+

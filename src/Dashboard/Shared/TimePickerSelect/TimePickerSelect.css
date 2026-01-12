@@ -1,0 +1,270 @@
+.time-piker-input .react-time-picker__wrapper {
+  border-color: #d4d8e5 !important;
+  border-radius: 6px;
+}
+.time-piker-input
+  .react-time-picker__wrapper
+  .react-time-picker__clock-button
+  svg {
+  stroke: #828385;
+}
+
+.time-piker-input .react-time-picker__wrapper .react-time-picker__button {
+  padding: 4px 12px !important;
+}
+.time-piker-input .react-time-picker__wrapper .react-time-picker__clear-button {
+  display: none;
+}
+.time-piker-input .react-time-picker__inputGroup {
+  background: transparent;
+  display: flex;
+  align-items: center;
+}
+
+.time-piker-input .react-time-picker__inputGroup__leadingZero {
+  display: none;
+}
+
+.time-piker-input .react-time-picker__inputGroup input {
+  background: transparent;
+}
+
+.time-piker-input .react-time-picker__inputGroup input:focus,
+.time-piker-input .react-time-picker__inputGroup select {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.time-piker-input .react-time-picker__inputGroup select:not([size]) {
+  background-position: left -6.25rem center !important;
+}
+
+.time-piker-input .react-time-picker__clock {
+  display: none;
+}
+
+.time-piker-input
+  .css-vycme6-MuiPickersInputBase-root-MuiPickersOutlinedInput-root {
+  direction: ltr;
+  padding-right: 50px;
+}
+
+.time-piker-input
+  .css-1fb7els-MuiPickersSectionList-root-MuiPickersInputBase-sectionsContainer-MuiPickersOutlinedInput-sectionsContainer {
+  direction: rtl;
+}
+.time-piker-input :is(.css-kg5swy, .css-w48gsk, .MuiFormLabel-root) {
+  display: none;
+}
+
+.time-piker-input
+  .css-1fb7els-MuiPickersSectionList-root-MuiPickersInputBase-sectionsContainer-MuiPickersOutlinedInput-sectionsContainer {
+  padding-block: 10px;
+}
+
+.time-piker-input .text-font-gray {
+  margin-bottom: 11.5px !important;
+}
+
+.time-piker-input .MuiPickersInputBase-input {
+  padding: 0 !important;
+}
+
+.time-piker-input .css-lqwr9g-MuiPickersOutlinedInput-notchedOutline {
+  border-color: #dcdcdd !important;
+  box-shadow: none !important;
+}
+
+.css-18ultcs-MuiPopper-root-MuiPickerPopper-root .MuiPickersLayout-root {
+  direction: ltr;
+}
+.css-151nkvq-MuiPaper-root-MuiPickerPopper-paper .MuiIconButton-root {
+  width: 30px;
+  height: 30px;
+  background: #4c6cb2;
+  color: #fff;
+}
+.css-151nkvq-MuiPaper-root-MuiPickerPopper-paper .MuiIconButton-root svg {
+  fill: #fff;
+  color: #fff;
+}
+.css-151nkvq-MuiPaper-root-MuiPickerPopper-paper {
+  transform: translateX(180px) !important;
+}
+
+@media screen and (max-width: 1350px) {
+  .css-151nkvq-MuiPaper-root-MuiPickerPopper-paper {
+    transform: translateX(150px) !important;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .css-151nkvq-MuiPaper-root-MuiPickerPopper-paper {
+    transform: translateX(0px) !important;
+  }
+}
+
+.css-15vw5kf-MuiPickersArrowSwitcher-root-MuiTimeClock-arrowSwitcher {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  justify-content: space-between;
+  width: 92%;
+  direction: ltr;
+}
+.MuiTimeClock-root .Mui-selected {
+  background: #1eb21e !important;
+}
+.MuiTimeClock-root .Mui-selected .MuiTypography-root {
+  color: #fff !important;
+}
+.css-1x57bai-MuiDialogActions-root-MuiPickersLayout-actionBar {
+  padding: 15px;
+}
+.css-1x57bai-MuiDialogActions-root-MuiPickersLayout-actionBar
+  .css-1uent87-MuiButtonBase-root-MuiButton-root {
+  background: #4c6cb2;
+  color: #fff;
+  padding-inline: 10px;
+}
+
+body
+  > div.MuiPopper-root.MuiPickerPopper-root.css-18ultcs-MuiPopper-root-MuiPickerPopper-root
+  > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation8.MuiPickerPopper-paper.css-151nkvq-MuiPaper-root-MuiPickerPopper-paper
+  > div
+  > div.MuiDialogActions-root.MuiDialogActions-spacing.MuiPickersLayout-actionBar.css-1x57bai-MuiDialogActions-root-MuiPickersLayout-actionBar
+  > button:nth-child(1) {
+  background: #d73939;
+}
+
+.css-182xs1g-MuiClock-clock {
+  background: #99909012;
+}
+
+.css-pncb2q-MuiClockPointer-root,
+.css-1fiopb0-MuiClockPointer-thumb {
+  background: #4c6cb2;
+}
+.css-1fiopb0-MuiClockPointer-thumb {
+  background: #fff;
+}
+.css-1fiopb0-MuiClockPointer-thumb {
+  border-color: #4c6cb2;
+}
+
+.css-151nkvq-MuiPaper-root-MuiPickerPopper-paper {
+  box-shadow: none !important;
+  border: 1px solid #dcdcdc;
+  border-radius: 12px;
+  margin-top: 6px;
+  margin-bottom: 10px;
+}
+
+.time-piker-input .css-1ysp02-MuiButtonBase-root-MuiIconButton-root {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 35px;
+  align-items: flex-end;
+}
+
+.time-piker-input .MuiInputAdornment-sizeMedium {
+  width: 100%;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  justify-content: flex-end;
+  align-items: flex-end;
+  display: flex;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.css-1ysp02-MuiButtonBase-root-MuiIconButton-root:hover {
+  background: transparent;
+}
+.css-1y6l765-MuiPickersLayout-root .MuiPickersLayout-actionBar {
+  gap: 15px;
+}
+
+body
+  > div.MuiPopper-root.MuiPickerPopper-root.css-kqo2sj-MuiPopper-root-MuiPickerPopper-root
+  > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation8.MuiPickerPopper-paper.css-151nkvq-MuiPaper-root-MuiPickerPopper-paper
+  > div
+  > div.MuiDialogActions-root.MuiDialogActions-spacing.MuiPickersLayout-actionBar.css-1x57bai-MuiDialogActions-root-MuiPickersLayout-actionBar
+  > button:nth-child(2) {
+  background: #d73939;
+}
+
+.css-n7yy7p-MuiPickersLayout-contentWrapper {
+  grid-column: 2 / 2;
+}
+
+.css-a6blmi-MuiList-root-MuiMultiSectionDigitalClockSection-root {
+  width: 61px;
+}
+
+.css-a6blmi-MuiList-root-MuiMultiSectionDigitalClockSection-root:not(:first-of-type) {
+  border: none;
+  border-right: 1px solid #ebe8e8;
+}
+
+.css-151nkvq-MuiPaper-root-MuiPickerPopper-paper,
+.css-sabdtc-MuiMultiSectionDigitalClock-root {
+  border-color: #ebe8e8;
+}
+
+.css-ux17pc-MuiButtonBase-root-MuiMenuItem-root-MuiMultiSectionDigitalClockSection-item {
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 8px;
+}
+.css-ux17pc-MuiButtonBase-root-MuiMenuItem-root-MuiMultiSectionDigitalClockSection-item:hover {
+  background: theme("colors.primaryColor");
+  color: #fff;
+}
+body
+  > div.MuiPopper-root.MuiPickerPopper-root.css-kqo2sj-MuiPopper-root-MuiPickerPopper-root
+  > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation8.MuiPickerPopper-paper.css-151nkvq-MuiPaper-root-MuiPickerPopper-paper
+  > div
+  > div.MuiPickersLayout-contentWrapper.css-n7yy7p-MuiPickersLayout-contentWrapper
+  > div
+  > ul:nth-child(1) {
+  width: 65px;
+}
+body
+  > div.MuiPopper-root.MuiPickerPopper-root.css-kqo2sj-MuiPopper-root-MuiPickerPopper-root
+  > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation8.MuiPickerPopper-paper.css-151nkvq-MuiPaper-root-MuiPickerPopper-paper
+  > div
+  > div.MuiPickersLayout-contentWrapper.css-n7yy7p-MuiPickersLayout-contentWrapper
+  > div
+  > ul:nth-child(2) {
+  width: 61px;
+}
+body
+  > div.MuiPopper-root.MuiPickerPopper-root.css-kqo2sj-MuiPopper-root-MuiPickerPopper-root
+  > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation8.MuiPickerPopper-paper.css-151nkvq-MuiPaper-root-MuiPickerPopper-paper
+  > div
+  > div.MuiPickersLayout-contentWrapper.css-n7yy7p-MuiPickersLayout-contentWrapper
+  > div
+  > ul:nth-child(3) {
+  width: 57px;
+  overflow: hidden;
+}
+
+.css-qru2u2-MuiPickersSectionList-root-MuiPickersInputBase-sectionsContainer-MuiPickersOutlinedInput-sectionsContainer {
+  height: 52px !important;
+  transform: translate(0) !important;
+}
+
+.css-1ysp02-MuiButtonBase-root-MuiIconButton-root {
+  padding-block: 4px !important;
+}
+
+.time-piker-input .css-vycme6-MuiPickersInputBase-root-MuiPickersOutlinedInput-root {
+  border-radius: 8px;
+}

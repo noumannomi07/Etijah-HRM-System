@@ -1,0 +1,16 @@
+{
+  "pageTitle": "الإشعارات",
+  "breadcrumb": {
+    "notifications": "الإشعارات"
+  },
+  "tabs": {
+    "all": "الجميع",
+    "unread": "الغير مقرؤة",
+    "read": "المقرؤة"
+  },
+  "messages": {
+    "noNotifications": "لا توجد إشعارات متاحة",
+    "errorFetchingNotifications": "حدث خطأ أثناء جلب الإشعارات"
+  }
+}
+

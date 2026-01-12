@@ -1,0 +1,59 @@
+{
+  "pageTitle": "About the App",
+  "header": {
+    "title": "An Innovative Digital Experience for Your Employees",
+    "description": "Etijah app is the ideal solution for managing all aspects of employees' daily work with ease and effectiveness. It allows employees to check in and out with one click, saving time and effort."
+  },
+  "cards": {
+    "sectionTitle": "Make Your Employees' Work Experience Exceptional",
+    "features": {
+      "productivity": {
+        "title": "Maximize Productivity",
+        "description": "The easy-to-use interface and integrated features speed up daily operations, enhancing team productivity and helping them focus on their core tasks."
+      },
+      "communication": {
+        "title": "Enhance Communication and Collaboration",
+        "description": "The app helps improve communication channels between employees and managers, fostering collaboration and helping teams work more harmoniously."
+      },
+      "analytics": {
+        "title": "Data Analytics at Your Fingertips",
+        "description": "Comprehensive reports and analytics provide accurate insights into employee and project performance, helping management make informed strategic decisions and improve overall performance."
+      },
+      "userExperience": {
+        "title": "Amazing User Experience",
+        "description": "The engaging and interactive user interface ensures a smooth user experience, making it easy for employees to adapt to the system and use it effectively."
+      }
+    }
+  },
+  "banner": {
+    "features": {
+      "performanceTracking": {
+        "title": "Performance Tracking",
+        "description": "Complete the payroll calculation process and provide employee benefits, ensuring accuracy and compliance with legal standards, and providing clear financial reports"
+      },
+      "payrollManagement": {
+        "title": "Payroll and Benefits Management",
+        "description": "Accurate and fast calculation of salaries and bonuses with full compliance with legal standards and detailed financial reports."
+      },
+      "taskManagement": {
+        "title": "Effective Task Management",
+        "description": "Distribute and track tasks among employees, with notifications of updates and performance reports that help improve productivity."
+      },
+      "orderManagement": {
+        "title": "Request Management",
+        "description": "Accurate management of permission and leave requests, enhancing organization and maintaining workflow balance."
+      },
+      "attendanceTracking": {
+        "title": "Attendance Check-in/Check-out",
+        "description": "An effective system for recording attendance and departure, ensuring data accuracy and easy access."
+      }
+    }
+  },
+  "slider": {
+    "sectionTitle": "App Screenshots"
+  },
+  "download": {
+    "title": "Download the App Now",
+    "description": "Multiple packages with diverse features that suit all your needs and fit your budget"
+  }
+}

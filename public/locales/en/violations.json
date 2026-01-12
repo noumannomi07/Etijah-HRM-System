@@ -1,0 +1,133 @@
+{
+  "common": {
+    "add": "Add",
+    "edit": "Edit",
+    "delete": "Delete",
+    "save": "Save",
+    "saveWithPenalty": "Save with Penalty",
+    "cancel": "Cancel",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "search": "Search",
+    "filter": "Filter",
+    "view": "View",
+    "select": "Select",
+    "details": "Details",
+    "noData": "No data available"
+  },
+  "pageTitle": {
+    "violationsManagement": "Violations Management"
+  },
+  "messages": {
+    "successAdd": "Violation added successfully",
+    "successUpdate": "Violation updated successfully",
+    "successDelete": "Violation deleted successfully",
+    "error": "An error occurred",
+    "confirmDelete": "Are you sure you want to delete this violation?",
+    "confirmDeleteDetails": "This action cannot be undone."
+  },
+  "violationsTable": {
+    "headers": {
+      "id": "#",
+      "violationType": "Violation Type",
+      "violationDate": "Violation Date",
+      "employee": "Employee",
+      "penalty": "Penalty",
+      "description": "Description",
+      "status": "Status",
+      "actions": "Actions",
+      "repetitionCount": "Repetition Count",
+      "violationRule": "Violation Type",
+      "employeeName": "Employee",
+      "penaltyText": "Penalty",
+      "notes": "Notes",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At"
+    },
+    "tooltips": {
+      "view": "View",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "filters": {
+      "title": "Filter",
+      "addFilter": "Add Filter",
+      "apply": "Apply",
+      "clear": "Clear"
+    },
+    "actions": {
+      "addViolation": "Add New Violation"
+    }
+  },
+  "statuses": {
+    "pending": "Pending",
+    "approved": "Approved",
+    "rejected": "Rejected",
+    "cancelled": "Cancelled"
+  },
+  "severityLevels": {
+    "low": "Low",
+    "medium": "Medium",
+    "high": "High",
+    "critical": "Critical"
+  },
+  "addViolation": {
+    "title": "Add New Violation",
+    "violationType": "Violation Type",
+    "description": "Description",
+    "violationDate": "Violation Date",
+    "employee": "Employee",
+    "penalty": "Penalty",
+    "severityLevel": "Severity Level",
+    "attachments": "Attachments",
+    "notes": "Notes",
+    "saveViolation": "Save Violation"
+  },
+  "violationDetails": {
+    "title": "Violation Details",
+    "violationType": "Violation Type",
+    "description": "Description",
+    "violationDate": "Violation Date",
+    "employee": "Employee",
+    "penalty": "Penalty",
+    "severityLevel": "Severity Level",
+    "status": "Status",
+    "attachments": "Attachments",
+    "notes": "Notes",
+    "comments": "Comments",
+    "addComment": "Add Comment"
+  },
+  "validation": {
+    "violationTypeRequired": "Violation type is required",
+    "descriptionRequired": "Description is required",
+    "employeeRequired": "Please select an employee",
+    "dateRequired": "Date is required",
+    "penaltyRequired": "Penalty is required",
+    "invalidDateFormat": "Invalid date format",
+    "employeeNotFound": "Employee not found"
+  },
+  "violationText": {
+    "noData": "No data available",
+    "noPenalty": "No penalty applied",
+    "unknownPenaltyType": "Unknown penalty type",
+    "dailySalaryDeduction": "Deduct {{value}}% from daily salary",
+    "singleDayDeduction": "Deduct one day from salary",
+    "multipleDaysDeduction": "Deduct {{value}} days from salary",
+    "violationCount": {
+      "first": "First time",
+      "second": "Second time",
+      "third": "Third time",
+      "fourth": "Fourth time",
+      "fifth": "Fifth time",
+      "custom": "{{count}} times"
+    }
+  },
+  "endService": {
+    "title": "End of Service",
+    "endDate": "End of Service Date",
+    "reason": "End of Service Reason",
+    "endOfServiceCalculator": "End of Service Calculator",
+    "description": "You can use the end of service calculator to calculate employee entitlements upon service termination"
+  }
+}

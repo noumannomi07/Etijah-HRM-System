@@ -1,0 +1,21 @@
+.header-info-candidate-employee .content-left-employee {
+  display: none;
+}
+
+@media screen and (max-width: 643px) {
+  .header-info-candidate-employee
+    :is(.left-buttons-content .btn-main, .left-buttons-content) {
+    width: 100%;
+  }
+  .header-info-candidate-employee :is(.left-buttons-content) {
+    flex-wrap: wrap;
+  }
+  .header-info-candidate-employee :is(.left-buttons-content .btn-main) {
+    flex-basis: 30%;
+    flex-grow: 1;
+  }
+}
+
+.modalSuccess-hire-now .bottom-content .btn-main {
+  display: none;
+}

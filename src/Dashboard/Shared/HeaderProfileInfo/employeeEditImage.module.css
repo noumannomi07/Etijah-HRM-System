@@ -1,0 +1,88 @@
+.parent {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+@media (max-width: 991px) {
+  .parent {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .imageuser {
+    margin-bottom: 30px;
+  }
+}
+
+.imageuser {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.imageuser img {
+  width: 100%;
+}
+.buttons {
+  display: flex;
+}
+.buttons .editbutton {
+  padding: 8px 15px;
+  margin: 10px;
+  border-radius: 10px;
+  /* background-color: #4c6cb2; */
+  /* color: #fff !important; */
+}
+.buttons .deletebutton {
+  padding: 8px 15px;
+  margin: 10px;
+  border-radius: 10px;
+  color: #fff !important;
+  background-color: #fe4d4f;
+  display: flex;
+}
+
+.buttons .deletebutton:hover {
+  border-color: #fe4d4f !important;
+  color: #fff !important;
+}
+
+
+.imageuser {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border: 2px dashed #ccc;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.imageuser img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.imageuser:hover {
+  border-color: #007bff;
+}
+
+.noImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  color: #999;
+  font-size: 14px;
+  text-align: center;
+}

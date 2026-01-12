@@ -1,0 +1,16 @@
+.all-files-upload {
+  min-height: 130px !important;
+  margin-top: 10px;
+  position: relative;
+}
+
+.all-files-upload .files-ui-footer-border-rd-top-bg-color-default {
+  display: none;
+}
+
+.all-files-upload .files-ui-header > span {
+  display: none !important;
+}
+.all-files-upload.fui-dropzone-root {
+  padding: 0 0 15px 0 !important;
+}

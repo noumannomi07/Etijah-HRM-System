@@ -1,0 +1,90 @@
+{
+  "pageTitle": "مستندات الشركة",
+  "breadcrumb": {
+    "companyDocuments": "مستندات الشركة",
+    "addNewDocument": "إضافة مستند جديد"
+  },
+  "table": {
+    "headers": {
+      "documentName": "إسم المستند",
+      "documentType": "نوع المستند",
+      "description": "الوصف",
+      "dateAdded": "تاريخ إضافة المستند",
+      "actions": ""
+    },
+    "noDescription": "لا يوجد وصف"
+  },
+  "buttons": {
+    "addNewDocument": "إضافة مستند جديد",
+    "view": "عرض",
+    "edit": "تعديل",
+    "delete": "حذف"
+  },
+  "form": {
+    "documentNameArabic": "إسم المستند باللغة العربية",
+    "documentNameEnglish": "إسم المستند باللغة الإنجليزية",
+    "descriptionArabic": "الوصف باللغة العربية",
+    "descriptionEnglish": "الوصف",
+    "documentType": "النوع",
+    "expiryDate": "تاريخ إنتهاء الصلاحية",
+    "attachFile": "إرفق ملف",
+    "placeholders": {
+      "documentNameArabic": "إسم المستند باللغة العربية",
+      "documentNameEnglish": "إسم المستند باللغة الإنجليزية",
+      "descriptionArabic": "الوصف باللغة العربية",
+      "descriptionEnglish": "الوصف باللغة الإنجليزية",
+      "select": "-إختر-",
+      "date": "--/--/--"
+    }
+  },
+  "validation": {
+    "documentNameArabicRequired": "إسم المستند باللغة العربية مطلوب",
+    "documentNameArabicPattern": "يجب إدخال إسم المستند باللغة العربية فقط",
+    "documentNameEnglishRequired": "إسم المستند باللغة الإنجليزية مطلوب",
+    "documentNameEnglishPattern": "يجب إدخال إسم المستند باللغة الإنجليزية فقط",
+    "descriptionArabicRequired": "الوصف باللغة العربية مطلوب",
+    "descriptionArabicPattern": "يجب إدخال الوصف باللغة العربية فقط",
+    "descriptionEnglishRequired": "الوصف باللغة الإنجليزية مطلوب",
+    "descriptionEnglishPattern": "يجب إدخال الوصف باللغة الإنجليزية فقط",
+    "fileRequired": "الملف مطلوب",
+    "typeRequired": "النوع مطلوب",
+    "documentNameRequired": "إسم المستند مطلوب"
+  },
+  "messages": {
+    "addSuccess": "تم إضافة المستند بنجاح!",
+    "addError": "حدث خطأ أثناء إضافة المستند",
+    "deleteError": "حدث خطأ أثناء حذف المستند",
+    "cancelSuccess": "تم الالغاء بنجاح",
+    "filterSuccess": "تم إضافة الطلب بنجاح!"
+  },
+  "filter": {
+    "title": "تصفية",
+    "documentName": "إسم المستند",
+    "documentType": "النوع",
+    "dateAddedFrom": "تاريخ الإضافة من",
+    "expiryDate": "تاريخ إنتهاء الصلاحية",
+    "placeholders": {
+      "documentName": "إسم المستند",
+      "select": "-إختر-",
+      "date": "--/--/--"
+    },
+    "buttons": {
+      "reset": "إعادة تعيين",
+      "search": "بحث"
+    }
+  },
+  "deleteModal": {
+    "title": "هل أنت متأكد أنك تريد حذف العنصر؟",
+    "message": "سيتم حذف العنصر بشكل دائم ولا يمكن التراجع عن هذا الإجراء."
+  },
+  "details": {
+    "title": "التفاصيل",
+    "documentName": "اسم المستند",
+    "type": "النوع",
+    "description": "الوصف",
+    "dateAdded": "تاريخ الإضافة",
+    "department": "القسم التابع له",
+    "requestImage": "صورة الطلب.pdf"
+  }
+}
+

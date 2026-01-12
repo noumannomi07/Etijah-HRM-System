@@ -1,0 +1,33 @@
+.tab-bg .tabs-buttons {
+    border: none;
+    gap: 15px;
+
+}
+
+.tab-bg .button-tab-hor {
+    padding: 10px 25px;
+    border: none;
+    border: 1.5px solid theme("colors.lightColorWhite2");
+    width: max-content;
+    border-radius: 8px;
+
+
+
+}
+
+.tab-bg .active-bg {
+    background: theme("colors.lightColorblue");
+    border-color: theme("colors.primaryColor") !important;
+}
+
+.all-tabs-horizontal .button-tab-hor.active-bg :is(svg path, svg circle, i, ellipse, rect) {
+    stroke: theme("colors.primaryColor");
+    color: theme("colors.primaryColor");
+}
+
+@media screen and (max-width:375px) {
+    .tab-bg .button-tab-hor {
+        flex: 1 1 100%;
+
+    }
+}

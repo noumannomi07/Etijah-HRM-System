@@ -1,0 +1,31 @@
+@media screen and (max-width: 1247px) {
+  .all-buttons-employee {
+    justify-content: flex-end;
+    position: relative;
+    left: initial;
+    top: initial;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .all-content-employee-page-2 .all-buttons-employee {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-53%);
+    width: 90%;
+  }
+  .all-content-employee-page-2 .all-tabs-horizontal {
+    margin-top: 70px;
+  }
+  .all-buttons-header .btn-main,
+  .all-buttons-header {
+    width: 100%;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .all-buttons-header {
+    flex-wrap: wrap;
+  }
+}

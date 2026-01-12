@@ -1,0 +1,14 @@
+
+const AllowancesManagementIcon = () => {
+  return (
+    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M15.832 12.5V17.5" stroke="#767D8B" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+    <path d="M18.332 15L13.332 15" stroke="#767D8B" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+    <path d="M6.66797 10C6.66797 8.61929 5.54868 7.5 4.16797 7.5H1.66797V12.5H4.16797C5.54868 12.5 6.66797 11.3807 6.66797 10V10Z" stroke="#767D8B" strokeWidth="1.5" strokeLinejoin="round"/>
+    <path d="M11.6654 17.5H5.66536C3.45623 17.5 1.66536 15.7091 1.66536 13.5V6.5C1.66536 4.29086 3.45623 2.5 5.66536 2.5H14.332C16.5412 2.5 18.332 4.29086 18.332 6.5V10.8333" stroke="#767D8B" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+    </svg>
+    
+  )
+}
+
+export default AllowancesManagementIcon

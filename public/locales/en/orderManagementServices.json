@@ -1,0 +1,47 @@
+{
+  "pageTitle": "Request Management",
+  "header": {
+    "title": "Integrated Solution to Facilitate the Submission and Management of Requests",
+    "description": "Our employee request management service provides an integrated solution to facilitate the submission and management of requests such as leave and advances. This service aims to enhance communication between employees and management, contributing to creating a flexible and effective work environment."
+  },
+  "cards": {
+    "title": "Countless Benefits",
+    "subtitle": "Benefit from our modern technologies in request management that allow you to improve every aspect of the process.",
+    "items": [
+      {
+        "title": "Increased Efficiency",
+        "text": "Reduces the time consumed in processing administrative requests."
+      },
+      {
+        "title": "Improved Employee Experience",
+        "text": "The service facilitates the procedures for submitting requests, which increases employee satisfaction."
+      },
+      {
+        "title": "Enhanced Transparency",
+        "text": "Provides accurate information about the status of requests, which enhances trust between parties."
+      }
+    ]
+  },
+  "banner": {
+    "title": "Enjoy Managing Your Requests with Efficiency and Ease with Our Advanced System",
+    "subtitle": "Get advanced features with our system, which provides you with an easy-to-use user interface, detailed performance reports, and automated operations to facilitate request management and improve response speed.",
+    "items": [
+      {
+        "title": "Automatic Registration System",
+        "text": "Employee login through the mobile app and follow up on reports through the control panel."
+      },
+      {
+        "title": "Detailed Reports",
+        "text": "Ability to create daily, weekly, and monthly reports on attendance and departure, with useful statistics."
+      },
+      {
+        "title": "Easy User Interface",
+        "text": "Simple and easy-to-use design ensures ease of interaction with the system."
+      },
+      {
+        "title": "Easy User Interface",
+        "text": "Simple and easy-to-use design ensures ease of interaction with the system."
+      }
+    ]
+  }
+}

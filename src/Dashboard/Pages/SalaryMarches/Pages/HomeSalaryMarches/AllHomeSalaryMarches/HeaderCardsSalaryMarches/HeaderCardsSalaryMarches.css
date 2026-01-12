@@ -1,0 +1,34 @@
+.all-card-salary-marches .card-employment-one {
+  padding: 15px;
+}
+
+.card-total-net {
+  background: theme("colors.greenLightColor");
+  border: 1px solid theme("colors.lightColorWhite2");
+  height: 100%;
+  border-radius: 8px;
+  padding: 0px;
+}
+.card-total-net .card-employment-one {
+  border: none !important;
+}
+
+.card-total-net .card-employment-one .icon-employment svg rect {
+  fill: theme("colors.whiteColor");
+}
+.card-total-net .buttons-card-total {
+  padding-bottom: 25px;
+}
+.card-total-net .buttons-card-total .btn-main {
+  flex-basis: 150px;
+  flex-grow: 1;
+}
+
+.date-header-salary .icon-date-add {
+  transform: translate(210%, -50%) !important;
+  left: 50% !important;
+}
+
+.date-header-salary input {
+  text-align: center !important;
+}

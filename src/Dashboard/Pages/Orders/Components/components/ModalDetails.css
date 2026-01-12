@@ -1,0 +1,10 @@
+@media screen and (max-width: 330px) {
+  .footer-card,
+  .details-one-div {
+    flex-wrap: wrap;
+  }
+}
+
+.width-full .main-info {
+  width: 100%;
+}

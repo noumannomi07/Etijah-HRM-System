@@ -1,0 +1,356 @@
+/* ============================================================
+START LTR CSS WEBSITE
+==============================================================*/
+html[dir="ltr"] :is(.icon-arrow-send, .icon-arrow-button) {
+  transform: rotate(90deg);
+}
+html[dir="ltr"] :is(.icon-arrow-contact) {
+  transform: rotate(-220deg);
+}
+html[dir="ltr"] .user-one-details-animation-right .share-icon-user {
+  right: -10%;
+  left: initial;
+}
+html[dir="ltr"]
+  .user-one-details-animation-right
+  .content-user-animation.is-16-letters {
+  right: -100%;
+  left: initial;
+}
+/* html[dir="ltr"] .banner-header-home .user-one-details-animation-right {
+  left: initial !important;
+  right: 10% !important;
+} */
+
+@media screen and (max-width: 1100px) {
+  html[dir="ltr"] .banner-section-shared .user-one-details-animation-right {
+    right: 7%;
+  }
+}
+
+@media screen and (min-width: 451px) {
+  html[dir="ltr"] .menu-list-nav-lang {
+    left: initial !important;
+    right: 10px !important;
+  }
+}
+html[dir="ltr"] .menu-list-nav-lang {
+  right: 0px !important;
+}
+/* ========================================
+START PAGE ABOUT 
+=======================================*/
+html[dir="ltr"] .card-one-line.left-place::before {
+  left: initial;
+  right: -10px;
+}
+
+html[dir="ltr"] .card-one-line.right-place::before {
+  right: initial;
+  left: -10px;
+}
+
+html[dir="ltr"] .cards-core-values-etijah .card-one-line.right-place {
+  left: 50%;
+  right: initial;
+}
+
+@media screen and (max-width: 767px) {
+  html[dir="ltr"] .cards-core-values-etijah .card-one-line.left-place {
+    padding-left: 0;
+    padding-right: 30px;
+  }
+  html[dir="ltr"] .cards-core-values-etijah .card-one-line.right-place {
+    padding-right: 0;
+    padding-left: 30px;
+  }
+}
+
+/* SCREEN 575PX */
+@media screen and (max-width: 575px) {
+  html[dir="ltr"] .cards-core-values-etijah .card-one-line.left-place,
+  html[dir="ltr"] .cards-core-values-etijah .card-one-line.right-place {
+    left: 0;
+    padding: 0 20px 0 0;
+  }
+
+  html[dir="ltr"] .cards-core-values-etijah::after {
+    left: 100%;
+    right: initial;
+  }
+
+  html[dir="ltr"] .cards-core-values-etijah .card-one-line.right-place::before {
+    right: -10px;
+    left: initial;
+  }
+}
+
+html[dir="ltr"] .about-images-team li:nth-child(3) {
+  left: 13%;
+}
+
+@media screen and (max-width: 991px) {
+  html[dir="ltr"] .about-images-team li:nth-child(2) {
+    right: 13%;
+  }
+}
+@media screen and (max-width: 767px) {
+  html[dir="ltr"] .about-images-team li:nth-child(2) {
+    right: 0%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  html[dir="ltr"] .about-images-team li:nth-child(2) {
+    right: -10%;
+  }
+  html[dir="ltr"] .about-images-team li:nth-child(5) {
+    right: -19%;
+  }
+}
+
+/* ========================================
+END PAGE ABOUT 
+=======================================*/
+/* ====================================
+START PAGE ABOUT APP
+===================================*/
+html[dir="ltr"] .header-about-app .user-one-details-animation-right {
+  left: initial;
+  right: 0 !important;
+}
+
+/* SCREEN 767PX */
+@media screen and (max-width: 767px) {
+  html[dir="ltr"] .header-about-app .user-one-details-animation {
+    left: 14%;
+  }
+  html[dir="ltr"] .header-about-app .user-one-details-animation-right {
+    left: initial;
+    right: -8% !important;
+  }
+}
+/* ====================================
+END PAGE ABOUT APP
+===================================*/
+/* ================================
+START PACKEGES PAGE
+====================================*/
+html[dir="ltr"] .packages-cards .package-card-details .badge-bestseller {
+  left: initial;
+  right: 0;
+}
+/* ================================
+END PACKEGES PAGE
+====================================*/
+/* ===================================
+START BLOG PAGE
+=====================================*/
+html[dir="ltr"] .button-send-email .button-transparent .transform {
+  transform: rotate(50deg);
+}
+
+html[dir="ltr"] :is(input, textarea) {
+  text-align: left !important;
+}
+
+/* ===================================
+END BLOG PAGE
+=====================================*/
+/* =====================================
+START PAGE FAQ
+====================================*/
+html[dir="ltr"] .icon-search-button {
+  right: 4%;
+  left: initial;
+}
+/* =====================================
+END PAGE FAQ
+====================================*/
+/* ==================================
+START PAGE CONTACT
+======================================*/
+html[dir="ltr"]
+  .react-international-phone-input-container
+  .react-international-phone-country-selector-button {
+  padding-left: 0 !important;
+  padding-right: 10px;
+}
+html[dir="ltr"] .react-international-phone-country-selector-dropdown {
+  right: initial !important;
+  left: -10px !important;
+}
+/* ==================================
+END PAGE CONTACT
+======================================*/
+/* ==================================
+START LOGIN PAGE
+==================================*/
+html[dir="ltr"] .page-login::after {
+  left: initial;
+  right: 0;
+}
+html[dir="ltr"] .all-auth-page .right-content-auth {
+  padding-left: 0;
+  padding-right: 1.25rem;
+}
+
+html[dir="ltr"]
+  :is(.input-pass .icon-eye-button, .input-search-content .icon-search-button) {
+  right: 3%;
+  left: initial;
+}
+html[dir="ltr"] .all-link-route {
+  justify-content: flex-start;
+}
+html[dir="ltr"] .header-info-auth-page .button-home .button-transparent {
+  transform: rotate(180deg);
+}
+/* ==================================
+END LOGIN PAGE
+==================================*/
+/* ============================================================
+END LTR CSS WEBSITE
+==============================================================*/
+
+/* ============================================================
+START LTR DASHBOARD
+============================================================== */
+html[dir="ltr"] .layout-pages {
+  padding: 0 0 0 15px;
+}
+
+/* ===============================
+START SIDEBAR LINKS
+==================================== */
+
+html[dir="ltr"]
+  :is(.sidebar-nav .nav-item-link, .card-mission .info-card-right)::after {
+  right: initial;
+  left: 0;
+}
+
+@media screen and (max-width: 767px) {
+  html[dir="ltr"]
+    :is(.all-sidebar-menu .sidebar-nav, .all-sidebar-menu .overlay-bg-side) {
+    right: initial;
+    left: -120%;
+  }
+
+  html[dir="ltr"]
+    :is(.all-sidebar-menu .overlay-bg-side.activeOverlay, .all-sidebar-menu .sidebar-nav.close-sidebar) {
+    right: initial;
+    left: 0;
+  }
+  html[dir="ltr"] .all-sidebar-menu .overlay-bg-side {
+    transition: left 0.4s ease-in-out;
+  }
+  html[dir="ltr"] .all-sidebar-menu .sidebar-nav {
+    transition: left 0.8s ease-in-out;
+  }
+  html[dir="ltr"] .sidebar-nav .header-nav {
+    padding: 0 15px 0 0;
+  }
+  html[dir="ltr"] .sidebar-nav .header-nav .icon-arrow {
+    padding: 0 2px 0 0;
+  }
+}
+/* ===============================
+END SIDEBAR LINKS
+==================================== */
+/* =================================
+START HOME PAGE
+================================ */
+html[dir="ltr"] .card-mission .info-card-right {
+  padding: 0 0 0 0.75rem;
+}
+html[dir="ltr"] .main-cards-missions {
+  padding: 0 0.75rem 0 0;
+}
+html[dir="ltr"] .apexcharts-canvas:hover .apexcharts-toolbar {
+  right: initial !important;
+  left: 3px;
+}
+html[dir="ltr"] :is(.icon-arrow-left, .icon-arrow) {
+  rotate: 180deg;
+}
+html[dir="ltr"] .input-search-info .search-table-icon {
+  left: initial !important;
+  right: 0.4rem;
+}
+/* ==================================
+END HOME PAGE
+===================================== */
+/* =================================
+START PAGE ORDER ADD NEW REQUEST
+===================================== */
+html[dir="ltr"] .icon-date-add {
+  left: initial;
+  right: 2px;
+}
+html[dir="ltr"]
+  :is(.data-table-content--1 thead tr .th-table:nth-child(1) .th-div, .data-table-content--1 tbody tr td:nth-child(1)) {
+  text-align: initial !important;
+}
+html[dir="ltr"] .data-table-content--1 tbody tr .td-check {
+  padding: 15px 0 15px 15px !important;
+}
+html[dir="ltr"] .menu-list-drop-content {
+  transform: translateX(-23px) !important;
+}
+html[dir="ltr"] .all-input-number input {
+  text-align: center !important;
+}
+html[dir="ltr"] .stepper-container .btn-main {
+  display: flex;
+  flex-direction: row-reverse;
+}
+html[dir="ltr"] .all-data-audience-page .btn-no-data {
+  right: -26%;
+}
+/* =============================
+  START SELECT BOX
+  =============================== */
+html[dir="ltr"] :is(.css-1dimb5e-singleValue, .css-1jqq78o-placeholder) {
+  padding-left: 5px !important;
+}
+/* =============================
+  END SELECT BOX
+  =============================== */
+html[dir="ltr"] .main-check .radio-label::before {
+  right: initial;
+  left: 0;
+}
+html[dir="ltr"] .main-check .radio-label {
+  padding: 0 0 0 30px;
+}
+html[dir="ltr"] .progress-bar-container .color-b {
+  border-radius: 8px 0px 0 8px;
+}
+html[dir="ltr"] .all-main-scope .list-content {
+  padding: 0 0 0 1.25rem;
+}
+html[dir="ltr"]
+  .all-conent-permission
+  .custom-checkbox-container
+  .title-header {
+  margin-inline-start: 0;
+  margin-inline-end: 35px;
+}
+html[dir="ltr"]
+  .all-conent-permission
+  .custom-checkbox-container
+  .custom-checkmark {
+  right: initial;
+  left: 0;
+}
+html[dir="ltr"] .all-conent-permission .custom-checkbox-container {
+  padding-left: 30px;
+  padding-right: 0px;
+}
+/* =================================
+END PAGE ORDER ADD NEW REQUEST
+===================================== */
+/* ============================================================
+END LTR DASHBOARD
+============================================================== */

@@ -1,0 +1,17 @@
+{
+  "companyNews": "Company news",
+  "addNewNews": "Add new news",
+  "titleNews": "News title",
+  "details": "News details",
+  "titleNewsPlaceholder": "Enter the news title",
+  "detailsPlaceholder": "Enter the news details",
+  "uploadFile": "Attach file (images or videos)",
+  "submitSuccess": "News has been added successfully!",
+  "submitError": "An error occurred while adding the news.",
+  "cancelSuccess": "Cancelled successfully.",
+  "requiredTitle": "News title is required",
+  "minTitle": "The news title must be at least 5 characters",
+  "requiredDetails": "News details are required",
+  "minDetails": "The news details must be at least 10 characters",
+  "fileRequired": "You must attach at least one image or video"
+}

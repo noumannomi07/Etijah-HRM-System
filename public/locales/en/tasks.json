@@ -1,0 +1,204 @@
+{
+  "common": {
+    "add": "Add",
+    "edit": "Edit",
+    "delete": "Delete",
+    "save": "Save",
+    "cancel": "Cancel",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "search": "Search",
+    "filter": "Filter",
+    "view": "View",
+    "select": "Select",
+    "details": "Details",
+    "noData": "No data available",
+    "userAvatar": "{{username}}'s avatar"
+  },
+  "pageTitle": {
+    "tasks": "Tasks"
+  },
+  "messages": {
+    "successAdd": "Task added successfully",
+    "successUpdate": "Task updated successfully",
+    "successDelete": "Task deleted successfully",
+    "statusUpdateSuccess": "Task status updated successfully",
+    "error": "An error occurred",
+    "confirmDelete": "Are you sure you want to delete this task?"
+  },
+  "tabs": {
+    "employeeTasks": "Employee Tasks",
+    "myTasks": "My Tasks"
+  },
+  "table": {
+    "taskName": "Task Name",
+    "startTime": "Start Time",
+    "endTime": "End Time",
+    "status": "Status",
+    "priority": "Priority",
+    "actions": "Actions"
+  },
+  "tasksTable": {
+    "headers": {
+      "id": "#",
+      "taskName": "Task Name",
+      "assignedTo": "Assigned To",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "priority": "Priority",
+      "status": "Status",
+      "completionRate": "Completion Rate",
+      "actions": "Actions"
+    },
+    "tooltips": {
+      "view": "View",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "filters": {
+      "title": "Filter",
+      "addFilter": "Add Filter",
+      "apply": "Apply",
+      "clear": "Clear"
+    },
+    "actions": {
+      "addTask": "Add New Task"
+    }
+  },
+  "priority": {
+    "high": "High",
+    "medium": "Medium",
+    "low": "Low"
+  },
+  "priorities": {
+    "high": "High",
+    "medium": "Medium",
+    "low": "Low"
+  },
+  "status": {
+    "inProgress": "In Progress",
+    "completed": "Completed",
+    "pending": "Pending",
+    "cancelled": "Cancelled"
+  },
+  "statuses": {
+    "notStarted": "Not Started",
+    "inProgress": "In Progress",
+    "completed": "Completed",
+    "onHold": "On Hold",
+    "cancelled": "Cancelled"
+  },
+  "cards": {
+    "totalTasks": "Total Tasks",
+    "completedTasks": "Completed Tasks",
+    "inProgress": "In Progress",
+    "lateTasks": "Late Tasks"
+  },
+  "taskCards": {
+    "totalTasks": "Total Tasks",
+    "completedTasks": "Completed Tasks",
+    "inProgressTasks": "In Progress Tasks",
+    "notStartedTasks": "Not Started Tasks",
+    "overdueTasks": "Overdue Tasks",
+    "highPriorityTasks": "High Priority Tasks"
+  },
+  "comments": {
+    "noComments": "No comments yet",
+    "beFirstToComment": "Be the first to add a comment",
+    "enterComment": "Enter your comment here..."
+  },
+  "buttons": {
+    "comments": "Comments",
+    "view": "View",
+    "edit": "Edit",
+    "addNewTask": "Add New Task",
+    "cancelTask": "Cancel Task",
+    "completeTask": "Complete Task",
+    "startTask": "Start Task"
+  },
+  "deleteModal": {
+    "confirmDelete": "Are you sure you want to delete this item?",
+    "confirmDeleteDetails": "This item will be permanently deleted and cannot be recovered."
+  },
+  "addTask": {
+    "title": "Add New Task",
+    "taskName": "Task Name",
+    "description": "Description",
+    "assignedTo": "Assigned To",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "priority": "Priority",
+    "status": "Status",
+    "attachments": "Attachments",
+    "notes": "Notes",
+    "saveTask": "Save Task"
+  },
+  "taskDetails": {
+    "title": "Task Details",
+    "taskName": "Task Name",
+    "description": "Description",
+    "assignedTo": "Assigned To",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "priority": "Priority",
+    "status": "Status",
+    "attachments": "Attachments",
+    "notes": "Notes",
+    "completionRate": "Completion Rate",
+    "comments": "Comments",
+    "addComment": "Add Comment"
+  },
+  "validation": {
+    "taskNameRequired": "Task name is required",
+    "taskTitleRequired": "Task title is required",
+    "descriptionRequired": "Description is required",
+    "taskDetailsRequired": "Task details are required",
+    "assignedToRequired": "Please select an assignee",
+    "employeesRequired": "At least one employee must be selected",
+    "employeeIdRequired": "Employee ID must be a valid integer",
+    "employeeTitleRequired": "Employee title is required",
+    "startDateRequired": "Start date is required",
+    "endDateRequired": "End date is required",
+    "priorityRequired": "Priority is required",
+    "statusRequired": "Status is required",
+    "invalidDateFormat": "Date must be in YYYY-MM-DD format",
+    "invalidTimeFormat": "Time must be in HH:MM format",
+    "startTimeRequired": "Start time is required",
+    "endTimeRequired": "End time is required",
+    "endDateAfterStartDate": "End date must be after start date"
+  },
+  "form": {
+    "employees": "Employees",
+    "taskName": "Task Name",
+    "taskTitle": "Task Title",
+    "priority": "Priority",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "startTime": "Start Time",
+    "endTime": "End Time",
+    "taskDetails": "Task Details",
+    "taskContent": "Task Details",
+    "placeholders": {
+      "select": "-Select-",
+      "taskName": "Task Name",
+      "taskDetails": "Task Details",
+      "date": "--/--/--"
+    }
+  },
+  "toasts": {
+    "createSuccess": "Task created successfully",
+    "createError": "An error occurred while creating the task",
+    "updateSuccess": "Task updated successfully",
+    "updateError": "An error occurred while updating the task",
+    "cancelSuccess": "Cancelled successfully"
+  },
+  "breadcrumb": {
+    "companyTasks": "Company Tasks",
+    "addNewTask": "Add New Task"
+  },
+  "modal": {
+    "addTask": "Add New Task",
+    "editTask": "Edit Task"
+  }
+}

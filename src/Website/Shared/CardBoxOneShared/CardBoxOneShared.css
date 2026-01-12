@@ -1,0 +1,23 @@
+.card-box-one-shared .icon-card-box svg {
+  width: 35px;
+  height: 35px;
+}
+.icon-arrow-send svg {
+  width: 25px;
+  height: 25px;
+}
+.icon-arrow-send svg path,
+.card-box-one-shared .icon-card-box svg path {
+  transition: all 0.5s;
+}
+.icon-arrow-send:hover svg path {
+  fill: theme("colors.primaryColor_01");
+}
+
+.card-box-one-shared:hover svg path {
+  fill: theme("colors.whiteColor");
+}
+
+.pages-services .card-box-one-shared .icon-arrow-send {
+  display: none;
+}

@@ -1,0 +1,7 @@
+.main-steps-content .step-label.active-step-link > * {
+  color: theme("colors.primaryColor");
+}
+.main-steps-content .step-label.active-step-link svg :is(path, ellipse, rect) {
+  stroke: theme("colors.primaryColor");
+  fill: #fff;
+}

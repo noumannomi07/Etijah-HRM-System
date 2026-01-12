@@ -1,0 +1,86 @@
+{
+  "pageTitle": "Subscription Request",
+  "content": {
+    "title": "Join Our Family and Be a Partner in Success",
+    "description": "Through our system, you will get innovative tools to facilitate recruitment, performance management, training, and compliance. Fill out the form below to be part of our professional community, and enjoy exclusive benefits that will help you build a strong and effective workforce."
+  },
+  "form": {
+    "header": {
+      "title": "Send Subscription Request",
+      "subtitle": "Be one of Etijah's partners and apply now."
+    },
+    "fields": {
+      "name": {
+        "label": "Full Name",
+        "placeholder": "Full Name"
+      },
+      "email": {
+        "label": "Email Address",
+        "placeholder": "Email Address"
+      },
+      "phone": {
+        "label": "Phone Number"
+      },
+      "officeTitle": {
+        "label": "Company Name",
+        "placeholder": "Company Name"
+      },
+      "employeesCount": {
+        "label": "Number of Employees",
+        "placeholder": "Select number of employees"
+      },
+      "message": {
+        "label": "Subscription Details",
+        "placeholder": "Subscription Details"
+      }
+    },
+    "validation": {
+      "name": {
+        "required": "Name is required",
+        "tooShort": "Name is too short",
+        "tooLong": "Name is too long"
+      },
+      "email": {
+        "required": "Email is required",
+        "invalid": "Invalid email address"
+      },
+      "phone": {
+        "required": "Phone number is required",
+        "invalid": "Please enter a valid phone number"
+      },
+      "officeTitle": {
+        "required": "Company name is required"
+      },
+      "employeesCount": {
+        "required": "Number of employees is required"
+      },
+      "message": {
+        "required": "Subscription details are required",
+        "minLength": "Subscription details must be at least 10 characters",
+        "maxLength": "Subscription details cannot exceed 500 characters"
+      }
+    },
+    "buttons": {
+      "submit": "Send Request Now"
+    },
+    "success": {
+      "title": "Subscription Request Sent Successfully!",
+      "message": "We appreciate your interest and will review your request as soon as possible. You will receive a confirmation email containing your subscription details and next steps.",
+      "additionalInfo": "If you have any questions or need further assistance, please don't hesitate to contact us. We're here to support you!"
+    },
+    "modal": {
+      "title": "Sent Successfully",
+      "button": "OK",
+      "toastMessage": "Operation completed successfully"
+    }
+  },
+  "employeeCountOptions": [
+    { "value": 10, "label": "From 1 to 10" },
+    { "value": 50, "label": "From 11 to 50" },
+    { "value": 100, "label": "From 51 to 100" },
+    { "value": 200, "label": "From 101 to 200" },
+    { "value": 500, "label": "From 201 to 500" },
+    { "value": 1000, "label": "From 501 to 1000" },
+    { "value": 1001, "label": "More than 1000" }
+  ]
+}

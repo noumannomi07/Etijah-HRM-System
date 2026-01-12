@@ -1,0 +1,94 @@
+.banner-show-details-card {
+  position: sticky;
+  top: 100px;
+}
+.banner-show-details-card .all-banner-show-details {
+  background: theme("backgroundImage.custom-gradient");
+  padding: 15px 100px 15px 30px;
+  border-radius: 16px;
+}
+.banner-show-details-card .all-banner-show-details .info-banner-show .title {
+  font-size: 30px;
+  font-weight: 700;
+  color: theme("colors.whiteColor");
+  margin-bottom: 20px;
+}
+.banner-show-details-card .all-banner-show-details .info-banner-show .text {
+  font-size: 16px;
+  font-weight: 500;
+  color: theme("colors.whiteColor");
+  margin-bottom: 25px;
+}
+
+
+
+@media screen and (max-width: 991px) {
+  .banner-show-details-card .all-banner-show-details {
+    padding: 60px 50px 0 30px;
+  }
+  .banner-show-details-card .banner-show-content {
+    padding-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 875px) {
+  .banner-show-details-card .all-banner-show-details {
+    padding: 50px 25px 0 25px;
+  }
+  .banner-show-details-card .all-banner-show-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+  }
+  .banner-show-details-card .banner-show-content {
+    padding-bottom: 0px;
+  }
+  .banner-show-details-card
+    .all-banner-show-details
+    .info-banner-show
+    :is(.title, .text) {
+    text-align: center !important;
+  }
+  .banner-show-details-card
+    .all-banner-show-details
+    .info-banner-show
+    .button-send-request {
+    margin: auto;
+  }
+
+  .banner-show-details-card .image-banner-show-details {
+    transform: translate(0);
+  }
+}
+@media screen and (max-width: 575px) {
+  .banner-show-details-card .all-banner-show-details {
+    padding: 50px 15px 0 15px;
+  }
+
+  .banner-show-details-card .all-banner-show-details .info-banner-show .title {
+    font-size: 20px;
+  }
+  .banner-show-details-card .all-banner-show-details .info-banner-show .text {
+    font-size: 14px;
+  }
+}
+
+/* THIS FOR BANNER BACKGROUND LIGHT BLUE */
+.banner-bg-light-blue .all-banner-show-details {
+  background: theme("colors.lightColorblue_02");
+}
+.banner-bg-light-blue .info-banner-show :is(.title, .text) {
+  color: theme("colors.darkColor") !important;
+}
+
+.banner-bg-light-blue .button-send-request {
+  background: theme("colors.primaryColor_01");
+  color: theme("colors.whiteColor");
+  border-color: theme("colors.primaryColor_01");
+}
+
+.banner-bg-light-blue .button-send-request svg path {
+  fill: theme("colors.whiteColor");
+}

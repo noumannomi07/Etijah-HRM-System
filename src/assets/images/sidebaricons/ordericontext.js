@@ -1,0 +1,46 @@
+import React from 'react';
+
+const OrderIconText = () => {
+  return React.createElement(
+    'svg',
+    {
+      width: '24',
+      height: '24',
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      xmlns: 'http://www.w3.org/2000/svg',
+    },
+    [
+      React.createElement('path', {
+        key: '1',
+        d: 'M4 6C4 3.79086 5.79086 2 8 2H15.3431C16.404 2 17.4214 2.42143 18.1716 3.17157L20.8284 5.82843C21.5786 6.57857 22 7.59599 22 8.65685V18C22 20.2091 20.2091 22 18 22H8C5.79086 22 4 20.2091 4 18V6Z',
+        stroke: '#1F1F1F',
+        strokeWidth: '1.5',
+        strokeLinejoin: 'round',
+      }),
+      React.createElement('path', {
+        key: '2',
+        d: 'M9 7L17 7',
+        stroke: '#1F1F1F',
+        strokeWidth: '1.5',
+        strokeLinecap: 'round',
+      }),
+      React.createElement('path', {
+        key: '3',
+        d: 'M9 12H17',
+        stroke: '#1F1F1F',
+        strokeWidth: '1.5',
+        strokeLinecap: 'round',
+      }),
+      React.createElement('path', {
+        key: '4',
+        d: 'M9 17H13',
+        stroke: '#1F1F1F',
+        strokeWidth: '1.5',
+        strokeLinecap: 'round',
+      }),
+    ]
+  );
+};
+
+export default OrderIconText;

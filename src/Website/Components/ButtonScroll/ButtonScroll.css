@@ -1,0 +1,58 @@
+.btn-scroll {
+  position: fixed;
+  bottom: 30px;
+  right: -60px;
+  transition: all 0.5s;
+  width: 50px;
+  height: 50px;
+  background: theme("colors.primaryColor_01");
+  font-size: 20px;
+  color: var(--white-01-color);
+  border: var(--border-02);
+  border-color: theme("colors.primaryLightColor_02");
+  border-radius: 50px;
+  z-index: 2000;
+  color: theme("colors.whiteColor");
+}
+
+.btn-scroll.active {
+  right: 30px;
+}
+
+.btn-scroll .progress-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn-scroll .progress-circle {
+  width: 60px;
+  height: 60px;
+}
+
+.btn-scroll .progress-circle-track {
+  fill: none;
+  stroke: theme("colors.primaryLightColor_02");
+  stroke-width: 8;
+}
+
+.btn-scroll .progress-circle-bar {
+  fill: none;
+  stroke: theme("colors.primaryColor_01");
+  stroke-width: 8;
+  stroke-linecap: round;
+  stroke-dasharray: 0 251.2;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+}
+
+html[dir="ltr"] .btn-scroll {
+  right: initial;
+  left: -60px;
+}
+
+html[dir="ltr"] .btn-scroll.active {
+  left: initial;
+  right: 24px;
+}

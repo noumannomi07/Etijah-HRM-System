@@ -1,0 +1,52 @@
+@media screen and (max-width: 767px) {
+  .banner-main-layout :is(.text, .title) {
+    text-align: center !important;
+  }
+  .banner-main-layout .images-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner-main-layout .title,
+  .center-content-section-info .title {
+    font-size: 30px;
+  }
+  .banner-main-layout .button-send-request {
+    margin-inline: auto;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .banner-main-layout .title,  .center-content-section-info .title {
+    max-width: 100% !important;
+    font-size: 25px !important;
+  }
+  
+}
+
+.center-content-section-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+}
+
+.center-content-section-info .title {
+  max-width: 100%;
+}
+.center-content-section-info :is(.text, .title) {
+  text-align: center !important;
+}
+
+.center-content-section-info .text {
+  max-width: 800px;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .center-content-section-info .text {
+    max-width: 100%;
+  }
+}

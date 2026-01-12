@@ -1,0 +1,1 @@
+export { default as OrganizationalStructure } from "./OrganizationalStructure";

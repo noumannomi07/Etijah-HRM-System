@@ -1,0 +1,44 @@
+import React from 'react';
+
+const MoneyIcon = () => {
+  return React.createElement(
+    'svg',
+    {
+      width: 24,
+      height: 24,
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      xmlns: 'http://www.w3.org/2000/svg'
+    },
+    [
+      React.createElement('path', {
+        key: '1',
+        d: 'M20 12V6C20 4.89543 19.1046 4 18 4H4C2.89543 4 2 4.89543 2 6V16C2 17.1046 2.89543 18 4 18H12',
+        stroke: '#1F1F1F',
+        strokeWidth: 1.5
+      }),
+      React.createElement('rect', {
+        key: '2',
+        x: 12,
+        y: 16,
+        width: 10,
+        height: 4,
+        rx: 2,
+        stroke: '#1F1F1F',
+        strokeWidth: 1.5
+      }),
+      React.createElement('rect', {
+        key: '3',
+        x: 12,
+        y: 12,
+        width: 10,
+        height: 4,
+        rx: 2,
+        stroke: '#1F1F1F',
+        strokeWidth: 1.5
+      })
+    ]
+  );
+};
+
+export default MoneyIcon;

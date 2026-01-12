@@ -1,0 +1,78 @@
+{
+  "home": {
+    "title": "Home",
+    "description": "Etijah is a comprehensive cloud-based HR system in Saudi Arabia for managing employee affairs, attendance, payroll, and vacations with high efficiency.",
+    "keywords": "HR System, HR Software, Human Resources Management, Saudi HR System, Attendance System, Payroll Management, Vacation Management, Employee Management, HRMS Saudi Arabia"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "Learn about Etijah HR System - the leading cloud-based human resources management solution in Saudi Arabia, designed to simplify and automate HR processes.",
+    "keywords": "About Etijah, HR System Saudi Arabia, HR Software Company, Human Resources Solutions, Cloud HR Management"
+  },
+  "services": {
+    "title": "Our Services",
+    "description": "Discover Etijah's comprehensive HR services including attendance management, payroll, recruitment, performance evaluation, and more.",
+    "keywords": "HR Services, Attendance Management, Payroll Services, Recruitment Management, Performance Evaluation, Employee Management Services"
+  },
+  "attendance": {
+    "title": "Attendance & Departure Management",
+    "description": "Advanced attendance and departure management system with biometric integration, shift management, and real-time tracking for Saudi companies.",
+    "keywords": "Attendance System, Time Tracking, Biometric Attendance, Shift Management, Attendance Tracking Saudi Arabia"
+  },
+  "payroll": {
+    "title": "Payroll & Benefits Management",
+    "description": "Automated payroll processing system compliant with Saudi labor law, including salary calculation, GOSI, benefits, and tax management.",
+    "keywords": "Payroll System, Salary Management, GOSI Integration, Benefits Management, Payroll Software Saudi Arabia"
+  },
+  "recruitment": {
+    "title": "Recruitment Management",
+    "description": "Streamline your hiring process with our recruitment management system featuring job posting, applicant tracking, and interview scheduling.",
+    "keywords": "Recruitment Software, Applicant Tracking System, Hiring Management, Job Posting, Recruitment Saudi Arabia"
+  },
+  "performance": {
+    "title": "Performance Evaluation",
+    "description": "Comprehensive performance management system for employee evaluation, goal setting, feedback, and development planning.",
+    "keywords": "Performance Management, Employee Evaluation, Performance Review, Goal Setting, KPI Tracking"
+  },
+  "orders": {
+    "title": "Order Management",
+    "description": "Manage employee requests, vacations, leaves, and approvals efficiently with our automated workflow system.",
+    "keywords": "Leave Management, Vacation Requests, Employee Requests, Approval Workflow, HR Requests"
+  },
+  "packages": {
+    "title": "Pricing & Packages",
+    "description": "Explore Etijah's flexible pricing plans and packages designed for businesses of all sizes in Saudi Arabia. Get started with our free trial.",
+    "keywords": "HR System Pricing, HR Software Packages, HRMS Plans, HR System Cost, Subscription Plans Saudi Arabia"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Get in touch with Etijah HR System team. We're here to help you transform your HR processes and answer all your questions.",
+    "keywords": "Contact Etijah, HR System Support, Customer Service, Get in Touch, HR Software Contact"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "description": "Find answers to common questions about Etijah HR System features, pricing, implementation, and support.",
+    "keywords": "FAQ, HR System Questions, HRMS Help, Support Questions, Common Questions"
+  },
+  "blogs": {
+    "title": "Blog & Resources",
+    "description": "Stay updated with the latest HR trends, tips, and insights from Etijah HR System blog. Learn best practices for effective HR management.",
+    "keywords": "HR Blog, Human Resources Tips, HR Best Practices, HR Trends, Employee Management Tips"
+  },
+  "mobileApp": {
+    "title": "Mobile App",
+    "description": "Download Etijah mobile app for iOS and Android. Manage your HR tasks on the go with our user-friendly mobile application.",
+    "keywords": "HR Mobile App, Employee Self Service App, HR App Saudi Arabia, Mobile HR Management, iOS Android HR App"
+  },
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "description": "Read Etijah HR System's privacy policy to understand how we collect, use, and protect your data in compliance with Saudi regulations.",
+    "keywords": "Privacy Policy, Data Protection, Information Security, GDPR Compliance, Privacy Statement"
+  },
+  "subscription": {
+    "title": "Submit Subscription Request",
+    "description": "Start your journey with Etijah HR System. Submit your subscription request and get a free demo of our comprehensive HR solution.",
+    "keywords": "Subscribe HR System, Free Demo, Trial Request, HR System Registration, Get Started"
+  }
+}
+

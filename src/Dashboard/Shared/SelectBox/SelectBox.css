@@ -1,0 +1,46 @@
+.main-select-box .select__control {
+  padding: 0px !important;
+  border-color: theme("colors.grayColor2") !important;
+  color: theme("colors.grayColor") !important;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.main-select-box .css-1dimb5e-singleValue{
+  padding-right: 10px !important;
+}
+
+.main-select-box .select__control .css-13cymwt-control {
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.main-select-box .css-t3ipsp-control:hover {
+  border-color: none !important;
+}
+
+.main-select-box .css-t3ipsp-control {
+  box-shadow: none !important;
+}
+
+.main-select-box .css-hlgwow {
+  padding: 0 8px !important;
+}
+
+.main-select-box input {
+  padding: 11px 12px !important;
+}
+
+.main-select-box input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.main-select-box .select__input {
+  width: 30vw !important;
+  padding: 7px 12px !important;
+}
+
+.main-select-box .select__menu {
+  z-index: 888;
+}

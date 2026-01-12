@@ -1,0 +1,12 @@
+.btn-no-data {
+  padding: 10px;
+  border-radius: 8px;
+  position: absolute;
+  width: 75%;
+  top: 50%;
+  right: -15%;
+  transform: translate(-50%, -50%);
+  background: theme("colors.lightColorWhite2");
+  color: theme("colors.darkColor");
+  border: 2px dashed theme("colors.grayColor");
+}

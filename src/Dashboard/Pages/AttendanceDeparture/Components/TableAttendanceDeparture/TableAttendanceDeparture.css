@@ -1,0 +1,39 @@
+@media screen and (min-width: 1370px) {
+  .all-data-audience-page .btn-no-data {
+    width: 52%;
+    right: 20.5%;
+  }
+}
+@media screen and (min-width: 420px) and (max-width: 991px) {
+  :is(.all-data-audience, .attendance-departure-edits) 
+  .main-date-picker-content 
+  .react-datepicker-popper {
+    left: 75px !important;
+  }
+}
+
+
+@media screen and (max-width: 1369px) {
+  .all-data-audience-page .btn-no-data {
+    width: 53%;
+    right: 18.5%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+ :is(.all-data-audience, .attendance-departure-edits) .all-input-search,
+    .all-table-content
+    .all-input-search
+    :is(
+      .left-nav-dashboard,
+      .all-left-content,
+      .all-input-search .input-search-info,
+      .all-table-content .all-input-search .input-search-info input
+    ),  .main-date-picker-content {
+    width: 100% !important;
+  }
+
+   
+
+}
+

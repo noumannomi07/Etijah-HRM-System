@@ -1,0 +1,16 @@
+.all-cards-social-contact .main-contact-social-cards .title-contact {
+  color: theme("colors.darkColor");
+}
+
+.all-cards-social-contact .card-social-one--1 {
+  border-color: #eee !important;
+  padding: 24px 16px;
+  transition: all 0.5s;
+}
+.all-cards-social-contact .card-social-one--1:hover {
+  border-color: theme("colors.primaryColor") !important;
+}
+.all-cards-social-contact .icon-contact .icon-info-src{
+    width: auto;
+    height: auto;
+}

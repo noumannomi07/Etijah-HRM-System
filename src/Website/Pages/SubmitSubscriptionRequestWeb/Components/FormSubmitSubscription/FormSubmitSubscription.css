@@ -1,0 +1,64 @@
+/* START STEP ONE */
+.react-international-phone-input-container .react-international-phone-input {
+  width: 100% !important;
+  border: none !important;
+  background: transparent !important;
+}
+.react-international-phone-country-selector-dropdown__list-item {
+  font-family: inherit !important;
+}
+
+.react-international-phone-input-container
+  .react-international-phone-country-selector-button {
+  border: none !important;
+  border-left: var(--border-02) !important;
+  border-radius: 0 !important;
+  padding-left: 10px !important;
+  background: transparent !important;
+}
+.react-international-phone-input-container {
+  border: 1px solid #dcdcdd;
+  padding: 7px 12px !important;
+  border-radius: 4px;
+}
+
+/* Error state styling */
+.react-international-phone-input-container.border-error-input {
+  border-color: #dc2626 !important;
+}
+
+.react-international-phone-country-selector-dropdown {
+  right: -10px;
+  left: initial !important;
+}
+.react-international-phone-input-container .react-international-phone-input:focus {
+  box-shadow: none !important;
+  outline: none !important;
+  border: none !important;
+}
+.react-international-phone-country-selector-dropdown {
+  width: 260px !important;
+}
+
+/* Scrollbar width */
+.react-international-phone-country-selector-dropdown::-webkit-scrollbar {
+  width: 8px; 
+}
+
+/*  (background of the scrollbar) */
+.react-international-phone-country-selector-dropdown::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/*  (scrollbar thumb) */
+.react-international-phone-country-selector-dropdown::-webkit-scrollbar-thumb {
+  background: theme("colors.primaryColor_01");
+  border-radius: 6px;
+}
+
+/* Scrollbar corner (where horizontal and vertical scrollbars meet) */
+.react-international-phone-country-selector-dropdown::-webkit-scrollbar-corner {
+  background: #f1f1f1; 
+}
+
+/* END STEP ONE */

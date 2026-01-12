@@ -1,0 +1,60 @@
+{
+  "pageTitle": "مؤشر الأداء",
+  "breadcrumb": {
+    "performanceIndicator": "مؤشر الأداء",
+    "evaluativeStandard": "المعيار التقييمي"
+  },
+  "table": {
+    "headers": {
+      "employee": "الموظف",
+      "department": "القسم",
+      "workOffice": "مكتب العمل",
+      "firstQuarter": "الربع الأول",
+      "secondQuarter": "الربع الثاني",
+      "thirdQuarter": "الربع الثالث",
+      "fourthQuarter": "الربع الرابع",
+      "actions": ""
+    }
+  },
+  "quarters": {
+    "first": "الربع الأول",
+    "second": "الربع الثاني",
+    "third": "الربع الثالث",
+    "fourth": "الربع الرابع"
+  },
+  "status": {
+    "notEvaluated": "غير مُقيَّم",
+    "pending": "قيد الانتظار"
+  },
+  "buttons": {
+    "view": "عرض",
+    "edit": "تعديل",
+    "save": "حفظ",
+    "cancel": "ألغاء",
+    "editEvaluation": "تعديل التقييم",
+    "saving": "جاري التعديل"
+  },
+  "evaluation": {
+    "standard": "المعيار",
+    "firstQuarterRating": "تقييم الربع الأول/5",
+    "secondQuarterRating": "تقييم الربع الثاني/5",
+    "thirdQuarterRating": "تقييم الربع الثالث/5",
+    "fourthQuarterRating": "تقييم الربع الرابع/5",
+    "notes": "ملاحظات",
+    "percentage": "النسبة المئوية",
+    "finalPercentage": "النسبة المئوية النهائية",
+    "goodRate": "نسبة جيدة",
+    "needsImprovement": "يحتاج إلى تحسين",
+    "cannotEditNow": "لا يمكن التعديل في الوقت الحالي",
+    "rating": "التقييم",
+    "performanceExcellent": "أداء نهائي ممتاز",
+    "performanceVeryGood": "أداء جيد جداً",
+    "performanceAcceptable": "أداء مقبول"
+  },
+  "messages": {
+    "updateSuccess": "تم التعديل بنجاح!",
+    "updateError": "حدث خطأ ما",
+    "errorFetchingData": "حدث خطأ أثناء جلب البيانات."
+  }
+}
+

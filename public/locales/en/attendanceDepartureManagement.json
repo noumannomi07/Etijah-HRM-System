@@ -1,0 +1,47 @@
+{
+  "pageTitle": "Attendance and Departure Management",
+  "header": {
+    "title": "Track Employee Attendance and Departure Accurately",
+    "description": "Attendance and departure management is an essential part of human resources management, helping companies track the time employees spend at work, which contributes to improving productivity and ensuring fairness in dealing with working hours."
+  },
+  "cards": {
+    "title": "Countless Benefits",
+    "subtitle": "Discover how attendance and departure management services can enhance your organization's performance.",
+    "items": [
+      {
+        "title": "Performance Follow-up",
+        "text": "Completing the payroll process and providing employee benefits, while ensuring accuracy and compliance with legal standards, and providing clear financial reports"
+      },
+      {
+        "title": "Payroll and Benefits Management",
+        "text": "Organizing and facilitating the process of receiving requests such as leave and advance requests. This service aims to enhance communication between employees and management."
+      },
+      {
+        "title": "Request Management",
+        "text": "Facilitating the process of posting jobs and receiving applications, in addition to sorting resumes and identifying suitable candidates through effective evaluation tools."
+      },
+      {
+        "title": "Recruitment Management",
+        "text": "Facilitating the process of posting jobs and receiving applications, in addition to sorting resumes and identifying suitable candidates through effective evaluation tools."
+      }
+    ]
+  },
+  "banner": {
+    "title": "Advanced Features for a More Efficient Future",
+    "subtitle": "Enjoy a unique experience with our advanced system, which offers you automatic registration options, detailed reports, and instant notifications to ensure compliance.",
+    "items": [
+      {
+        "title": "Automatic Registration System",
+        "text": "Employee login through the mobile app and follow up on reports through the control panel."
+      },
+      {
+        "title": "Detailed Reports",
+        "text": "Ability to create daily, weekly, and monthly reports on attendance and departure, with useful statistics."
+      },
+      {
+        "title": "Easy User Interface",
+        "text": "Simple and easy-to-use design ensures ease of interaction with the system."
+      }
+    ]
+  }
+}

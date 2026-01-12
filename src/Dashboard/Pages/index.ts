@@ -1,0 +1,36 @@
+export * from "./Home";
+export * from "./AttendanceDeparture";
+export * from "./OrganizationalStructure";
+export * from "./BonusPage";
+export * from "./Notifications";
+export * from "./SupportCenter";
+export * from "./Employment";
+export * from "./ViolationsManagementPage";
+export * from "./RangesCalculator";
+export * from "./ReportsPage";
+export * from "./SalaryMarches";
+export * from "./SalaryAdjustments";
+export * from "./FinancialTransactions";
+export * from "./PerformanceIndicator";
+export * from "./ShiftSchedule";
+export * from "./CompanyNews";
+export * from "./CalendarPage";
+export * from "./TasksPage";
+export * from "./DepartmentsPage";
+export * from "./JobTitlePage";
+export * from "./NationalitesMangement";
+// export * from "./Employment";
+export * from "./InviteEmployees";
+export * from "./RecruitmentAdsPage";
+export * from "./CompanyDocuments";
+export * from "./StaffManagement";
+export * from "./ProfileUser";
+export * from "./PackagesProfileUser";
+export * from "./SystemSettings";
+export * from "./Orders";
+export * from "./ApplicantsPage";
+export * from "./FileCategoryPage";
+export * from "./PasswordForm";
+export { default as AttendanceDepartureEdits } from "./AttendanceDepartureEdits/AttendanceDepartureEdits";
+
+

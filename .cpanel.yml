@@ -1,0 +1,6 @@
+deployment:
+  tasks:
+    - export NODE_ENV=production
+    - /opt/cpanel/ea-nodejs18/bin/npm install
+    - /opt/cpanel/ea-nodejs18/bin/npm run build
+    - rsync -avh --delete dist/ ../

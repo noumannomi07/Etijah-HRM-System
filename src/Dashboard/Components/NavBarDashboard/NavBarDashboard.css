@@ -1,0 +1,139 @@
+.navbar-dashboard .button-transparent:hover svg :is(path, circle) {
+  stroke: theme("colors.whiteColor");
+}
+
+[role="menuitem"]:hover,
+[role="menuitem"]:focus {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.menu-list-nav {
+  left: 10px !important;
+}
+
+.btn-main--1 {
+  padding: 13px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+  border-radius: 12px;
+  font-weight: 500;
+  transition: all 0.5s;
+  box-shadow: none !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-light-bg {
+  background: theme("colors.primaryLightColor") !important;
+  border-color: theme("colors.primaryLightColor") !important;
+  color: theme("colors.primaryColor") !important;
+}
+
+.btn-light-bg:hover {
+  background: theme("colors.primaryColor") !important;
+  border-color: theme("colors.primaryColor") !important;
+
+  color: theme("colors.whiteColor") !important;
+}
+
+.btn-main--1:hover svg :is(ellipse, circle, path) {
+  stroke: theme("colors.whiteColor");
+}
+
+.btn-danger-bg {
+  background: theme("colors.redLightColor") !important;
+  border-color: theme("colors.redColor01") !important;
+  color: theme("colors.redColor01") !important;
+}
+
+.btn-danger-bg:hover {
+  background: theme("colors.redColor01") !important;
+  border-color: theme("colors.redColor01") !important;
+  color: theme("colors.whiteColor") !important;
+}
+
+.btn-orange-bg {
+  background: theme("colors.orangeLightColor") !important;
+  border-color: theme("colors.orangeColor") !important;
+  color: theme("colors.darkColor") !important;
+}
+
+.btn-orange-bg:hover {
+  background: theme("colors.orangeColor") !important;
+  border-color: theme("colors.orangeColor") !important;
+  color: theme("colors.whiteColor") !important;
+}
+.btn-orange-bg :is(.title, .text) {
+  transition: all 0.5s;
+}
+.btn-orange-bg:hover :is(.title, .text) {
+  color: theme("colors.whiteColor") !important;
+}
+
+/* SCREEN 1199PX */
+
+@media screen and (max-width: 1199px) {
+  .input-search-info .input-search {
+    width: 250px;
+  }
+}
+
+/* SCREEN 1035PX */
+
+@media screen and (max-width: 1035px) {
+  .input-search-info .input-search {
+    width: 100%;
+  }
+}
+
+/* SCREEN 991PX */
+@media screen and (max-width: 991px) {
+  .all-input-search {
+    width: 100%;
+    margin: initial !important;
+  }
+
+  :is(
+      .left-nav-dashboard,
+      .all-left-content,
+      .all-input-search .input-search-info
+    ) {
+    width: 100%;
+  }
+  .navbar-dashboard {
+    flex-wrap: wrap;
+  }
+  .navbar-dashboard .all-left-content {
+    flex: 1;
+  }
+  .navbar-dashboard .all-input-search {
+    flex: 1;
+  }
+}
+/* SCREEN 767PX */
+@media screen and (max-width: 767px) {
+  .navbar-dashboard .icon-Toggle-bar {
+    display: flex;
+  }
+  .navbar-dashboard .all-input-search {
+    flex: auto;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .menu-list-nav {
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    width: 95%;
+    margin: auto;
+  }
+  .navbar-dashboard .content-user-nav .text-title-job {
+    font-size: 12px !important;
+    font-weight: 600 !important;
+  }
+}
+
+

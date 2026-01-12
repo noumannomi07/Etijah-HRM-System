@@ -1,0 +1,103 @@
+{
+  "common": {
+    "buttons": {
+      "newOrder": "New Request",
+      "addNew": "Add New",
+      "view": "View",
+      "all": "All",
+      "cancel": "Cancel",
+      "logout": "Logout",
+      "profile": "Profile",
+      "ok":"Ok"
+    },
+    "titles": {
+      "welcome": "Welcome",
+      "welcomeWithName": "Welcome {{name}} 👋",
+      "goodMorning": "Good Morning",
+      "goodEvening": "Good Evening",
+      "logoutConfirm": "⚠️ Logout",
+      "logoutQuestion": "Are you sure you want to logout?",
+      "myTasks": "My Tasks",
+      "notifications": "Notifications",
+      "noNotifications": "No notifications at the moment"
+    }
+  },
+  "navbar": {
+    "menu": {
+      "currentPackage": "Current Package",
+      "basicPackage": "Basic",
+        "securitySettings": "Security settings"
+    }
+  },
+  "sidebar": {
+    "sections": {
+      "generalInfo": "General Information"
+    },
+    "menuItems": {
+      "home": "Home",
+      "orders": "Requests",
+      "staffManagement": "Staff Management",
+      "attendanceDeparture": "Attendance & Departure",
+      "attendanceDepartureEdits": "Attendance & Departure Edits",
+      "calendar": "Calendar",
+      "shiftSchedule": "Shift Schedule",
+      "employeeSettings": "Employee Settings",
+      "departments": "Departments",
+      "jobTitles": "Job Titles",
+      "nationalitiesManagement": "Nationalities Management",
+      "salaryMarches": "Salary Marches",
+      "salaryAdjustments": "Salary Adjustments",
+      "financialTransactions": "Financial Transactions",
+      "violationsManagement": "Violations Management",
+      "employment": "Employment",
+      "recruitmentAds": "Recruitment Ads",
+      "companyNews": "Company News",
+      "performanceIndicator": "Performance Indicator",
+      "tasks": "Tasks",
+      "bonus": "Bonus",
+      "reports": "Reports",
+      "rangesCalculator": "Ranges Calculator",
+      "companyDocuments": "Company Documents",
+      "notifications": "Notifications",
+      "systemSettings": "System Settings",
+      "supportCenter": "Support Center",
+      "organizationalStructure":"Organizational structure"
+    }
+  },
+  "tasks": {
+    "tabs": {
+      "all": "All",
+      "upcoming": "Upcoming",
+      "completed": "Completed"
+    }
+  },
+  "notifications": {
+    "card": {
+      "new": "New"
+    }
+  },
+  "circularProgress": {
+    "percentage": "{{percentage}}%",
+    "ariaLabel": "Circular progress indicator showing {{percentage}}% completion"
+  },
+  "fetchingData": {
+    "errors": {
+      "fetchError": "Error fetching data",
+      "noIdProvided": "No ID provided for data fetching"
+    },
+    "loading": {
+      "fetching": "Fetching data...",
+      "employee": "Fetching employee data...",
+      "vacation": "Fetching vacation data..."
+    }
+  },
+  "month_key": "Month",
+  "noPermission": "You don't have permission to view this page",
+  "noPermissionDescription": "Please contact the administrator to get access",
+  "goToHome": "Go to Home",
+  "goBack": "Go Back",
+  "contactAdmin": "Contact Admin",
+  "contactAdminSuccess": "Message sent to administrator successfully",
+  "errorCode": "Error Code",
+  "contactAdminDescription": "To get access, please contact the administrator"
+}

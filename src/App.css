@@ -1,0 +1,70 @@
+* {
+  font-family: "Baloo Bhaijaan 2", sans-serif;
+  font-optical-sizing: auto;
+  line-height: initial;
+  font-display: swap;
+}
+
+body {
+  min-height: 100vh;
+  overflow: hidden;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  padding-right: 0 !important;
+}
+
+img {
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.activeButtonNewx02 {
+  --tw-border-opacity: 1;
+  border-color: #4c6cb2 !important;
+  --tw-bg-opacity: 1;
+  background-color: rgb(76 108 178 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  /* color: rgb(255 255 255 / var(--tw-text-opacity)); */
+  color: #fff !important;
+}
+
+.plusiconstyle {
+  color: #4c6cb2;
+  font-weight: 600;
+  display: flex;
+  margin: 30px 0 10px;
+}
+
+.divformnewaddition02x {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.divformnewaddition02x > div {
+
+  flex: 1;
+  margin: 0px 10px;
+}
+
+
+@media (max-width:991px) {
+  .divformnewaddition02x {
+    flex-direction: column;
+  }
+  .divformnewaddition02x > div {
+
+
+    width: 100%;
+  }
+}
+

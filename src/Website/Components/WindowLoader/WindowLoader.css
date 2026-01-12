@@ -1,0 +1,32 @@
+/* START SPINNER LOADER */
+.loader-wrapper {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background: theme("colors.primaryColor_01");
+  bottom: 0;
+  transition: all 0.5s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+}
+
+.loader-wrapper.hidden-loader {
+  animation: hiddenLoader 1.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes hiddenLoader {
+  100% {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+
+/* END SPINNER LOADER */
+
+
+
+

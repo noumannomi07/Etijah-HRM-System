@@ -1,0 +1,10 @@
+.button-send-request svg {
+  width: 22px;
+  height: 23px;
+}
+.button-send-request svg path {
+  transition: all 0.5s;
+}
+.button-send-request:hover svg path {
+  fill: theme("colors.whiteColor");
+}

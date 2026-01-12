@@ -1,0 +1,47 @@
+{
+  "pageTitle": "Recruitment Management Services",
+  "header": {
+    "title": "Recruitment Management for High Efficiency",
+    "description": "Our recruitment management service offers a comprehensive solution that ensures the efficiency and effectiveness of the recruitment process from start to finish, contributing to building a strong and qualified team."
+  },
+  "cards": {
+    "title": "Countless Benefits",
+    "subtitle": "Discover how payroll and benefits management can enhance employee satisfaction, reduce errors, and save time and resources.",
+    "items": [
+      {
+        "title": "Save Time and Effort",
+        "text": "The service accelerates procedures and reduces the time spent on the recruitment process."
+      },
+      {
+        "title": "Improve Recruitment Quality",
+        "text": "The service accelerates procedures and reduces the time spent on the recruitment process."
+      },
+      {
+        "title": "Enhance Transparency",
+        "text": "Provides accurate and clear information about the different recruitment stages for candidates and management."
+      }
+    ]
+  },
+  "banner": {
+    "title": "Smart Strategies to Build Your Team",
+    "subtitle": "Enjoy a smooth and effective experience with our recruitment management service, which provides you with quick recruitment capabilities, accurate evaluation tools, and comprehensive reports to improve your recruitment strategy.",
+    "items": [
+      {
+        "title": "Create Job Advertisement",
+        "text": "Create your job advertisement with one touch, specify the required specifications, and start attracting suitable applicants."
+      },
+      {
+        "title": "Sort and Review Resumes",
+        "text": "The service uses advanced technologies to sort resumes, helping to identify the most qualified candidates quickly and effectively."
+      },
+      {
+        "title": "Comprehensive Reports and Analytics",
+        "text": "The service provides analytical reports on recruitment operations, helping management understand trends and variables in the job market and improve recruitment strategies."
+      },
+      {
+        "title": "Evaluate Candidates Objectively",
+        "text": "The service allows accurate evaluation of candidates using advanced assessment tools, helping to make informed decisions."
+      }
+    ]
+  }
+}

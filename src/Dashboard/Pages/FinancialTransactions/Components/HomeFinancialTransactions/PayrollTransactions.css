@@ -1,0 +1,19 @@
+.payroll-transactions {
+  padding: 20px;
+}
+
+.pending-transactions,
+.approved-transactions,
+.rejected-transactions {
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.pending-transactions h2,
+.approved-transactions h2,
+.rejected-transactions h2 {
+  color: #333;
+  margin-bottom: 20px;
+} 

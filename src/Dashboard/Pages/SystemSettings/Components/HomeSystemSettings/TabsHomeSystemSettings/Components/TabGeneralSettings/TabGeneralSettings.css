@@ -1,0 +1,11 @@
+@media screen and (max-width:360px) {
+    .tab-general-settings .image-uploded{
+        width: 100%;
+    }
+    .tab-general-settings :is(.buttons-actions, .buttons-actions .button-transparent){
+        width: 100%;
+    }
+    .tab-general-settings .buttons-actions .button-transparent{
+        padding: 15px;
+    }
+}

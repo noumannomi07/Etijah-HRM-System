@@ -1,0 +1,85 @@
+{
+  "pageTitle": "Financial Transactions",
+  "subtitle": "Manage and review all financial transactions",
+  "tabs": {
+    "pending": "Pending Transactions",
+    "approved": "Approved Transactions",
+    "rejected": "Rejected Transactions"
+  },
+  "table": {
+    "headers": {
+      "createdAt": "Creation Date",
+      "employeesCount": "Number of Employees",
+      "total": "Total",
+      "comments": "Comments",
+      "actions": "Actions"
+    },
+    "byUser": "By",
+    "employeesText": "Employee",
+    "commentsText": "Comments",
+    "viewDetails": "View Details",
+    "approve": "Approve",
+    "reject": "Reject"
+  },
+  "tooltip": {
+    "salary": "Salary:",
+    "deductions": "Deductions:",
+    "bonuses": "Bonuses:",
+    "additions": "Additions:"
+  },
+  "modal": {
+    "comments": {
+      "title": "Comments",
+      "noComments": "No comments",
+      "unknownUser": "Unknown user",
+      "addPlaceholder": "Add a new comment...",
+      "send": "Send",
+      "close": "Close",
+      "you": "You"
+    },
+    "employeeDetails": {
+      "title": "Transaction Details",
+      "employeesCount": "Employee",
+      "downloadWPS": "WPS / Wage Protection File",
+      "noData": "No data available",
+      "close": "Close",
+      "headers": {
+        "employee": "Employee",
+        "basicSalary": "Basic Salary",
+        "bonuses": "Bonuses",
+        "deductions": "Deductions",
+        "additions": "Additions",
+        "net": "Net",
+        "total": "Total",
+        "createdAt": "Creation Date"
+      },
+      "footer": {
+        "approvedBy": "Approved By",
+        "approvedAt": "Approval Date",
+        "totalSalaries": "Total Salaries",
+        "totalBonuses": "Total Bonuses",
+        "totalDeductions": "Total Deductions",
+        "totalAdditions": "Total Additions",
+        "totalNet": "Total Net"
+      }
+    },
+    "approve": {
+      "title": "Send Transaction",
+      "message": "By clicking OK, the transaction will be sent to employees",
+      "confirm": "OK",
+      "cancel": "No, Go Back",
+      "success": "Transaction approved successfully",
+      "error": "An error occurred while approving the transaction"
+    },
+    "reject": {
+      "success": "Transaction rejected successfully",
+      "error": "An error occurred while rejecting the transaction"
+    },
+    "download": {
+      "success": "File downloaded successfully",
+      "error": "An error occurred while downloading the file",
+      "missingId": "Transaction ID is missing",
+      "missingUrl": "File URL is missing"
+    }
+  }
+}

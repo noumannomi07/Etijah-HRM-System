@@ -1,0 +1,90 @@
+{
+  "pageTitle": "Company Documents",
+  "breadcrumb": {
+    "companyDocuments": "Company Documents",
+    "addNewDocument": "Add New Document"
+  },
+  "table": {
+    "headers": {
+      "documentName": "Document Name",
+      "documentType": "Document Type",
+      "description": "Description",
+      "dateAdded": "Date Added",
+      "actions": ""
+    },
+    "noDescription": "No description"
+  },
+  "buttons": {
+    "addNewDocument": "Add New Document",
+    "view": "View",
+    "edit": "Edit",
+    "delete": "Delete"
+  },
+  "form": {
+    "documentNameArabic": "Document Name in Arabic",
+    "documentNameEnglish": "Document Name in English",
+    "descriptionArabic": "Description in Arabic",
+    "descriptionEnglish": "Description",
+    "documentType": "Type",
+    "expiryDate": "Expiry Date",
+    "attachFile": "Attach File",
+    "placeholders": {
+      "documentNameArabic": "Document Name in Arabic",
+      "documentNameEnglish": "Document Name in English",
+      "descriptionArabic": "Description in Arabic",
+      "descriptionEnglish": "Description in English",
+      "select": "-Select-",
+      "date": "--/--/--"
+    }
+  },
+  "validation": {
+    "documentNameArabicRequired": "Document name in Arabic is required",
+    "documentNameArabicPattern": "Document name must be in Arabic only",
+    "documentNameEnglishRequired": "Document name in English is required",
+    "documentNameEnglishPattern": "Document name must be in English only",
+    "descriptionArabicRequired": "Description in Arabic is required",
+    "descriptionArabicPattern": "Description must be in Arabic only",
+    "descriptionEnglishRequired": "Description in English is required",
+    "descriptionEnglishPattern": "Description must be in English only",
+    "fileRequired": "File is required",
+    "typeRequired": "Type is required",
+    "documentNameRequired": "Document name is required"
+  },
+  "messages": {
+    "addSuccess": "Document added successfully!",
+    "addError": "An error occurred while adding the document",
+    "deleteError": "An error occurred while deleting the document",
+    "cancelSuccess": "Cancelled successfully",
+    "filterSuccess": "Filter applied successfully!"
+  },
+  "filter": {
+    "title": "Filter",
+    "documentName": "Document Name",
+    "documentType": "Type",
+    "dateAddedFrom": "Date Added From",
+    "expiryDate": "Expiry Date",
+    "placeholders": {
+      "documentName": "Document Name",
+      "select": "-Select-",
+      "date": "--/--/--"
+    },
+    "buttons": {
+      "reset": "Reset",
+      "search": "Search"
+    }
+  },
+  "deleteModal": {
+    "title": "Are you sure you want to delete the item?",
+    "message": "The item will be permanently deleted and this action cannot be undone."
+  },
+  "details": {
+    "title": "Details",
+    "documentName": "Document Name",
+    "type": "Type",
+    "description": "Description",
+    "dateAdded": "Date Added",
+    "department": "Department",
+    "requestImage": "Request Image.pdf"
+  }
+}
+

@@ -1,0 +1,13 @@
+@media screen and (max-width:550px) {
+
+    .buttons-modal .button-filter-one{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:420px) {
+
+    .buttons-modal {
+   flex-wrap: wrap;
+    }
+}

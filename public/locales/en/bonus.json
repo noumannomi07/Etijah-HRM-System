@@ -1,0 +1,103 @@
+{
+  "pageTitle": "Bonus",
+  "breadcrumb": {
+    "bonus": "Bonus",
+    "addNewBonus": "Add New Bonus"
+  },
+  "table": {
+    "headers": {
+      "bonusTitle": "Bonus Title",
+      "rating": "Rating",
+      "bonusAmount": "Bonus Amount",
+      "quarter": "Quarter",
+      "year": "Year",
+      "status": "Status",
+      "actions": ""
+    }
+  },
+  "quarters": {
+    "first": "First Quarter",
+    "second": "Second Quarter",
+    "third": "Third Quarter",
+    "fourth": "Fourth Quarter",
+    "and": "and"
+  },
+  "status": {
+    "upcoming": "Upcoming",
+    "completed": "Completed",
+    "notSpecified": "Not Specified"
+  },
+  "buttons": {
+    "addBonus": "Add Bonus",
+    "view": "View",
+    "edit": "Edit",
+    "delete": "Delete",
+    "save": "Save",
+    "cancel": "Cancel"
+  },
+  "form": {
+    "addNewBonus": "Add New Bonus",
+    "bonusTitle": "Bonus Title",
+    "beneficiary": "Beneficiary",
+    "quarter": "Quarter",
+    "achievementRate": "In Case of Achieving Rate",
+    "dueAmount": "Due Amount",
+    "employees": "Employees",
+    "placeholders": {
+      "select": "-Select-",
+      "bonusTitle": "Bonus Title",
+      "achievementRate": "In Case of Achieving Rate %",
+      "dueAmount": "Due Amount"
+    }
+  },
+  "beneficiaries": {
+    "department": "Department",
+    "employees": "Employees"
+  },
+  "validation": {
+    "bonusTitleRequired": "Bonus title is required",
+    "departmentRequired": "Department must be selected",
+    "achievementRateRequired": "Achievement rate is required",
+    "quartersRequired": "Quarters must be selected",
+    "dueAmountRequired": "Due amount is required",
+    "beneficiaryRequired": "Beneficiary must be selected",
+    "employeesRequired": "At least one employee must be selected"
+  },
+  "messages": {
+    "addSuccess": "Bonus added successfully!",
+    "addError": "An error occurred while adding the bonus",
+    "cancelSuccess": "Cancelled successfully",
+    "filterSuccess": "Filter applied successfully!"
+  },
+  "filter": {
+    "title": "Filter",
+    "bonusTitle": "Bonus Title",
+    "periodFrom": "Period From",
+    "periodTo": "Period To",
+    "placeholders": {
+      "bonusTitle": "Bonus Title",
+      "date": "--/--/--"
+    },
+    "buttons": {
+      "reset": "Reset",
+      "search": "Search"
+    }
+  },
+  "deleteModal": {
+    "title": "Are you sure you want to delete the item?",
+    "message": "The item will be permanently deleted and this action cannot be undone."
+  },
+  "details": {
+    "title": "Details",
+    "bonusInfo": "Bonus Information",
+    "bonusTitle": "Bonus Title",
+    "amount": "Amount",
+    "ratingPercentage": "Rating Percentage",
+    "period": "Period",
+    "year": "Year",
+    "status": "Status",
+    "achievedRating": "Achieved Rating in Evaluation",
+    "notSpecified": "Not Specified"
+  }
+}
+

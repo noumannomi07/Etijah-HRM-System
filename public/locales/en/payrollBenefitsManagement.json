@@ -1,0 +1,51 @@
+{
+  "pageTitle": "Payroll Benefits",
+  "header": {
+    "title": "Payroll Management is an Investment in Your Employees' Success",
+    "description": "Payroll and benefits management is an essential part of any successful organization. Learn how to improve your employees' experience through an integrated system that supports transparency and accuracy."
+  },
+  "cards": {
+    "title": "Countless Benefits",
+    "subtitle": "Discover how payroll and benefits management can enhance employee satisfaction, reduce errors, and save time and resources.",
+    "items": [
+      {
+        "title": "Increased Efficiency",
+        "text": "Completing operations contributes to speeding up the payroll disbursement process."
+      },
+      {
+        "title": "Error Reduction",
+        "text": "Advanced technologies reduce human errors in payroll calculations."
+      },
+      {
+        "title": "Improved Employee Experience",
+        "text": "Providing attractive benefits enhances employee loyalty."
+      },
+      {
+        "title": "Recruitment Management",
+        "text": "Access to accurate data enhances decision making."
+      }
+    ]
+  },
+  "banner": {
+    "title": "Innovative Features to Care for Your Employees",
+    "subtitle": "Enjoy the latest innovations in payroll management, including automatic payroll calculation, detailed reports, and the ability to customize benefits according to each employee's needs.",
+    "items": [
+      {
+        "title": "Automatic Registration System",
+        "text": "Employee login through the mobile app and follow up on reports through the control panel."
+      },
+      {
+        "title": "Detailed Reports",
+        "text": "Ability to create daily, weekly, and monthly reports on attendance and departure, with useful statistics."
+      },
+      {
+        "title": "Easy User Interface",
+        "text": "Simple and easy-to-use design ensures ease of interaction with the system."
+      },
+      {
+        "title": "Easy User Interface",
+        "text": "Simple and easy-to-use design ensures ease of interaction with the system."
+      }
+    ]
+  }
+}

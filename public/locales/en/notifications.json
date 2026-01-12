@@ -1,0 +1,16 @@
+{
+  "pageTitle": "Notifications",
+  "breadcrumb": {
+    "notifications": "Notifications"
+  },
+  "tabs": {
+    "all": "All",
+    "unread": "Unread",
+    "read": "Read"
+  },
+  "messages": {
+    "noNotifications": "No notifications available",
+    "errorFetchingNotifications": "Error fetching notifications"
+  }
+}
+

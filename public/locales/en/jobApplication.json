@@ -1,0 +1,33 @@
+{
+    "jobApplication": {
+        "jobTitle": "Job Application",
+        "jobLocation": "Location",
+        "jobType": "Type",
+        "jobDescription": "Description",
+        "applySuccess": "Application submitted successfully",
+        "applyError": "Something went wrong",
+        "phoneNumber": "Phone Number",
+        "email": "Email",
+        "address": "Address",
+        "experience": "Experience",
+        "fullName": "Full Name",
+        "selectJobType": "Select Job Type",
+        "inHouse": "In House",
+        "remote": "Remote",
+        "hybrid": "Hybrid",
+        "professionalInformation": "Professional Information",
+        "submitApplication": "Submit Application",
+        "uploadCV": "Upload CV",
+        "uploadCVError": "Please upload a valid CV file",
+        "uploadCVSuccess": "CV uploaded successfully",
+        "clickToUpload": "Click to Upload",
+        "orDragAndDrop": "or Drag and Drop",
+        "confirmInformation": "I confirm that the information provided is correct and I agree to the terms and conditions of the company",
+        "submitting": "Submitting...",
+        "back": "Back",
+        "skills": "Skills",
+        "education": "Education",
+        "location": "Location",
+        "experiencePlaceholder": "Describe your relevant experience"
+    }
+}

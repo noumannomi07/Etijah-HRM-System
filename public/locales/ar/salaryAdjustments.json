@@ -1,0 +1,120 @@
+{
+  "pageTitle": "تعديلات الرواتب",
+  "addNewTitle": "إضافة جديدة",
+  "editSalaryTitle": "تعديل الراتب",
+  "table": {
+    "headers": {
+      "employeeName": "اسم الموظف",
+      "adjustmentType": "نوع التعديل",
+      "amount": "المبلغ",
+      "actions": "الإجراءات"
+    },
+    "viewButton": "عرض",
+    "addNewButton": "إضافة جديدة"
+  },
+  "adjustmentTypes": {
+    "cut": "خصم",
+    "bonus": "مكافأة",
+    "expenses": "مصروفات",
+    "ticketRefund": "تذاكر طيران",
+    "violation": "مخالفة",
+    "overtime": "الساعات الإضافية",
+    "gosi": "التأمينات الاجتماعية",
+    "absent": "الغياب",
+    "endOfService": "نهاية الخدمة",
+    "advance": "سداد سلفة"
+  },
+  "adjustmentDescriptions": {
+    "ticketRefund": "طلب استرجاع تذاكر طيران رقم",
+    "overtime": "عمل إضافي يوم",
+    "gosiDeduction": "خصم التأمينات الاجتماعية بنسبه الموظف",
+    "absent": "الغياب في",
+    "endOfService": "مكافأة نهاية الخدمة للموظف",
+    "advancePayment": "سداد سلفة الموظف"
+  },
+  "modal": {
+    "details": {
+      "title": "تفاصيل التعديل",
+      "adjustmentNumber": "رقم التعديل",
+      "employeeName": "اسم الموظف",
+      "adjustmentType": "نوع التعديل",
+      "amount": "المبلغ",
+      "createdAt": "تاريخ الإنشاء",
+      "updatedAt": "تاريخ التحديث",
+      "attachments": "المرفقات",
+      "viewAttachment": "عرض المرفق"
+    },
+    "filter": {
+      "title": "تصفية",
+      "section": "القسم",
+      "employee": "الموظف",
+      "workplace": "مكان العمل",
+      "employeeStatus": "حالة الموظف",
+      "all": "الجميع",
+      "active": "نشط",
+      "inactive": "غير نشط",
+      "success": "تم إضافة الطلب بنجاح!",
+      "resetSuccess": "تم إستعادة الفلتر بنجاح.",
+      "resetButton": "اعادة تعيين",
+      "searchButton": "بحث"
+    },
+    "delete": {
+      "title": "حذف من النظام نهائيا ؟",
+      "message": "هل أنت متأكد من رغبتك في حذف وقت العمل هذا؟ لن تتمكن من استرجاعه لاحقاً.",
+      "success": "تم الحذف بنجاح",
+      "error": "حدث خطأ أثناء الحذف"
+    },
+    "edit": {
+      "title": "التعديل علي تعديل الرواتب الـ"
+    }
+  },
+  "form": {
+    "tabs": {
+      "cut": "خصم",
+      "bonus": "إضافة"
+    },
+    "employee": {
+      "label": "الموظف",
+      "error": "يجب اختيار موظف"
+    },
+    "cutType": {
+      "label": "نوع الخصم",
+      "placeholder": "اختر نوع الخصم",
+      "error": "يجب اختيار نوع الخصم"
+    },
+    "bonusType": {
+      "label": "نوع الإضافة",
+      "placeholder": "اختر نوع الإضافة",
+      "error": "يجب اختيار نوع الإضافة"
+    },
+    "amount": {
+      "label": "المبلغ",
+      "placeholder": "المبلغ",
+      "errorRequired": "يرجى إدخال المبلغ",
+      "errorInvalid": "يجب إدخال رقم صالح",
+      "errorPositive": "يجب أن يكون المبلغ أكبر من 0"
+    },
+    "file": {
+      "label": "إرفق ملف"
+    },
+    "success": {
+      "add": "تم إضافة التعديل بنجاح!",
+      "edit": "تم تعديل التعديل بنجاح!"
+    },
+    "error": {
+      "general": "حدث خطأ ما"
+    }
+  },
+  "errorBoundary": {
+    "title": "حدث خطأ",
+    "retry": "حاول مرة أخرى"
+  },
+  "validation": {
+    "sectionRequired": "يجب اختيار قسم",
+    "employeeRequired": "يجب اختيار موظف",
+    "workplaceRequired": "يجب اختيار مكان العمل"
+  },
+  "common": {
+    "selectPlaceholder": "-إختر-"
+  }
+}

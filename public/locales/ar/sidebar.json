@@ -1,0 +1,47 @@
+{
+  "menu": {
+    "home": "الصفحة الرئيسية",
+    "orders": "الطلبات",
+    "requests": "الطلبات",
+    "staffManagement": "إدارة الموظفين",
+    "attendance": {
+      "main": "الحضور والإنصراف",
+      "edits": "تعديلات الحضور والإنصراف"
+    },
+    "calendar": "التقويم",
+    "shiftSchedule": "جدول العمل",
+    "employeeSettings": {
+      "main": "اعدادات الموظف",
+      "departments": "الأقسام",
+      "jobTitles": "المسميات الوظيقية",
+      "nationalitiesManagement": "أدارة الجنسيات"
+    },
+    "fileCategory": "مستندات الموظفين",
+    "salaryMarches": "مسيرات الرواتب",
+    "salaryAdjustments": "تعديلات الرواتب",
+    "financialTransactions": "المعاملات المالية",
+    "violationsManagement": "إدارة المخالفات",
+    "employment": "التوظيف",
+    "recruitmentAds": "إعلانات التوظيف",
+    "companyNews": "اخبار الشركة",
+    "performanceIndicator": "مؤشر الآداء",
+    "tasks": "المهام",
+    "bonus": "المكآفات",
+    "reports": "التقارير",
+    "rangesCalculator": "حاسبة النطاقات",
+    "companyDocuments": "مستندات الشركة",
+    "notifications": "الإشعارات",
+    "systemSettings": "إعدادات النظام",
+    "supportCenter": "مركز الدعم",
+    "organizationalStructure": "الهيكل التنظيمي"
+  },
+  "groups": {
+    "general": "معلومات عامة",
+    "employees": "الموظفين",
+    "financial": "المالية",
+    "management": "الإدارة",
+    "performance": "الآداء",
+    "other": "آخرى"
+  },
+  "invite_employees": "دعوة الموظفين"
+}

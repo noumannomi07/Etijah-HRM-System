@@ -1,0 +1,80 @@
+{
+  "duration_in_hours_zero": "{{count}} hours",
+  "duration_in_hours_one": "{{count}} hour",
+  "duration_in_hours_two": "{{count}} hours",
+  "duration_in_hours_few": "{{count}} hours",
+  "duration_in_hours_many": "{{count}} hours",
+  "duration_in_hours_other": "{{count}} hours",
+  "duration_in_days_one": "{{count}} day",
+  "duration_in_days_other": "{{count}} days",
+  "night": "PM",
+  "day": "AM",
+  "pageTitles": {
+    "home": "Home Page",
+    "error": "Error"
+  },
+  "dashboard": {
+    "cards": {
+      "totalEmployees": "Total Employees",
+      "totalVacationRequests": "Total Vacation Requests",
+      "totalViolations": "Total Violations",
+      "totalTasks": "Total Tasks",
+      "lastUpdate": "Last Update",
+      "imageError": "Failed to load"
+    },
+    "charts": {
+      "attendancePerformance": "Attendance Performance",
+      "thisMonth": "This Month",
+      "months": {
+        "january": "January",
+        "february": "February",
+        "march": "March",
+        "april": "April"
+      },
+      "weeks": {
+        "week1": "Week 1",
+        "week2": "Week 2",
+        "week3": "Week 3",
+        "week4": "Week 4"
+      },
+      "statuses": {
+        "present": "Present",
+        "late": "Late",
+        "absent": "Absent"
+      }
+    },
+    "tables": {
+      "todayAttendanceSummary": "Today's Attendance Summary",
+      "all": "All",
+      "columns": {
+        "number": "Number",
+        "arName": "Arabic Name",
+        "enName": "English Name",
+        "paymentDays": "Payment Months",
+        "createdAt": "Created At",
+        "employee": "Employee",
+        "workTime": "Work Time",
+        "attendanceStatus": "Attendance Status",
+        "attendanceTime": "Attendance Time",
+        "departureTime": "Departure Time",
+        "workingHours": "Working Hours"
+      }
+    },
+    "rightPanel": {
+      "todayTasks": "Today's Tasks",
+      "newsSummary": "News Summary",
+      "missions": "Missions",
+      "noNews": "No News",
+      "noNewsDescription": "No news available at the moment",
+      "addNews": "Add New News"
+    },
+    "missions": {
+      "noMissions": "No Missions",
+      "noMissionsFound": "No missions available at the moment",
+      "statuses": {
+        "completed": "Completed",
+        "upcoming": "Upcoming"
+      }
+    }
+  }
+}

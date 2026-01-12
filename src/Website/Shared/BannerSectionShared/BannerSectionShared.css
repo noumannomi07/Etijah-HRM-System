@@ -1,0 +1,85 @@
+.banner-section-shared .main-info-banner-shared {
+  background: theme("backgroundImage.custom-gradient");
+  padding: 80px 15px;
+  border-radius: 16px;
+}
+
+.banner-section-shared  .user-one-details-animation{
+  position: absolute !important;
+}
+
+.banner-section-shared .user-shared-one .user-one-details-animation {
+  top: initial;
+  bottom: -20px;
+}
+
+.banner-section-shared .user-shared-two .user-one-details-animation {
+  top: initial;
+  bottom: -20px;
+}
+
+/* Force positioning for user-shared-two */
+.banner-section-shared .user-shared-two .user-one-details-animation-right {
+  right: 10% !important;
+  top: 13% !important;
+  bottom: auto !important;
+}
+
+.banner-section-shared .user-shared-two .user-one-details-animation-right .content-user-animation {
+  right: -110% !important;
+  left: auto !important;
+  bottom: -65% !important;
+}
+.banner-section-shared .circle-01 {
+  width: 450px;
+  height: 450px;
+  margin: 10px;
+  border: 25px solid rgba(11, 54, 147, 0.34);
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.3;
+}
+
+.banner-section-shared .circle-001 {
+  width: 500px;
+  height: 500px;
+}
+
+.banner-section-shared .circle-002 {
+  width: 420px;
+  height: 420px;
+}
+
+.banner-section-shared .circle-003 {
+  width: 350px;
+  height: 350px;
+}
+
+@media screen and (max-width: 1199px) {
+  .banner-section-shared .user-shared-one .user-one-details-animation {
+    top: 50px;
+    bottom: 0px;
+    left: 22%;
+  }
+  
+  .banner-section-shared .user-shared-two .user-one-details-animation {
+    top: 50px;
+    bottom: 0px;
+    right: 22%;
+  }
+  
+  .banner-section-shared .user-shared-two .user-one-details-animation-right {
+    top: 50px !important;
+    bottom: 0px !important;
+    right: 22% !important;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .banner-section-shared :is(.user-shared-one, .user-shared-two, .user-one-details-animation) {
+    display: none;
+  }
+}

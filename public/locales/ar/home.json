@@ -1,0 +1,83 @@
+{
+  "duration_in_hours_zero": "{{count}} ساعة",
+  "duration_in_hours_one": "{{count}} ساعة",
+  "duration_in_hours_two": "{{count}} ساعتان",
+  "duration_in_hours_few": "{{count}} ساعات",
+  "duration_in_hours_many": "{{count}} ساعة",
+  "duration_in_hours_other": "{{count}} ساعة",
+  "duration_in_days_one": "{{count}} يوم",
+  "duration_in_days_other": "{{count}} أيام",
+  "night": "مساءاً",
+  "day": "صباحاً",
+  "pageTitles": {
+    "home": "الصفحة الرئيسية",
+    "error": "خطأ"
+  },
+  "dashboard": {
+    "cards": {
+      "totalEmployees": "إجمالي الموظفين",
+      "totalVacationRequests": "إجمالي طلبات الاجازة",
+      "totalViolations": "إجمالي المخالفات",
+      "totalTasks": "إجمالي المهام",
+      "lastUpdate": "آخر تحديث",
+      "imageError": "تعذر التحميل"
+    },
+    "charts": {
+      "attendancePerformance": "آداء الحضور",
+      "thisMonth": "هذا الشهر",
+      "months": {
+        "january": "يناير",
+        "february": "فبراير",
+        "march": "مارس",
+        "april": "ابرايل"
+      },
+      "weeks": {
+        "week1": "إسبوع 1",
+        "week2": "إسبوع 2",
+        "week3": "إسبوع 3",
+        "week4": "إسبوع 4"
+      },
+      "statuses": {
+        "present": "حضور",
+        "late": "تأخير",
+        "absent": "غياب"
+      }
+    },
+    "tables": {
+      "todayAttendanceSummary": "ملخص الحضور اليوم",
+      "all": "الجميع",
+      "columns": {
+        "number": "الرقم",
+        "arName": "الاسم باللغة العربية",
+        "enName": "الاسم باللغة الانجليزية",
+        "paymentDays": "أيام الدفع",
+        "createdAt": "تاريخ الإنشاء",
+        "employee": "الموظف",
+        "workTime": "مواعيد العمل",
+        "attendanceStatus": "الحالة",
+        "attendanceTime": "موعد الحضور",
+        "departureTime": "موعد الإنصراف",
+        "workingHours": "ساعات العمل"
+      }
+    },
+    "rightPanel": {
+      "todayTasks": "مهام اليوم",
+      "newsSummary": "ملخص الأخبار",
+      "missions": "المهام",
+      "noNews": "لا توجد أخبار",
+      "noNewsDescription": "لا توجد أخبار متاحة حالياً",
+      "addNews": "إضافة خبر جديد"
+    },
+    "missions": {
+      "noMissions": "لا توجد مهام",
+      "noMissionsFound": "لم يتم العثور على أي مهام متاحة في الوقت الحالي",
+      "statuses": {
+        "completed": "تمت",
+        "upcoming": "قادمة",
+        "in_progress": "قيد التنفيذ",
+        "late": "متأخر",
+        "cancelled": "ملغي"
+      }
+    }
+  }
+}

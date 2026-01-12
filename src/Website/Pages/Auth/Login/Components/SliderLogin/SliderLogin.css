@@ -1,0 +1,44 @@
+.slider-content-login .swiper .swiper-pagination {
+  bottom: 120px;
+}
+
+.slider-content-login
+  .swiper
+  .swiper-pagination
+  .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: theme("colors.white");
+}
+.slider-content-login .swiper .swiper-pagination .swiper-pagination-bullet {
+  background: theme("colors.white");
+  height: 6px;
+}
+
+@media screen and (max-width: 1178px) {
+  .slider-content-login .swiper .swiper-pagination {
+    bottom: 140px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .slider-content-login .swiper .swiper-pagination {
+    bottom: 155px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .slider-content-login .swiper .swiper-pagination {
+    bottom: 120px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .slider-content-login .swiper .swiper-pagination {
+    bottom: 135px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .slider-content-login .swiper .swiper-pagination {
+    bottom: 155px;
+  }
+}

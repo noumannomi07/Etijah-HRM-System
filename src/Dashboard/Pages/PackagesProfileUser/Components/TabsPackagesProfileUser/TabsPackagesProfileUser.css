@@ -1,0 +1,13 @@
+.custom-tab-profile.tab-bg .active-bg {
+  background: theme("colors.primaryColor") !important;
+  color: theme("colors.whiteColor");
+}
+.profile-packages .tabs-buttons{
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.profile-packages .compare-packages .container-media{
+  max-width: 100% !important;
+}

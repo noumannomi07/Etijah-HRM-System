@@ -1,0 +1,17 @@
+{
+  "Back": "رجوع",
+  "Available formula": "الصيغة المتاحة",
+  "Attach the file": "إرفق الملف",
+  "Added successfully": "تمت الإضافة بنجاح.",
+  "show": "عرض",
+  "Create and copy a link": "إنشاء ونسخ رابط",
+  "edit": "تعديل",
+  "delete": "حذف",
+  "Salary details": "تفاصيل المرتب",
+  "search": "بحث",
+  "NoBack": "لا , رجوع",
+  "YesDelete": "نعم , حذف",
+  "DeleteTitle": "حذف من النظام نهائيا ؟",
+  "DeleteText": "هل أنت متأكد من رغبتك في الحذف؟ الحركة المراد حذفها لن تتمكن من استرجاعها لاحقاً.",
+  "filter": "تصفية"
+}

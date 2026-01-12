@@ -1,0 +1,76 @@
+{
+  "pageTitle": "إعلانات التوظيف",
+  "breadcrumb": {
+    "recruitmentAds": "إعلانات التوظيف",
+    "addNewAd": "إضافة إعلان جديد"
+  },
+  "table": {
+    "headers": {
+      "arabicName": "الاسم بالعربية",
+      "englishName": "الاسم بالانجليزية",
+      "applicantsCount": "عدد المتقدمين",
+      "jobType": "نوع الوظيفة",
+      "createdDate": "تاريخ الإنشاء",
+      "actions": "الإجراءات"
+    }
+  },
+  "buttons": {
+    "addNewAd": "إضافة إعلان جديد",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "copyLink": "نسخ الرابط",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "submit": "إرسال"
+  },
+  "form": {
+    "addNewJob": "إضافة وظيفة جديدة",
+    "editJob": "تعديل الوظيفة",
+    "editAdTitle": "التعديل علي إعلان الـ {title}",
+    "arabicTitle": "العنوان بالعربية",
+    "englishTitle": "العنوان بالإنجليزية",
+    "content": "المحتوى",
+    "location": "مكتب العمل",
+    "jobType": "نوع الوظيفة",
+    "salary": "الراتب",
+    "attachedFile": "ملف مرفق",
+    "dragDropText": "اضغط هنا لرفع الملف أو اسحب الملف وأفلته هنا",
+    "placeholders": {
+      "arabicTitle": "العنوان بالعربية",
+      "englishTitle": "العنوان بالإنجليزية",
+      "salary": "الراتب",
+      "select": "-إختر-"
+    }
+  },
+  "validation": {
+    "arabicTitleRequired": "إسم المستند باللغة العربية مطلوب",
+    "arabicTitlePattern": "يجب إدخال إسم المستند باللغة العربية فقط",
+    "englishTitleRequired": "إسم المستند باللغة الإنجليزية مطلوب",
+    "englishTitlePattern": "يجب إدخال إسم المستند باللغة الإنجليزية فقط",
+    "contentRequired": "المحتوى مطلوب",
+    "contentMin": "يجب أن يحتوي المحتوى على 10 أحرف على الأقل",
+    "locationRequired": "الموقع مطلوب",
+    "jobTypeRequired": "نوع الوظيفة مطلوب",
+    "imageRequired": "الصورة مطلوبة"
+  },
+  "jobTypes": {
+    "hybrid": "مزدوج",
+    "remote": "عن بعد",
+    "inhouse": "من المنزل"
+  },
+  "messages": {
+    "deleteSuccess": "تم الحذف بنجاح",
+    "deleteError": "حدث خطأ أثناء الحذف",
+    "updateSuccess": "تم تعديل الإعلان بنجاح",
+    "updateError": "حدث خطأ أثناء التعديل",
+    "createSuccess": "تم إضافة الإعلان بنجاح!",
+    "createError": "حدث خطأ أثناء إضافة الإعلان",
+    "linkCopied": "تم النسخ بنجاح"
+  },
+  "deleteModal": {
+    "title": "حذف الإعلان نهائياً؟",
+    "message": "هل أنت متأكد من حذف إعلان التوظيف هذا؟ لن يمكنك التراجع عن هذا الإجراء.",
+    "confirmButton": "نعم، احذف"
+  }
+}
+

@@ -1,0 +1,5 @@
+@media screen and (max-width: 320px) {
+    .content-delete-modal .all-buttons-modal-bottom {
+        flex-wrap: wrap;
+    }
+}

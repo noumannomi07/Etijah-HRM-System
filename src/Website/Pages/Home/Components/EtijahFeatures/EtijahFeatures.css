@@ -1,0 +1,61 @@
+.etijah-feature-web .btn-feature svg :is(path, rect, circle) {
+  stroke: theme("colors.primaryLightColor_02");
+}
+.etijah-feature-web .btn-feature.active svg :is(path, rect, circle) {
+  stroke: theme("colors.whiteColor");
+}
+
+.etijah-feature-web .btn-feature.active {
+  color: theme("colors.whiteColor");
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.etijah-feature-web .all-etijah-feature {
+  display: grid;
+  grid-template-columns: 2fr 6fr;
+  column-gap: 40px;
+}
+
+.etijah-feature-web .images-feature {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+
+.etijah-feature-web .images-feature .image-feature-div {
+  position: absolute;
+  width: 100%;
+
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.8s ease-in-out;
+}
+
+.etijah-feature-web .images-feature .image-feature-div.active {
+  opacity: 1;
+}
+
+@media screen and (max-width: 991px) {
+  .etijah-feature-web .images-feature {
+    height: 60vw;
+  }
+  .etijah-feature-web .all-etijah-feature {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .etijah-feature-web .all-buttons-feature {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .etijah-feature-web .all-buttons-feature {
+    grid-template-columns: 1fr;
+    column-gap: 15px;
+  }
+  .etijah-feature-web.padding-inside-section {
+    padding-bottom: 50px !important;
+  }
+}

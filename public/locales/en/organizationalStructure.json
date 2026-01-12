@@ -1,0 +1,40 @@
+{
+  "pageTitle": "Organizational Structure",
+  "breadcrumb": {
+    "organizationalStructure": "Organizational Structure"
+  },
+  "ceo": {
+    "title": "CEO"
+  },
+  "card": {
+    "directManager": "Direct Manager",
+    "assignDirectManager": "Assign Direct Manager",
+    "employeesCount": "Employees"
+  },
+  "modal": {
+    "assignManager": "Assign Direct Manager",
+    "departmentEmployees": "{department} Department Employees",
+    "employee": "Employee",
+    "loading": "Loading...",
+    "errorLoadingData": "An error occurred while loading data"
+  },
+  "buttons": {
+    "assignDirectManager": "Assign Direct Manager",
+    "view": "View"
+  },
+  "messages": {
+    "assignSuccess": "Assigned successfully",
+    "assignError": "An error occurred while assigning the direct manager",
+    "removeSuccess": "Deleted successfully",
+    "removeError": "An error occurred while removing the direct manager"
+  },
+  "validation": {
+    "employeeRequired": "Employee must be selected"
+  },
+  "form": {
+    "placeholders": {
+      "select": "-Select-"
+    }
+  }
+}
+

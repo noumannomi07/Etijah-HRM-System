@@ -1,0 +1,41 @@
+{
+  "pageTitle": "Services",
+  "header": {
+    "title": "Control Your Human Resources with Our Integrated Services",
+    "description": "We provide a comprehensive set of services aimed at improving the efficiency of human resources management in your organization.",
+    "userNames": {
+      "user1": "Noura bint Abdul Aziz",
+      "user2": "Saud bin Khalid"
+    },
+    "userTitles": {
+      "user1": "Talent Acquisition Specialist",
+      "user2": "Human Resources Manager"
+    }
+  },
+  "services": {
+    "sectionTitle": "Etijah Services",
+    "sectionSubtitle": "Smart Solutions for Your Organization's Success",
+    "cards": {
+      "attendance": {
+        "title": "Attendance & Departure Management",
+        "description": "Accurately track employee attendance and departure, making it easy to manage vacations and absences and provide detailed reports to management."
+      },
+      "performance": {
+        "title": "Performance Monitoring",
+        "description": "Complete the payroll calculation process and provide employee benefits, ensuring accuracy and compliance with legal standards, and providing clear financial reports"
+      },
+      "payroll": {
+        "title": "Payroll & Benefits Management",
+        "description": "Organize and facilitate the process of receiving requests such as vacation and advance requests. This service aims to enhance communication between employees and management."
+      },
+      "orders": {
+        "title": "Request Management",
+        "description": "Facilitate the process of publishing jobs and receiving applications, in addition to sorting CVs and identifying suitable candidates through effective evaluation tools."
+      },
+      "recruitment": {
+        "title": "Recruitment Management",
+        "description": "Facilitate the process of publishing jobs and receiving applications, in addition to sorting CVs and identifying suitable candidates through effective evaluation tools."
+      }
+    }
+  }
+}

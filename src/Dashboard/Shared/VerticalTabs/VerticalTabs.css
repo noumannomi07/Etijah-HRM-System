@@ -1,0 +1,49 @@
+.custom-tabs {
+  position: relative;
+  z-index: 0;
+}
+
+.custom-tabs
+  .tab-btn
+  > .absolute.inset-0.z-10.h-full.bg-white.rounded-md.shadow {
+  display: none !important;
+}
+
+.custom-tabs .tab-btn.tab-active {
+  padding: 10px;
+  background: theme("colors.primaryColor");
+  color: theme("colors.whiteColor");
+  width: 100%;
+  margin: auto;
+  border-radius: 8px;
+  border: 1px solid theme("colors.primaryColor");
+  cursor: pointer;
+}
+.custom-tabs .tab-btn :is(svg path, svg circle, i, ellipse) {
+  stroke: #767d8b;
+}
+
+.custom-tabs .tab-btn.tab-active :is(svg path, svg circle, i, ellipse) {
+  stroke: theme("colors.whiteColor");
+}
+
+.custom-tabs .notification-card:nth-child(1) {
+  padding-top: 0 !important;
+}
+
+/* SCREEN 660PX */
+@media screen and (max-width: 991px) {
+  .custom-tabs {
+    flex-wrap: wrap;
+    gap: 25px;
+    width: 100%;
+  }
+
+  .custom-tabs :is(nav, .all-tabs-buttons) {
+    width: 100% !important;
+  }
+
+  .custom-tabs .tab-data {
+    padding: 0;
+  }
+}

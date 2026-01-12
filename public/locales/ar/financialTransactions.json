@@ -1,0 +1,85 @@
+{
+  "pageTitle": "المعاملات المالية",
+  "subtitle": "إدارة ومراجعة جميع المعاملات المالية",
+  "tabs": {
+    "pending": "المعاملات المعلقة",
+    "approved": "المعاملات الموافق عليها",
+    "rejected": "المعاملات المرفوضة"
+  },
+  "table": {
+    "headers": {
+      "createdAt": "تاريخ الإنشاء",
+      "employeesCount": "عدد الموظفين",
+      "total": "الإجمالي",
+      "comments": "التعليقات",
+      "actions": "الإجراءات"
+    },
+    "byUser": "بوساطة",
+    "employeesText": "موظف",
+    "commentsText": "تعليقات",
+    "viewDetails": "عرض التفاصيل",
+    "approve": "موافقة",
+    "reject": "رفض"
+  },
+  "tooltip": {
+    "salary": "الراتب:",
+    "deductions": "الخصومات:",
+    "bonuses": "المكافآت:",
+    "additions": "الإضافات:"
+  },
+  "modal": {
+    "comments": {
+      "title": "التعليقات",
+      "noComments": "لا توجد تعليقات",
+      "unknownUser": "مستخدم غير معروف",
+      "addPlaceholder": "أضف تعليقًا جديدًا...",
+      "send": "إرسال",
+      "close": "إغلاق",
+      "you": "أنت"
+    },
+    "employeeDetails": {
+      "title": "تفاصيل المعاملة",
+      "employeesCount": "موظف",
+      "downloadWPS": "ملف حماية الإجور / WPS",
+      "noData": "لا توجد بيانات",
+      "close": "إغلاق",
+      "headers": {
+        "employee": "الموظف",
+        "basicSalary": "الراتب الأساسي",
+        "bonuses": "المكافآت",
+        "deductions": "الخصومات",
+        "additions": "الإضافات",
+        "net": "الصافي",
+        "total": "الإجمالي",
+        "createdAt": "تاريخ الإنشاء"
+      },
+      "footer": {
+        "approvedBy": "تمت الموافقه بواسطة",
+        "approvedAt": "تاريخ الموافقه",
+        "totalSalaries": "اجمالي المرتبات",
+        "totalBonuses": "اجمالي المكافآت",
+        "totalDeductions": "اجمالي الخصومات",
+        "totalAdditions": "اجمالي الإضافات",
+        "totalNet": "اجمالي الصافي"
+      }
+    },
+    "approve": {
+      "title": "إرسال المعاملة",
+      "message": "بالضغط على موافق سيتم إرسال المعاملة إلى الموظفين",
+      "confirm": "موافق",
+      "cancel": "لا , رجوع",
+      "success": "تم الموافقة على المعاملة بنجاح",
+      "error": "حدث خطأ أثناء الموافقة على المعاملة"
+    },
+    "reject": {
+      "success": "تم رفض المعاملة بنجاح",
+      "error": "حدث خطأ أثناء رفض المعاملة"
+    },
+    "download": {
+      "success": "تم تحميل الملف بنجاح",
+      "error": "حدث خطأ أثناء تحميل الملف",
+      "missingId": "Transaction ID is missing",
+      "missingUrl": "File URL is missing"
+    }
+  }
+}

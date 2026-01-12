@@ -1,0 +1,78 @@
+.all-pagination .page-item .page-link,
+.all-pagination .break .page-link {
+  color: theme("colors.darkColor");
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 12px !important;
+  transition: all 0.5s;
+  background: transparent;
+  border: 1px solid theme("colors.lightColorWhite2");
+  width: 46px;
+  height: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px !important;
+}
+
+.all-pagination .page-item .page-link:focus {
+  box-shadow: 0 0 0 0.25rem rgba(20, 67, 128, 0.23) !important;
+}
+
+.all-pagination .button-arrow {
+  transition: all 0.5s;
+}
+
+.all-pagination .page-item-1 {
+width: 100%;
+
+}
+.all-pagination .page-item-2{
+  justify-content: flex-end;
+  display: flex;
+}
+
+
+.all-pagination .page-item.active-1 .page-link,
+.all-pagination .page-item:hover .page-link,
+.all-pagination .button-arrow:hover {
+  background: theme("colors.primaryColor") !important;
+  border-color: theme("colors.primaryColor") !important;
+  color: theme("colors.whiteColor") !important;
+}
+
+.all-pagination .pagination {
+  width: 100%;
+  justify-content: center;
+}
+
+
+@media screen and (max-width:1199px) {
+  .all-pagination .pagination {
+    flex-wrap: wrap;
+    width: auto;
+
+  }
+  .all-pagination .page-item-1 {
+    width: auto;
+    
+    }
+    .all-pagination .page-item-2{
+      justify-content: initial;
+      display: initial;
+    }
+    
+}
+
+
+@media screen and (max-width: 550px) {
+  .all-pagination .text-button-pag {
+    display: none;
+  }
+
+  .all-pagination .button-arrow {
+    margin: 0;
+    width: 46px;
+    height: 46px;
+  }
+}

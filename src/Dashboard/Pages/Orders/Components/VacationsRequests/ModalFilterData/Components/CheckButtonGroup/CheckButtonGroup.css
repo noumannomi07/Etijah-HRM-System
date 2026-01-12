@@ -1,0 +1,14 @@
+@media screen and (max-width: 550px) {
+  .all-info-buttons-check .lable-button-cheked {
+    width: 100%;
+    max-width: 100%;
+    flex: 1;
+    flex-basis: 32%;
+  }
+}
+
+@media screen and (max-width: 319px) {
+  .all-info-buttons-check .lable-button-cheked {
+    flex-basis: 100%;
+  }
+}

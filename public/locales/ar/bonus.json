@@ -1,0 +1,103 @@
+{
+  "pageTitle": "المكافأة",
+  "breadcrumb": {
+    "bonus": "المكافأة",
+    "addNewBonus": "إضافة مكافأة جديدة"
+  },
+  "table": {
+    "headers": {
+      "bonusTitle": "عنوان المكافأة",
+      "rating": "التقييم",
+      "bonusAmount": "مبلغ المكافأة",
+      "quarter": "الربع",
+      "year": "السنة",
+      "status": "الحالة",
+      "actions": ""
+    }
+  },
+  "quarters": {
+    "first": "الربع الأول",
+    "second": "الربع الثاني",
+    "third": "الربع الثالث",
+    "fourth": "الربع الرابع",
+    "and": "و"
+  },
+  "status": {
+    "upcoming": "قادم",
+    "completed": "تم",
+    "notSpecified": "غير محدد"
+  },
+  "buttons": {
+    "addBonus": "إضافة مكافأة",
+    "view": "عرض",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "save": "حفظ",
+    "cancel": "إلغاء"
+  },
+  "form": {
+    "addNewBonus": "إضافة مكافأة جديدة",
+    "bonusTitle": "عنوان المكافأة",
+    "beneficiary": "المستفيد",
+    "quarter": "الربع",
+    "achievementRate": "في حالة تحقيق نسبة",
+    "dueAmount": "المبلغ المستحق",
+    "employees": "الموظفون",
+    "placeholders": {
+      "select": "-إختر-",
+      "bonusTitle": "عنوان المكافأة",
+      "achievementRate": "في حالة تحقيق نسبة %",
+      "dueAmount": "المبلغ المستحق"
+    }
+  },
+  "beneficiaries": {
+    "department": "القسم",
+    "employees": "الموظفين"
+  },
+  "validation": {
+    "bonusTitleRequired": "عنوان المكافأة مطلوب",
+    "departmentRequired": "يجب اختيار قسم",
+    "achievementRateRequired": "حالة تحقيق نسبة مطلوب",
+    "quartersRequired": "يجب اختيار فترات السنة",
+    "dueAmountRequired": "المبلغ المستحق مطلوب",
+    "beneficiaryRequired": "يجب اختيار المستفيد",
+    "employeesRequired": "يجب اختيار موظف واحد على الأقل"
+  },
+  "messages": {
+    "addSuccess": "تم إضافة المكافأة بنجاح!",
+    "addError": "حدث خطأ أثناء إضافة المكافأة",
+    "cancelSuccess": "تم الالغاء بنجاح",
+    "filterSuccess": "تم إضافة الطلب بنجاح!"
+  },
+  "filter": {
+    "title": "تصفية",
+    "bonusTitle": "عنوان المكافأة",
+    "periodFrom": "الفترة من",
+    "periodTo": "الفترة إلى",
+    "placeholders": {
+      "bonusTitle": "عنوان المكافأة",
+      "date": "--/--/--"
+    },
+    "buttons": {
+      "reset": "إعادة تعيين",
+      "search": "بحث"
+    }
+  },
+  "deleteModal": {
+    "title": "هل أنت متأكد أنك تريد حذف العنصر؟",
+    "message": "سيتم حذف العنصر بشكل دائم ولا يمكن التراجع عن هذا الإجراء."
+  },
+  "details": {
+    "title": "التفاصيل",
+    "bonusInfo": "معلومات المكافأة",
+    "bonusTitle": "عنوان المكافأة",
+    "amount": "المبلغ",
+    "ratingPercentage": "النسبة المئوية للتقييم",
+    "period": "الفترة",
+    "year": "السنة",
+    "status": "الحالة",
+    "achievedRating": "النسبة المحققة في التقييم",
+    "notSpecified": "غير محدد"
+  }
+}
+

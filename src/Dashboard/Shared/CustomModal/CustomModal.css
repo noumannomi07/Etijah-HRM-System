@@ -1,0 +1,13 @@
+.modal-card-content .scrollbarChange::-webkit-scrollbar-track {
+  width: 8px;
+}
+
+.modal-card-content .scrollbarChange::-webkit-scrollbar {
+  width: 8px;
+}
+
+[data-floating-ui-portal]
+  .grid.place-items-center.fixed.w-screen.h-screen.bg-black.bg-opacity-60.backdrop-blur-sm {
+  height: 100%;
+  overflow: auto;
+}

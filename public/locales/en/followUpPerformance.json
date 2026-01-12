@@ -1,0 +1,43 @@
+{
+  "pageTitle": "Performance Follow-up",
+  "header": {
+    "title": "Achieving Excellence Through Task Evaluation",
+    "description": "Our organization seeks to enhance employee performance through our comprehensive performance follow-up service. This service includes evaluating employee performance based on the implementation of specified tasks according to multiple criteria, such as achieving goals and work quality, which contributes to improving productivity and enhancing organizational success."
+  },
+  "cards": {
+    "title": "Countless Benefits",
+    "subtitle": "Discover how performance follow-up can motivate employees to achieve high performance",
+    "items": [
+      {
+        "title": "Enhancing Innovation",
+        "text": "Areas that need improvements or new innovations can be identified, which enhances the spirit of innovation within the organization."
+      },
+      {
+        "title": "Enhancing Decision Making",
+        "text": "Accurate performance data provides valuable information that helps in making strategic and thoughtful decisions."
+      },
+      {
+        "title": "Increasing Productivity",
+        "text": "By providing customized tools and resources, employees can achieve better results in less time."
+      }
+    ]
+  },
+  "banner": {
+    "title": "Improving Efficiency and Increasing Productivity",
+    "subtitle": "Invest in developing your employees' performance through our integrated performance follow-up service, with rewards that motivate them to achieve more success.",
+    "items": [
+      {
+        "title": "Comprehensive Evaluation",
+        "text": "Performance evaluation based on a set of multiple criteria."
+      },
+      {
+        "title": "Detailed Reports",
+        "text": "Issuing comprehensive reports on individual and team performance, helping in decision making."
+      },
+      {
+        "title": "Motivating Outstanding Performance",
+        "text": "Providing rewards for employees who achieve excellent results in performance evaluation."
+      }
+    ]
+  }
+}

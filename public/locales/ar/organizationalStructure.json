@@ -1,0 +1,40 @@
+{
+  "pageTitle": "الهيكل التنظيمي",
+  "breadcrumb": {
+    "organizationalStructure": "الهيكل التنظيمي"
+  },
+  "ceo": {
+    "title": "CEO"
+  },
+  "card": {
+    "directManager": "المدير المباشر",
+    "assignDirectManager": "تعيين المدير المباشر",
+    "employeesCount": "الموظفين"
+  },
+  "modal": {
+    "assignManager": "تعيين المدير المباشر",
+    "departmentEmployees": "موظفين قسم {department}",
+    "employee": "الموظف",
+    "loading": "جاري التحميل...",
+    "errorLoadingData": "حدث خطأ أثناء تحميل البيانات"
+  },
+  "buttons": {
+    "assignDirectManager": "تعيين المدير المباشر",
+    "view": "عرض"
+  },
+  "messages": {
+    "assignSuccess": "تم التعيين بنجاح",
+    "assignError": "حدث خطأ ما أثناء تعيين المدير المباشر",
+    "removeSuccess": "تم الحذف بنجاح",
+    "removeError": "حدث خطأ ما أثناء حذف المدير المباشر"
+  },
+  "validation": {
+    "employeeRequired": "يجب اختيار موظف"
+  },
+  "form": {
+    "placeholders": {
+      "select": "-إختر-"
+    }
+  }
+}
+

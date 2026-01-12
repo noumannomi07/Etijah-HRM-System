@@ -1,0 +1,982 @@
+{
+  "common": {
+    "add": "Add",
+    "edit": "Edit",
+    "delete": "Delete",
+    "save": "Save",
+    "cancel": "Cancel",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "search": "Search",
+    "filter": "Filter",
+    "view": "View",
+    "select": "Select",
+    "details": "Details",
+    "noData": "No data available",
+    "notAvailable": "Not Available",
+    "DeleteTitle": "Permanently delete from the system?",
+    "DeleteText": "Are you sure you want to delete this?",
+    "yes": "Yes",
+    "no": "No",
+    "noOptions": "No options",
+    "loading": "Loading..."
+  },
+  "pageTitle": {
+    "systemSettings": "System Settings"
+  },
+  "messages": {
+    "successAdd": "Added successfully",
+    "successUpdate": "Updated successfully",
+    "successDelete": "Deleted successfully",
+    "error": "An error occurred",
+    "confirmDelete": "Are you sure you want to delete this item?",
+    "cancelSuccess": "Cancelled successfully"
+  },
+  "tabs": {
+    "generalSettings": "General Settings",
+    "permissionsAndTasks": "Permissions and Tasks Management",
+    "workplaceManagement": "Workplace Management",
+    "workTimeManagement": "Work Time Management",
+    "advanceManagement": "Advance Management",
+    "allowancesManagement": "Allowances Management",
+    "lettersManagement": "Letters Management",
+    "expenseManagement": "Expense Management",
+    "approvalChainsManagement": "Approval Chains Management",
+    "leaveManagement": "Leave Management",
+    "discountsManagement": "Discounts Management",
+    "violationsManagement": "Violations Management",
+    "projectManagement": "Project Management",
+    "leavingReasonsManagement": "Leaving Reasons Management",
+    "performanceEvaluationManagement": "Performance Evaluation Management",
+    "currencyManagement": "Currency Management",
+    "bankManagement": "Bank Management",
+    "documentManagement": "Document Management",
+    "countryTicket": "Country Ticket Management",
+    "contractType": "Contract Type",
+    "jobType": "Job Type",
+    "jobRate": "Job Rate",
+    "overtimeManagement": "Overtime management",
+    "rolesManagement": "Roles Management"
+  },
+  "contractTypeManagement": {
+    "title": "Contract Types Management",
+    "tableHeaders": {
+      "id": "ID",
+      "nameArabic": "Name in Arabic",
+      "nameEnglish": "Name in English",
+      "employeeCount": "Number of Employees",
+      "creationDate": "Creation Date",
+      "actions": "Actions"
+    },
+    "form": {
+      "nameArabic": "Name in Arabic",
+      "nameEnglish": "Name in English",
+      "nameArabicPlaceholder": "Name in Arabic",
+      "nameEnglishPlaceholder": "Name in English"
+    },
+    "validation": {
+      "nameArabicRequired": "Name in Arabic is required",
+      "nameArabicFormat": "Please enter the name in Arabic only",
+      "nameEnglishRequired": "Name in English is required",
+      "nameEnglishFormat": "Please enter the name in English only"
+    },
+    "messages": {
+      "addSuccess": "Contract type added successfully!",
+      "updateSuccess": "Contract type updated successfully",
+      "deleteSuccess": "Deleted successfully",
+      "deleteError": "An error occurred while deleting",
+      "updateError": "An error occurred while updating",
+      "addError": "An error occurred while adding contract type"
+    },
+    "deleteModal": {
+      "title": "Permanently delete from system?",
+      "text": "Are you sure you want to delete this contract type? You won't be able to recover it later."
+    },
+    "editModal": {
+      "title": "Edit contract type"
+    },
+    "addNew": {
+      "title": "Add New Contract Type",
+      "breadcrumb": "Add New Contract Type"
+    }
+  },
+  "countryTicketManagement": {
+    "title": "Ticket Management",
+    "tableHeaders": {
+      "id": "ID",
+      "nameArabic": "Name in Arabic",
+      "nameEnglish": "Name in English",
+      "yearCount": "Available times per year",
+      "amount": "Amount",
+      "adult": "Adult",
+      "child": "Child",
+      "infant": "Infant",
+      "actions": "Actions"
+    },
+    "form": {
+      "nameArabic": "Name in Arabic",
+      "nameEnglish": "Name in English",
+      "nameArabicPlaceholder": "Name in Arabic",
+      "nameEnglishPlaceholder": "Name in English",
+      "amount": "Amount",
+      "amountPlaceholder": "Amount",
+      "yearCount": "Eligibility count per year",
+      "yearCountPlaceholder": "Eligibility count per year",
+      "adultCount": "Number of adults",
+      "adultCountPlaceholder": "Number of adults",
+      "childCount": "Number of children",
+      "childCountPlaceholder": "Number of children",
+      "infantCount": "Number of infants",
+      "infantCountPlaceholder": "Number of infants"
+    },
+    "validation": {
+      "nameArabicRequired": "Name in Arabic is required",
+      "nameArabicFormat": "Please enter the name in Arabic only",
+      "nameEnglishRequired": "Name in English is required",
+      "nameEnglishFormat": "Please enter the name in English only",
+      "yearCountRequired": "Number of years is required",
+      "yearCountMax": "Number of years must be less than 10",
+      "amountRequired": "Amount is required",
+      "adultRequired": "Number of adults is required",
+      "childRequired": "Number of children is required",
+      "infantRequired": "Number of infants is required"
+    },
+    "messages": {
+      "addSuccess": "Tickets added successfully!",
+      "updateSuccess": "Tickets updated successfully",
+      "deleteSuccess": "Deleted successfully",
+      "deleteError": "An error occurred while deleting",
+      "updateError": "An error occurred while updating",
+      "addError": "An error occurred while adding tickets"
+    },
+    "deleteModal": {
+      "title": "Permanently delete from system?",
+      "text": "Are you sure you want to delete these tickets? You won't be able to recover them later."
+    },
+    "editModal": {
+      "title": "Edit tickets"
+    },
+    "addNew": {
+      "title": "Add New Ticket",
+      "breadcrumb": "Add New Ticket"
+    }
+  },
+  "jobTypeManagement": {
+    "title": "Job Types Management",
+    "tableHeaders": {
+      "id": "ID",
+      "nameArabic": "Name in Arabic",
+      "nameEnglish": "Name in English",
+      "employeeCount": "Number of Employees",
+      "creationDate": "Creation Date",
+      "actions": "Actions"
+    },
+    "form": {
+      "nameArabic": "Name in Arabic",
+      "nameEnglish": "Name in English",
+      "nameArabicPlaceholder": "Name in Arabic",
+      "nameEnglishPlaceholder": "Name in English"
+    },
+    "validation": {
+      "nameArabicRequired": "Name in Arabic is required",
+      "nameArabicFormat": "Please enter the name in Arabic only",
+      "nameEnglishRequired": "Name in English is required",
+      "nameEnglishFormat": "Please enter the name in English only"
+    },
+    "messages": {
+      "addSuccess": "Job type added successfully!",
+      "updateSuccess": "Job type updated successfully",
+      "deleteSuccess": "Deleted successfully",
+      "deleteError": "An error occurred while deleting",
+      "updateError": "An error occurred while updating",
+      "addError": "An error occurred while adding job type"
+    },
+    "deleteModal": {
+      "title": "Permanently delete from system?",
+      "text": "Are you sure you want to delete this job type? You won't be able to recover it later."
+    },
+    "editModal": {
+      "title": "Edit job type"
+    },
+    "addNew": {
+      "title": "Add New Job Type",
+      "breadcrumb": "Add New Job Type"
+    }
+  },
+  "jobRateManagement": {
+    "title": "Evaluation Items Management",
+    "tableHeaders": {
+      "id": "ID",
+      "nameArabic": "Name in Arabic",
+      "nameEnglish": "Name in English",
+      "creationDate": "Creation Date",
+      "actions": "Actions"
+    },
+    "form": {
+      "nameArabic": "Name in Arabic",
+      "nameEnglish": "Name in English",
+      "nameArabicPlaceholder": "Name in Arabic",
+      "nameEnglishPlaceholder": "Name in English"
+    },
+    "validation": {
+      "nameArabicRequired": "Name in Arabic is required",
+      "nameArabicFormat": "Please enter the name in Arabic only",
+      "nameEnglishRequired": "Name in English is required",
+      "nameEnglishFormat": "Please enter the name in English only"
+    },
+    "messages": {
+      "addSuccess": "Evaluation item added successfully!",
+      "updateSuccess": "Evaluation item updated successfully",
+      "deleteSuccess": "Deleted successfully",
+      "deleteError": "An error occurred while deleting",
+      "updateError": "An error occurred while updating",
+      "addError": "An error occurred while adding evaluation item"
+    },
+    "deleteModal": {
+      "title": "Permanently delete from system?",
+      "text": "Are you sure you want to delete this evaluation item? You won't be able to recover it later."
+    },
+    "editModal": {
+      "title": "Edit evaluation item"
+    },
+    "detailsModal": {
+      "title": "View item details"
+    },
+    "addNew": {
+      "title": "Add New Evaluation Item",
+      "breadcrumb": "Add New Evaluation Item"
+    }
+  },
+  "generalSettings": {
+    "title": "General Settings",
+    "companyInfo": "Company Information",
+    "companyLogo": "Company logo",
+    "language": "Language",
+    "timezone": "Timezone",
+    "dateFormat": "Date Format",
+    "currencyFormat": "Currency Format",
+    "save": "Save",
+    "economicActivity": "Economic Activity",
+    "subeconomicActivity": "Sub Economic Activity",
+    "employee": "Employee",
+    "uploadImage": "Upload Image",
+    "successMessage": "Saved successfully!",
+    "requiredEconomic": "Economic activity is required",
+    "requiredSubEconomic": "Sub economic activity is required",
+    "placeholderSelect": "- Select -",
+    "iban": "IBAN",
+    "address": "Address",
+    "bank": "Bank",
+    "phone": "Phone",
+    "email": "Email",
+    "companyName": "Company Name",
+    "account_number": "Account Number",
+    "Bank Information": "Bank Information"
+  },
+  "permissionsAndTasks": {
+    "title": "Permissions and Tasks Management",
+    "addPermission": "Add Permission",
+    "roles": "Roles",
+    "permissions": "Permissions",
+    "tasks": "Tasks",
+    "roleName": "Role Name",
+    "permissionName": "Permission Name",
+    "taskName": "Task Name",
+    "validityNameRequired": "Permission name is required",
+    "arabicOnlyError": "Name must be in Arabic only",
+    "validityNameEnglishRequired": "Permission name in English is required",
+    "englishOnlyError": "Name must be in English only",
+    "usersMinError": "At least one user must be selected",
+    "usersRequired": "Users are required"
+  },
+  "workplaceManagement": {
+    "title": "Workplace Management",
+    "addWorkplace": "Add Workplace",
+    "workplaceName": "Workplace Name",
+    "location": "Location",
+    "address": "Address",
+    "city": "City",
+    "country": "Country",
+    "deleteTitle": "Permanently delete from system?",
+    "deleteText": "Are you sure you want to delete this workplace? You will not be able to recover it later.",
+    "createdAt": "Created At",
+    "editTitle": "Editing workplace",
+    "successDelete": "Deleted successfully",
+    "errorDelete": "An error occurred during deletion",
+    "successUpdate": "Workplace updated successfully",
+    "errorUpdate": "An error occurred during update",
+    "index": "No.",
+    "nameAr": "Name (AR)",
+    "nameEn": "Name (EN)",
+
+    "form": {
+      "fields": {
+        "title_ar": "Name in Arabic",
+        "title_en": "Name in English",
+        "address": "Address",
+        "round": "Perimeter",
+        "round_tooltip": "The surrounding distance of the workplace in meters",
+        "map_heading": "Select the workplace location on the map",
+        "map_error": "You must select the workplace location on the map"
+      },
+      "validation": {
+        "title_ar_required": "Arabic name is required",
+        "title_ar_format": "Only Arabic letters are allowed",
+        "title_en_required": "English name is required",
+        "title_en_format": "Only English letters are allowed",
+        "address_required": "Address is required",
+        "round_required": "Perimeter is required",
+        "round_positive": "Perimeter must be a positive number"
+      }
+    }
+  },
+  "workTimeManagement": {
+    "title": "Work Time Management",
+    "addWorkTime": "Add Work Time",
+    "workTimeName": "Work Time Name",
+    "startTime": "Start Time",
+    "endTime": "End Time",
+    "breakTime": "Break Time",
+    "workDays": "Work Days"
+  },
+  "advanceManagement": {
+    "title": "Advance Management",
+    "addAdvance": "Add Advance",
+    "advanceName": "Advance Name",
+    "amount": "Amount",
+    "maxAmount": "Maximum Amount",
+    "paymentMethod": "Payment Method",
+    "number": "Number",
+    "arName": "Arabic Name",
+    "enName": "English Name",
+    "paymentDays": "Payment Period (Months)",
+    "createdAt": "Created At",
+    "deleteConfirmText": "Are you sure you want to delete this advance? You won't be able to recover it later.",
+    "deleteSuccess": "Deleted successfully",
+    "deleteError": "An error occurred while deleting",
+    "updateSuccess": "Advance updated successfully",
+    "updateError": "An error occurred while updating",
+    "editAdvance": "Edit advance:",
+    "form": {
+      "fields": {
+        "nameAr": "Name in Arabic",
+        "nameEn": "Name in English",
+        "repaymentPeriod": "Repayment Period",
+        "number_repayment_period": "Number of Days in Repayment Period"
+      },
+      "validation": {
+        "title_ar_required": "Arabic name is required",
+        "title_ar_format": "Only Arabic letters are allowed",
+        "title_en_required": "English name is required",
+        "title_en_format": "Only English letters are allowed",
+        "days_required": "Repayment days are required",
+        "days_positive": "Number of days must be positive",
+        "months_required": "Repayment months are required",
+        "months_positive": "Number of months must be positive"
+      }
+    }
+  },
+  "allowancesManagement": {
+    "title": "Allowances Management",
+    "addAllowance": "Add Allowance",
+    "allowanceName": "Allowance Name",
+    "allowanceType": "Allowance Type",
+    "amount": "Amount",
+    "percentage": "Percentage",
+    "tableHeaders": {
+      "id": "ID",
+      "arName": "Name in Arabic",
+      "enName": "Name in English",
+      "createdAt": "Creation Date",
+      "actions": ""
+    },
+    "toast": {
+      "deleteSuccess": "Deleted successfully",
+      "deleteError": "Error occurred while deleting",
+      "updateSuccess": "Updated successfully",
+      "updateError": "Error occurred while updating"
+    },
+    "deleteModal": {
+      "title": "Delete permanently?",
+      "text": "Are you sure you want to delete this record? You won't be able to recover it."
+    },
+    "editModal": {
+      "title": "Edit record:"
+    }
+  },
+  "lettersManagement": {
+    "title": "Letters Management",
+    "addLetter": "Add Letter",
+    "letterName": "Letter Name",
+    "letterType": "Letter Type",
+    "template": "Template",
+    "tableHeaders": {
+      "id": "ID",
+      "arName": "Name in Arabic",
+      "enName": "Name in English",
+      "roomOfCommerce": "Room of Commerce",
+      "createdAt": "Creation Date",
+      "actions": ""
+    },
+    "toast": {
+      "deleteSuccess": "Deleted successfully",
+      "deleteError": "Error occurred while deleting",
+      "updateSuccess": "Letter updated successfully",
+      "updateError": "Error occurred while updating"
+    },
+    "deleteModal": {
+      "title": "Delete permanently?",
+      "text": "Are you sure you want to delete this letter? You won't be able to recover it."
+    },
+    "editModal": {
+      "title": "Edit Letter - "
+    },
+    "showModal": {
+      "title": "View Letter Details - "
+    },
+    "yes": "Yes",
+    "no": "No",
+    "salary_certificate": "Salary Certificate",
+    "not_available": "Not available",
+    "no_nationalities_selected": "No nationalities selected",
+    "form": {
+      "all_nationalities": "All nationalities",
+      "IsItForAllNationalities": "Is it for all nationalities?",
+      "chamber_of_commerce": "chamber of commerce",
+      "Specific_nationalities": "Specific nationalities",
+      "You_correct_type": "You must select a valid type",
+      "You_must_choose_type": "Type is required",
+      "A_valid_value_be_chosen": "You must select a valid value",
+      "valid_name_required": "A valid name must be selected",
+      "select_at_least_one_nationality": "You must select at least one nationality",
+      "nationality_required": "Nationality is required"
+    }
+  },
+  "expenseManagement": {
+    "title": "Expense Management",
+    "addExpense": "Add Expense",
+    "expenseName": "Expense Name",
+    "expenseType": "Expense Type",
+    "amount": "Amount",
+    "category": "Category",
+    "edit_mileage_rate": "Edit Mileage Rate",
+    "edit_the_movement": "Edit the movement of the",
+    "content_in_arabic": "Content in Arabic",
+    "content_in_english": "Content in English",
+    "by_mile": "By mile",
+    "mile_price": "Mile price",
+    "mile_price_required": "Mile price is required",
+    "content_in_english_required": "Content in English is required",
+    "content_in_english_only": "Content must be entered in English only",
+    "content_in_arabic_required": "Content in Arabic is required",
+    "content_in_arabic_only": "Content must be entered in Arabic only"
+  },
+  "approvalChainsManagement": {
+    "title": "Approval Chains Management",
+    "addApprovalChain": "Add Approval Chain",
+    "chainName": "Chain Name",
+    "steps": "Steps",
+    "approvers": "Approvers",
+    "no_data_for_this_section": "No data for this section",
+    "vacation": "vacation",
+    "leave": "leave",
+    "ticket": "ticket",
+    "expense": "expense",
+    "letter": "letter",
+    "advance": "advance",
+    "vacation_hr": "vacation_hr",
+    "leave_hr": "leave_hr",
+    "roles": {
+      "hr": "HR",
+      "manager": "Manager"
+    },
+    "vacation_hr_type": "vacation_hr_type",
+    "leave_hr_type": "leave_hr_type",
+    "edit": "Edit",
+    "selectEmployees": "Select Employees",
+    "selectEmployeesPlaceholder": "Select Employees",
+    "noOptions": "No options",
+    "loading": "Loading...",
+    "selectRoles": "Select Roles",
+    "selectRolesPlaceholder": "Select Roles"
+  },
+  "leaveManagement": {
+    "title": "Leave Management",
+    "addLeave": "Add Leave",
+    "leaveType": "Leave Type",
+    "maxDuration": "Maximum Duration",
+    "isAnnual": "Is Annual",
+    "isSick": "Is Sick",
+    "isEmergency": "Is Emergency",
+    "number": "Number",
+    "name_ar": "Name (Arabic)",
+    "name_en": "Name (English)",
+    "days": "Days",
+    "available_after": "Available after",
+    "paid": "Paid",
+    "creation_date": "Creation Date",
+    "leave_updated_successfully": "Leave updated successfully",
+    "unpaid": "Unpaid",
+    "days_type": "Days type calculation",
+    "week_days": "Week days",
+    "work_days": "Work days",
+    "all_week": "all days",
+    "excludeHolidaysFromLeave": "Holidays are not counted within the leave days",
+    "includeHolidaysInLeave": "Holidays are counted within the leave days",
+    "edit_leave": "Editing the  leave",
+    "validation": {
+      "days": {
+        "min": "At least one day must be entered",
+        "max": "The number of days must be less than 365",
+        "required": "The number of repayment days is required"
+      },
+      "can_take_after": {
+        "required": "The number of repayment days is required",
+        "positive": "The number of days must be positive"
+      },
+      "paid": {
+        "required": "The number of repayment days is required"
+      },
+      "paid_percent": {
+        "min": "The percentage must be greater than 0",
+        "max": "The percentage must be less than or equal to 100",
+        "positive": "The number of days must be positive"
+      }
+    },
+    "fields": {
+      "days": "Number of Days",
+      "can_take_after": "Can Be Used After",
+      "paid": "Paid",
+      "paid_percent": "Paid Percentage %"
+    },
+    "messages": {
+      "add_leave_error": "An error occurred while adding the leave",
+      "add_leave_success": "Leave added successfully!"
+    }
+  },
+  "discountsManagement": {
+    "title": "Discounts Management",
+    "addDiscount": "Add Discount",
+    "discountName": "Discount Name",
+    "discountType": "Discount Type",
+    "amount": "Amount",
+    "percentage": "Percentage",
+    "orders_management": "Requests Management",
+    "ID": "ID",
+    "addon_name": "Addon Name",
+    "created_at": "Created At",
+    "discount_name": "Discount Name",
+    "discounts": "Discounts",
+    "additions": "Additions",
+    "discount": "Discount",
+    "addition": "Addition",
+    "edit": "Edit",
+    "discount_name_ar": "Discount name in Arabic",
+    "discount_name_en": "Discount name in English",
+    "discount_name_ar_required": "Discount name in Arabic is required",
+    "discount_name_en_required": "Discount name in English is required",
+    "discount_updated_success": "Discount updated successfully!",
+
+    "addition_name": "Addition Name",
+    "addition_name_required": "Addition name is required",
+    "discount_name_required": "Discount name is required",
+    "request_updated_successfully": "Request updated successfully!"
+  },
+  "violationsManagement": {
+    "title": "Violations Management",
+    "addViolation": "Add Violation",
+    "violationType": "Violation Type",
+    "description": "Description",
+    "penalty": "Penalty",
+    "severity": "Severity"
+  },
+  "projectManagement": {
+    "title": "Project Management",
+    "addProject": "Add Project",
+    "projectName": "Project Name",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "status": "Status",
+    "budget": "Budget",
+    "tableHeaders": {
+      "id": "ID",
+      "projectName": "Project Name",
+      "createdAt": "Created At",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "form": {
+      "projectNameArabic": "Project Name in Arabic",
+      "projectNameEnglish": "Project Name in English",
+      "projectNameArabicPlaceholder": "Project Name in Arabic",
+      "projectNameEnglishPlaceholder": "Project Name in English"
+    },
+    "validation": {
+      "projectNameArabicRequired": "Project name in Arabic is required",
+      "projectNameEnglishRequired": "Project name in English is required"
+    },
+    "messages": {
+      "addSuccess": "Project added successfully!",
+      "updateSuccess": "Project updated successfully",
+      "deleteSuccess": "Project deleted successfully",
+      "cancelSuccess": "Operation cancelled successfully.",
+      "addError": "Error occurred while adding project",
+      "updateError": "Error occurred while updating project"
+    },
+    "deleteModal": {
+      "title": "Permanently delete from system?",
+      "text": "Are you sure you want to delete this project? You won't be able to recover it later."
+    },
+    "editModal": {
+      "title": "Edit project: "
+    }
+  },
+  "leavingReasonsManagement": {
+    "title": "Leaving Reasons Management",
+    "addReason": "Add Reason",
+    "reasonName": "Reason Name",
+    "description": "Description",
+    "category": "Category"
+  },
+  "performanceEvaluationManagement": {
+    "title": "Performance Evaluation Management",
+    "addCriteria": "Add Criteria",
+    "criteriaName": "Criteria Name",
+    "description": "Description",
+    "weight": "Weight",
+    "scoreType": "Score Type",
+    "tableHeaders": {
+      "id": "ID",
+      "criteriaName": "Criteria Name",
+      "actions": "Actions"
+    },
+    "form": {
+      "criteriaNameArabic": "Criteria Name in Arabic",
+      "criteriaNameEnglish": "Criteria Name in English",
+      "criteriaNameArabicPlaceholder": "Enter criteria name",
+      "criteriaNameEnglishPlaceholder": "Enter criteria name"
+    },
+    "validation": {
+      "criteriaNameArabicRequired": "Criteria name in Arabic is required",
+      "criteriaNameArabicFormat": "Please enter the name in Arabic only",
+      "criteriaNameEnglishRequired": "Criteria name in English is required",
+      "criteriaNameEnglishFormat": "Please enter the name in English only"
+    },
+    "messages": {
+      "addSuccess": "Request added successfully!",
+      "updateSuccess": "Request updated successfully!",
+      "deleteSuccess": "Criteria deleted successfully",
+      "cancelSuccess": "Operation cancelled successfully."
+    },
+    "deleteModal": {
+      "title": "Permanently delete from system?",
+      "text": "Are you sure you want to delete this criteria? You won't be able to recover it later."
+    },
+    "editModal": {
+      "title": "Edit Performance Evaluation "
+    },
+    "filter": {
+      "title": "Filter",
+      "status": {
+        "label": "Status",
+        "active": "Active",
+        "inactive": "Inactive"
+      },
+      "buttons": {
+        "reset": "Reset",
+        "search": "Search"
+      },
+      "messages": {
+        "resetSuccess": "Filter reset successfully."
+      }
+    }
+  },
+  "currencyManagement": {
+    "title": "Currency Management",
+    "addCurrency": "Add Currency",
+    "currencyName": "Currency Name",
+    "code": "Code",
+    "symbol": "Symbol",
+    "exchangeRate": "Exchange Rate"
+  },
+  "bankManagement": {
+    "title": "Bank Management",
+    "addBank": "Add Bank",
+    "bankName": "Bank Name",
+    "code": "Bank Code",
+    "swiftCode": "SWIFT Code",
+    "country": "Country",
+    "tableHeaders": {
+      "id": "ID",
+      "bankName": "Bank Name",
+      "creationDate": "Creation Date",
+      "actions": "Actions"
+    },
+    "form": {
+      "bankNameArabic": "Bank Name in Arabic",
+      "bankNameEnglish": "Bank Name in English",
+      "bankNameArabicPlaceholder": "Enter bank name",
+      "bankNameEnglishPlaceholder": "Enter bank name"
+    },
+    "validation": {
+      "bankNameArabicRequired": "Bank name in Arabic is required",
+      "bankNameArabicFormat": "Please enter the name in Arabic only",
+      "bankNameEnglishRequired": "Bank name in English is required",
+      "bankNameEnglishFormat": "Please enter the name in English only",
+      "bankNameArabicMinLength": "Name must be at least 3 characters",
+      "bankNameEnglishMinLength": "Name must be at least 3 characters"
+    },
+    "messages": {
+      "addSuccess": "Bank added successfully!",
+      "updateSuccess": "Bank updated successfully!",
+      "deleteSuccess": "Bank deleted successfully",
+      "cancelSuccess": "Operation cancelled successfully."
+    },
+    "deleteModal": {
+      "title": "Permanently delete from system?",
+      "text": "Are you sure you want to delete this bank? You won't be able to recover it later."
+    },
+    "editModal": {
+      "title": "Edit Bank "
+    },
+    "filter": {
+      "title": "Filter",
+      "bankName": "Bank Name",
+      "bankNamePlaceholder": "Enter bank name",
+      "status": {
+        "label": "Status",
+        "active": "Active",
+        "inactive": "Inactive"
+      },
+      "buttons": {
+        "reset": "Reset",
+        "search": "Search"
+      },
+      "messages": {
+        "resetSuccess": "Filter reset successfully."
+      }
+    }
+  },
+  "documentManagement": {
+    "title": "Document Management",
+    "addDocument": "Add Document",
+    "documentName": "Document Name",
+    "documentType": "Document Type",
+    "category": "Category",
+    "template": "Template",
+    "tableHeaders": {
+      "id": "ID",
+      "document": "Document",
+      "creationDate": "Creation Date",
+      "documentCount": "Document Count",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "form": {
+      "documentNameArabic": "Document Name in Arabic",
+      "documentNameEnglish": "Document Name in English",
+      "documentNameArabicPlaceholder": "Enter document name",
+      "documentNameEnglishPlaceholder": "Enter document name"
+    },
+    "validation": {
+      "documentNameArabicRequired": "Document name in Arabic is required",
+      "documentNameArabicFormat": "Please enter the document name in Arabic only",
+      "documentNameEnglishRequired": "Document name in English is required",
+      "documentNameEnglishFormat": "Please enter the document name in English only"
+    },
+    "messages": {
+      "addSuccess": "Request added successfully!",
+      "updateSuccess": "Document updated successfully",
+      "deleteSuccess": "Document deleted successfully",
+      "cancelSuccess": "Operation cancelled successfully.",
+      "updateError": "An error occurred while updating the document"
+    },
+    "deleteModal": {
+      "title": "Permanently delete from system?",
+      "text": "This text is an example of text that can be replaced in the same space, this text has been generated from the Arabic text generator."
+    },
+    "editModal": {
+      "title": "Edit Document "
+    },
+    "filter": {
+      "title": "Filter",
+      "documentName": "Document Name",
+      "documentNamePlaceholder": "Enter document name",
+      "status": {
+        "label": "Status",
+        "active": "Active",
+        "inactive": "Inactive"
+      },
+      "buttons": {
+        "reset": "Reset",
+        "search": "Search"
+      },
+      "messages": {
+        "resetSuccess": "Filter reset successfully."
+      }
+    }
+  },
+  "rolesManagement": {
+    "tableHeaders": {
+      "id": "ID",
+      "name": "Name",
+      "createdAt": "Created At",
+      "actions": "Actions"
+    },
+    "title": "Roles Management",
+    "addRole": "Add Role",
+    "toast": {
+      "deleteSuccess": "Deleted successfully",
+      "deleteError": "Error occurred while deleting",
+      "updateSuccess": "Updated successfully",
+      "updateError": "Error occurred while updating",
+      "addSuccess": "Role added successfully!",
+      "addError": "Error occurred while adding"
+    },
+    "addNew": {
+      "title": "Add New Role",
+      "breadcrumb": "Add New Role"
+    },
+    "deleteModal": {
+      "title": "Delete permanently?",
+      "text": "Are you sure you want to delete this record? You won't be able to recover it."
+    },
+    "editModal": {
+      "title": "Edit record:"
+    },
+    "form": {
+      "fields": {
+        "name": "Name"
+      },
+      "validation": {
+        "name_required": "Name is required"
+      },
+      "ui": {
+        "roleInfoTitle": "Basic Role Information",
+        "roleInfoSubtitle": "Enter the name of the role you want to create",
+        "roleCreationNote": "The role will be created with the permissions specified below",
+        "globalControlTitle": "Global Permissions Control",
+        "globalControlSubtitle": "Manage all role permissions easily",
+        "selectAll": "Select All Permissions",
+        "deselectAll": "Deselect All Permissions",
+        "progressLabel": "Selection Progress",
+        "of": "of",
+        "selected": "Selected",
+        "remaining": "Remaining",
+        "permissions": "Permissions",
+        "selectGroupAll": "Select All",
+        "deselectGroupAll": "Deselect All",
+        "actions": "Actions",
+        "complete": "Complete",
+        "selectedPermission": "Selected Permission",
+        "permissionGroup": "Permission Group",
+        "completionRate": "Completion Rate",
+        "progress": "Progress"
+      }
+    },
+    "permissions": {
+      "homepage_statistics": "Homepage Statistics",
+      "employees": "Employees",
+      "employees_setting": "Employees Setting",
+      "vacations_requests": "Vacations Requests",
+      "advances_requests": "Advances Requests",
+      "letters_requests": "Letters Requests",
+      "flight_requests": "Flight Requests",
+      "expenses_requests": "Expenses Requests",
+      "leave_requests": "Leave Requests",
+      "attendance": "Attendance",
+      "payroll": "Payroll",
+      "salary_adjustments": "Salary Adjustments",
+      "financial_transactions": "Financial Transactions",
+      "violations": "Violations",
+      "jobs": "Jobs",
+      "applicants": "Applicants",
+      "tasks": "Tasks",
+      "rewards": "Rewards",
+      "reports": "Reports",
+      "performance": "Performance",
+      "organizational_structure": "Organizational Structure",
+      "company_news": "Company News",
+      "files": "Files",
+      "notifications": "Notifications",
+      "settings": "Settings"
+    },
+    "rolemap": {
+      "create": "Create",
+      "read": "Read",
+      "update": "Update",
+      "delete": "Delete"
+    }
+  },
+  "manageAdditions": {
+    "title": "Manage Additions",
+    "form": {
+      "additionNameArabic": "Addition Name in Arabic",
+      "additionNameEnglish": "Addition Name in English",
+      "additionNameArabicPlaceholder": "Addition Name in Arabic",
+      "additionNameEnglishPlaceholder": "Addition Name in English"
+    },
+    "validation": {
+      "additionNameArabicRequired": "Addition name in Arabic is required",
+      "additionNameArabicFormat": "Please enter the addition name in Arabic only",
+      "additionNameEnglishRequired": "Addition name in English is required",
+      "additionNameEnglishFormat": "Please enter the addition name in English only"
+    },
+    "messages": {
+      "addSuccess": "Addition added successfully!",
+      "cancelSuccess": "Operation cancelled successfully."
+    }
+  },
+  "manageDiscounts": {
+    "title": "Manage Discounts",
+    "discountNameArabic": "Discount Name in Arabic",
+    "discountNameEnglish": "Discount Name in English",
+    "discountNameArabicRequired": "Discount name in Arabic is required",
+    "discountNameEnglishRequired": "Discount name in English is required",
+    "arabicOnlyError": "Please enter the name in Arabic only",
+    "englishOnlyError": "Please enter the name in English only",
+    "addSuccessMessage": "Discount added successfully!",
+    "addErrorMessage": "Error occurred while adding discount",
+    "cancelSuccessMessage": "Operation cancelled successfully."
+  },
+  "managingReasonsLeaving": {
+    "title": "Managing Reasons for Leaving",
+    "tableHeaders": {
+      "number": "Number",
+      "reason": "Leave Request",
+      "createdAt": "Created At",
+      "status": "Status",
+      "actions": ""
+    },
+    "form": {
+      "reasonNameArabic": "Leave Request Name in Arabic",
+      "reasonNameEnglish": "Leave Request Name in English"
+    },
+    "toast": {
+      "updateSuccess": "Leave request updated successfully",
+      "updateError": "Error occurred while updating leave request",
+      "cancelSuccess": "Operation cancelled successfully."
+    },
+    "editModal": {
+      "title": "Edit leave request for"
+    },
+    "addNew": {
+      "pageTitle": "Managing Reasons for Leave",
+      "breadcrumb": "Managing Reasons for Leave",
+      "addSuccessMessage": "Request added successfully!",
+      "cancelSuccessMessage": "Operation cancelled successfully.",
+      "validation": {
+        "arabicNameRequired": "Reason name in Arabic is required",
+        "arabicNameFormat": "Please enter the reason name in Arabic only",
+        "englishNameRequired": "Reason name in English is required",
+        "englishNameFormat": "Please enter the reason name in English only"
+      }
+    },
+    "modal": {
+      "reasonLabel": "Reason",
+      "reasonPlaceholder": "Reason",
+      "reasonRequired": "Reason is required"
+    }
+  }
+}

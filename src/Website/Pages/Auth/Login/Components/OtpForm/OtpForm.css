@@ -1,0 +1,24 @@
+
+  
+  .otp-form .all-input-otp .form-control {
+    width: 100%;
+    max-width: 100%;
+    text-align: center !important;
+    padding: 22px 8px !important;
+  }
+  
+  @media screen and (max-width: 425px) {
+ .info-header-otp :is(.title, .timer-down-otp) {
+      font-size: 14px;
+    }
+  
+ .info-header-otp .text {
+      font-size: 12px;
+    }
+  }
+  
+  .otp-form .disabled-btn {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+  

@@ -1,0 +1,28 @@
+
+.page-login {
+  position: relative;
+}
+.page-login::after {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  background: theme("colors.primaryColor_02");
+  top: 0;
+  left: 0;
+
+}
+
+.page-login .header-info-auth-page img{
+  width: 150px;
+  height: 100px;
+}
+
+@media screen and (max-width:830px) {
+  .page-login{
+    padding: 0 !important;
+  }
+  .page-login::after {
+display: none !important;
+  }
+}

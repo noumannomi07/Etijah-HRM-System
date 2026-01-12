@@ -1,0 +1,102 @@
+{
+  "pageTitle": "مسيرات الرواتب",
+  "editTitle": "تعديل",
+  "cards": {
+    "employeesCount": "عدد الموظفين",
+    "totalBasicSalary": "إجمالي الأساسي",
+    "totalBonuses": "إجمالي الإضافات",
+    "totalDeductions": "صافي الخصومات",
+    "totalNetPay": "إجمال صافي الأجر",
+    "sendTransaction": "إرسال المعاملة"
+  },
+  "date": {
+    "selectMonth": "اختر الشهر",
+    "closed": "مغلق",
+    "open": "مفتوح"
+  },
+  "table": {
+    "headers": {
+      "employee": "الموظف",
+      "basicSalary": "الراتب الأساسي",
+      "allowances": "البدلات",
+      "insurance": "التأمينات",
+      "netBonus": "صافي الزيادة",
+      "netDeduction": "صافي الخصم",
+      "totalSalary": "الأجر الإجمالي",
+      "paymentMethod": "طريقة الدفع"
+    }
+  },
+  "common": {
+    "selectPlaceholder": "-إختر-"
+  },
+  "modal": {
+    "details": {
+      "title": "التفاصيل",
+      "joinDate": "تاريخ الانضمام",
+      "basicSalaryAndAllowances": "الراتب الأساسي والبدلات",
+      "basicSalary": "الراتب الأساسي",
+      "allowance": "بدل",
+      "totalSalary": "الأجر الإجمالي",
+      "paymentElements": "عناصر الدفع",
+      "amount": "المبلغ",
+      "processed": "تمت المعالجة",
+      "pendingApproval": "غير مدفوعة في الانتظار الموافقة",
+      "unpaid": "غير مدفوعة",
+      "notes": "ملاحظات",
+      "totalNetPay": "إجمالي صافي الدفع",
+      "paymentMethod": "طريقة الدفع",
+      "period": "({month} {startDay} - {month} {endDay} {year})"
+    },
+    "filter": {
+      "title": "تصفية",
+      "success": "تم تطبيق الفلتر بنجاح !",
+      "resetSuccess": "تم إستعادة الفلتر بنجاح.",
+      "resetButton": "اعادة تعيين",
+      "searchButton": "بحث",
+      "section": "القسم",
+      "jobType": "نوع الوظيفة",
+      "contractType": "نوع العقد",
+      "paymentMethod": "طريقة الدفع"
+    },
+    "sendTransaction": {
+      "title": "إرسال المعاملة",
+      "message": "بالضغط على موافق سيتم إرسال المعاملة إلى الموظفين",
+      "confirm": "موافق",
+      "cancel": "لا , رجوع",
+      "errorSelectMonth": "يجب عليك اختيار الشهر والسنة",
+      "success": "تم إرسال المعاملة بنجاح",
+      "error": "حدث خطأ أثناء إرسال المعاملة"
+    }
+  },
+  "paymentMethods": {
+    "bank": "بنك",
+    "cash": "نقدي",
+    "check": "شيك",
+    "creditCard": "بطاقة ائتمان",
+    "paypal": "باي بال",
+    "bankTransfer": "تحويل بنكي",
+    "notSpecified": "غير محددة"
+  },
+  "form": {
+    "addNewTask": "إضافة مهمة جديدة",
+    "employee": {
+      "label": "الموظف",
+      "error": "يجب اختيار موظف"
+    },
+    "jobTitle": {
+      "label": "المسمى الوظيفي",
+      "error": "يجب اختيار مسمى وظيفي"
+    },
+    "basicSalary": {
+      "label": "الراتب الأساسي",
+      "placeholder": "الراتب الأساسي",
+      "error": "يجب إدخال إسم المهمة"
+    },
+    "paymentMethod": {
+      "label": "طريقة دفع المرتب",
+      "error": "يجب اختيار مسمى وظيفي"
+    },
+    "success": "تم إضافة الطلب بنجاح!",
+    "cancelSuccess": "تم الالغاء بنجاح."
+  }
+}

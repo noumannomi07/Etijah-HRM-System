@@ -1,0 +1,36 @@
+# Etijah HR System - Robots.txt
+# https://etijah.sa/robots.txt
+
+User-agent: *
+Allow: /
+
+# Disallow Dashboard and Private Areas
+Disallow: /dashboard
+Disallow: /dashboard/*
+Disallow: /login
+Disallow: /auth/*
+Disallow: /admin/*
+
+# Allow Public Pages
+Allow: /
+Allow: /about
+Allow: /services
+Allow: /services/*
+Allow: /packages
+Allow: /contact
+Allow: /faq
+Allow: /blogs
+Allow: /blogs/*
+Allow: /privacy-policy
+Allow: /mobile-app
+
+# Allow Public Assets
+Allow: /assets/*
+Allow: /images/*
+Allow: /locales/*
+
+# Crawl Delay (optional - adjust based on server capacity)
+Crawl-delay: 1
+
+# Sitemap
+Sitemap: https://etijah.sa/sitemap.xml

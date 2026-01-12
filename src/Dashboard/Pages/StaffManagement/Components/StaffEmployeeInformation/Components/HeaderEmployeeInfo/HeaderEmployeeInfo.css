@@ -1,0 +1,6 @@
+@media screen and (max-width:625px) {
+    .header-employee-information :is(.content-left-employee .button-transparent, .content-left-employee){
+        width: 100%;
+    }
+    
+}

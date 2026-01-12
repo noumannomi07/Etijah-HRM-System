@@ -1,0 +1,85 @@
+.banner-opinion-about .banner-main-area-bg .banner-one-area,
+.banner-opinion-about .banner-main-area-bg .info-banner-area {
+  padding: 0;
+}
+
+.banner-opinion-about .banner-one-area {
+  padding: 0 70px !important;
+  border-radius: 16px;
+}
+.banner-opinion-about .icon-quote-opinion svg path {
+  stroke: #fff;
+}
+
+/* SCREN 1199px */
+@media screen and (max-width: 1199px) {
+  .banner-opinion-about .banner-one-area {
+    padding: 0 50px 0 20px !important;
+  }
+  .banner-opinion-about .image-content-src {
+    width: 100% !important;
+    height: 100% !important;
+  }
+}
+
+/* SCREN 991px */
+@media screen and (max-width: 991px) {
+  .banner-opinion-about .banner-one-area {
+    padding: 0 20px 0 20px !important;
+  }
+}
+
+/* SCREN 880px */
+@media screen and (max-width: 880px) {
+    .banner-opinion-about .banner-one-area {
+        padding: 30px  0  !important;
+      }
+  .all-banner-opinion-about {
+    grid-template-columns: 1fr !important;
+    display: flex !important;
+    flex-direction: column-reverse;
+  }
+  .banner-opinion-about .left-content-opinion{
+    justify-content: center;
+  }
+  .banner-opinion-about .image-content-src {
+    width: 407px !important;
+    height: 470px !important;
+    border-radius: 16px;
+
+  }
+}
+
+
+
+/* SCREN 880px */
+@media screen and (max-width: 650px) {
+    
+  .banner-opinion-about .left-content-opinion{
+width: 100%;
+  }
+  .banner-opinion-about .image-content-src {
+    width: 100% !important;
+    height: 350px !important;
+  
+
+  }
+ 
+}
+
+/* SCREN 500px */
+@media screen and (max-width: 500px) {
+    
+ 
+    .banner-opinion-about .image-content-src {
+
+      height: 100% !important;
+    
+  
+    }
+
+    .banner-opinion-about .text-opinion{
+        font-size: 14px;
+    }
+  }
+  

@@ -1,0 +1,22 @@
+@media screen and (max-width: 830px) {
+  .all-auth-page {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 50px !important;
+    height: auto !important;
+  }
+  .all-auth-page {
+    padding: 50px 0 0 0;
+  }
+  .all-auth-page .left-content-auth {
+    background: theme("colors.primaryColor_02");
+    padding: 50px 0 25px 0;
+  }
+  .all-auth-page :is(.left-content-auth, .right-content-auth) {
+    padding-inline: 15px !important;
+  }
+  .all-auth-page .right-content-auth {
+    padding: 0;
+  }
+}

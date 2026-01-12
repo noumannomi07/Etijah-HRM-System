@@ -1,0 +1,47 @@
+{
+  "menu": {
+    "home": "Home",
+    "orders": "Requests",
+    "requests": "Requests",
+    "staffManagement": "Staff Management",
+    "attendance": {
+      "main": "Attendance & Departure",
+      "edits": "Attendance Edits"
+    },
+    "calendar": "Calendar",
+    "shiftSchedule": "Shift Schedule",
+    "employeeSettings": {
+      "main": "Employee Settings",
+      "departments": "Departments",
+      "jobTitles": "Job Titles",
+      "nationalitiesManagement": "Nationalities Management"
+    },
+    "fileCategory": "File Category",
+    "salaryMarches": "Salary Marches",
+    "salaryAdjustments": "Salary Adjustments",
+    "financialTransactions": "Financial Transactions",
+    "violationsManagement": "Violations Management",
+    "employment": "Employment",
+    "recruitmentAds": "Recruitment Ads",
+    "companyNews": "Company News",
+    "performanceIndicator": "Performance Indicator",
+    "tasks": "Tasks",
+    "bonus": "Bonuses",
+    "reports": "Reports",
+    "rangesCalculator": "Ranges Calculator",
+    "companyDocuments": "Company Documents",
+    "notifications": "Notifications",
+    "systemSettings": "System Settings",
+    "supportCenter": "Support Center",
+    "organizationalStructure": "Organizational structure"
+  },
+  "groups": {
+    "general": "General",
+    "employees": "Employees",
+    "financial": "Financial",
+    "management": "Management",
+    "performance": "Performance",
+    "other": "Other"
+  },
+  "invite_employees": "Invite Employees"
+}

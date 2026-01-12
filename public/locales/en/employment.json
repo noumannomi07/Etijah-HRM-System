@@ -1,0 +1,208 @@
+{
+  "pageTitle": "Employment",
+  "breadcrumb": {
+    "employment": "Employment",
+    "addCandidate": "Add New Candidate",
+    "candidateFile": "Candidate File"
+  },
+  "cards": {
+    "accepted": "Number of Accepted",
+    "rejected": "Number of Rejected",
+    "onHold": "Number on Hold"
+  },
+  "table": {
+    "headers": {
+      "candidateName": "Candidate Name",
+      "email": "Email",
+      "job": "Job",
+      "status": "Candidate Status",
+      "dateAdded": "Date Added",
+      "actions": ""
+    },
+    "viewButton": "View",
+    "status": {
+      "pending": "Pending",
+      "accepted": "Accepted",
+      "rejected": "Rejected",
+      "on_hold": "On Hold",
+      "hired": "Hired"
+    }
+  },
+  "addCandidate": {
+    "tabs": {
+      "personalInfo": "Personal Information",
+      "evaluation": "Candidate Evaluation"
+    },
+    "form": {
+      "candidateName": "Candidate Name",
+      "firstName": "First Name",
+      "phoneNumber": "Phone Number",
+      "email": "Email",
+      "birthDate": "Birth Date",
+      "section": "Section",
+      "jobTitle": "Job Title",
+      "maritalStatus": "Marital Status",
+      "nationality": "Nationality",
+      "gender": "Gender",
+      "cvImage": "CV Image",
+      "placeholders": {
+        "candidateName": "Candidate Name",
+        "firstName": "First Name",
+        "phoneNumber": "Phone Number",
+        "email": "Email",
+        "select": "-Select-",
+        "date": "--/--/--"
+      },
+      "validation": {
+        "candidateNameRequired": "Candidate name is required",
+        "firstNameRequired": "First name is required",
+        "phoneNumberRequired": "Phone number is required",
+        "phoneNumberInvalid": "Phone number must be 10 digits",
+        "emailRequired": "Email is required",
+        "emailInvalid": "Invalid email format",
+        "jobTitleRequired": "Job title is required",
+        "maritalStatusRequired": "Marital status is required",
+        "nationalityRequired": "Nationality is required",
+        "genderRequired": "Gender is required",
+        "sectionRequired": "Section must be selected"
+      },
+      "options": {
+        "nationality": {
+          "egypt": "Egypt",
+          "usa": "United States",
+          "canada": "Canada"
+        },
+        "jobTitle": {
+          "manager": "Manager",
+          "developer": "Developer",
+          "designer": "Designer"
+        },
+        "maritalStatus": {
+          "single": "Single",
+          "married": "Married"
+        },
+        "gender": {
+          "male": "Male",
+          "female": "Female"
+        }
+      },
+      "messages": {
+        "addSuccess": "Request added successfully!",
+        "cancelSuccess": "Cancelled successfully."
+      }
+    },
+    "evaluation": {
+      "ratingItems": "Item Name",
+      "weakPoints": "Weaknesses",
+      "strengths": "Strengths",
+      "notes": "Notes",
+      "requestStatus": "Request Status",
+      "accepted": "Accepted",
+      "rejected": "Rejected",
+      "waitlist": "Waitlist",
+      "messages": {
+        "allFieldsRequired": "You must rate all items and select request status before submitting.",
+        "evaluationSuccess": "Evaluation completed successfully."
+      }
+    }
+  },
+  "candidateFile": {
+    "statusActions": {
+      "accept": {
+        "title": "Accept Candidate?",
+        "confirmButton": "Yes, Accept",
+        "successMessage": "Candidate accepted successfully"
+      },
+      "reject": {
+        "title": "Reject Candidate?",
+        "confirmButton": "Yes, Reject",
+        "successMessage": "Candidate rejected"
+      },
+      "onHold": {
+        "title": "Put Candidate on Waitlist?",
+        "confirmButton": "Yes, Execute",
+        "successMessage": "Candidate successfully placed on waitlist"
+      },
+      "hire": {
+        "title": "Hire Candidate?",
+        "confirmButton": "Yes, Confirm",
+        "successMessage": "Candidate hired successfully"
+      },
+      "confirmationMessage": "This action will be applied to the candidate and cannot be undone later",
+      "error": "An error occurred while applying the action"
+    },
+    "tabs": {
+      "personalInfo": "Personal Information",
+      "professionalInfo": "Professional Information",
+      "rate": "Rating",
+      "documents": "Documents"
+    },
+    "personalData": {
+      "fullName": "Full Name",
+      "jobApplied": "Applied Job",
+      "jobType": "Job Type",
+      "email": "Email",
+      "phone": "Phone Number",
+      "address": "Address",
+      "requestStatus": "Request Status",
+      "applicationDate": "Application Date",
+      "announcedSalary": "Announced Salary",
+      "cv": "Resume",
+      "notAvailable": "Not Available",
+      "uploaded": "Uploaded",
+      "fullTimeOnsite": "Full-time Onsite",
+      "pending": "Under Review"
+    },
+    "professionalData": {
+      "job": "Job",
+      "jobType": "Job Type",
+      "experience": "Experience",
+      "education": "Education",
+      "skills": "Skills",
+      "cv": "Resume",
+      "notAvailable": "Not Available"
+    },
+    "rating": {
+      "editRate": "Edit Rating",
+      "submitting": "Submitting",
+      "submit": "Submit",
+      "cancel": "Cancel",
+      "editRateSuccess": "Rating updated successfully",
+      "editRateError": "Failed to update rating"
+    }
+  },
+  "filter": {
+    "title": "Filter",
+    "candidate": "Candidate",
+    "email": "Email",
+    "nationality": "Nationality",
+    "gender": "Gender",
+    "dateFrom": "Date Added From",
+    "dateTo": "Date Added To",
+    "placeholders": {
+      "select": "-Select-",
+      "email": "Email",
+      "date": "--/--/--"
+    },
+    "validation": {
+      "candidateRequired": "Candidate is required",
+      "emailInvalid": "Invalid email",
+      "emailRequired": "Email is required",
+      "nationalityRequired": "Nationality is required",
+      "genderRequired": "Gender is required"
+    },
+    "candidates": {
+      "candidate1": "Candidate 1",
+      "candidate2": "Candidate 2",
+      "candidate3": "Candidate 3"
+    },
+    "messages": {
+      "filterSuccess": "Filter applied successfully!",
+      "resetSuccess": "Filter reset successfully!"
+    },
+    "buttons": {
+      "reset": "Reset",
+      "search": "Search"
+    }
+  }
+}

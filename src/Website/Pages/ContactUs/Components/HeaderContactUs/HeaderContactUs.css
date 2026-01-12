@@ -1,0 +1,25 @@
+.header-contactUs {
+  overflow: hidden;
+}
+.header-contactUs .image-bg-contact {
+  background: url("@assets/images/website/contact/bgcontact.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  bottom: -50px;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  transition: all 0.8s;
+}
+
+.header-contactUs:hover .image-bg-contact {
+  transform: scale(1.2);
+}
+
+.header-contactUs .banner-main-area-bg .info-banner-area {
+  padding-bottom: 500px;
+}

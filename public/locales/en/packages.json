@@ -1,0 +1,74 @@
+{
+  "pageTitle": "Packages",
+  "header": {
+    "title": "Choose Your Ideal Package",
+    "description": "Explore a variety of packages designed to meet your unique needs, whether you're looking for comprehensive solutions or flexible options. Our packages offer the perfect blend of services that support your goals, ensuring quality and efficiency."
+  },
+  "packages": {
+    "basic": {
+      "title": "Basic Package",
+      "description": "This text is an example of text that can be replaced in the same space. This text was generated from the Arabic text generator.",
+      "features": [
+       "Employee Management",
+        "Attendance & Departure Management",
+        "Requests & Leave Management",
+        "Payroll & Benefits Management",
+        "Recruitment & Talent Acquisition",
+        "Performance & Rewards Management",
+        "Reports & Analytics Management"
+      ]
+    },
+    "premium": {
+      "title": "Premium Package",
+      "description": "This text is an example of text that can be replaced in the same space. This text was generated from the Arabic text generator.",
+      "features": [
+        "Employee Management",
+        "Attendance & Departure Management",
+        "Requests & Leave Management",
+        "Payroll & Benefits Management",
+        "Recruitment & Talent Acquisition",
+        "Performance & Rewards Management",
+        "Reports & Analytics Management"
+      ]
+    },
+    "professional": {
+      "title": "Professional Package",
+      "description": "This text is an example of text that can be replaced in the same space. This text was generated from the Arabic text generator.",
+      "features": [
+        "Employee Management",
+        "Attendance & Departure Management",
+        "Requests & Leave Management",
+        "Payroll & Benefits Management",
+        "Recruitment & Talent Acquisition",
+        "Performance & Rewards Management",
+        "Reports & Analytics Management"
+      ]
+    }
+  },
+  "comparison": {
+    "sectionTitle": "Compare Packages",
+    "table": {
+      "comparisonAspect": "Comparison Aspect",
+      "basicPackage": "Basic Package",
+      "premiumPackage": "Premium Package",
+      "professionalPackage": "Professional Package",
+      "bestsellerBadge": "We Recommend",
+      "categories": {
+        "employees": "Employees",
+        "financial": "Financial",
+        "management": "Management"
+      },
+      "features": {
+        "employeeManagement": "Employee Management"
+      }
+    }
+  },
+  "ui": {
+    "bestsellerBadge": "We Recommend",
+    "subscribeNow": "Subscribe Now",
+    "perEmployee": "employee",
+    "perMonth": "Monthly",
+    "annual": "Annually"
+
+  }
+}

@@ -1,0 +1,47 @@
+/* HIDE DEFAULTE RADIO*/
+.radio-input {
+    display: none;
+  }
+  
+  /* CREATE CUSTOM RADIO */
+  .radio-label {
+    position: relative;
+    display: inline-block;
+    padding-right: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  
+  .radio-label::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #c5c3c3;
+    background-color: white;
+    transition: all 0.3s ease;
+  }
+  
+  /*  STYLE FOR RADIO BUTTON CHECKED*/
+  .radio-input:checked + .radio-label::before {
+    background-color: theme("colors.primaryColor");
+    border-color:theme("colors.primaryColor");
+  }
+  
+  /* ADD A DOT INSIDE THE CHECKED RADIO BUTTON  */
+  .radio-input:checked + .radio-label::after {
+    content: '';
+    position: absolute;
+    right: 6px;
+    top: 6px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: white;
+    transition: all 0.3s ease;
+  }
+  

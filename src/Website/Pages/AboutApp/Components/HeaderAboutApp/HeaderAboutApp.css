@@ -1,0 +1,40 @@
+.header-about-app .banner-main-area-bg .info-banner-area {
+  padding-bottom: 0;
+}
+
+.header-about-app .content-user-animation {
+  display: none;
+}
+.header-about-app .user-one-details-animation {
+  left: 10%;
+}
+.header-about-app .user-one-details-animation-right {
+  top: 20%;
+  right: 0%;
+}
+.center-content-section-info .user-one-details-animation{
+  position: absolute !important;
+}
+
+@media screen and (max-width: 1290px) {
+  .header-about-app .user-one-details-animation-right {
+    right: 0;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .header-about-app .user-one-details-animation-right {
+    top: 45%;
+    right: -7%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .header-about-app .user-one-details-animation {
+    top: 45%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .header-about-app .user-one-details-animation {
+    display: none;
+  }
+}

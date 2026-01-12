@@ -1,0 +1,13 @@
+{
+  "pageTitle": "Frequently Asked Questions",
+  "header": {
+    "title": "Help Center & Frequently Asked Questions",
+    "description": "If you need a larger number of paragraphs, the Arabic text generator allows you to increase the number of paragraphs as you wish. The text will not appear divided and will not contain linguistic errors. The Arabic text generator is useful for website designers in particular, as the client often needs to see a real picture of the website design."
+  },
+  "search": {
+    "placeholder": "Search for questions..."
+  },
+  "error": {
+    "noFaqs": "No FAQs available"
+  }
+}

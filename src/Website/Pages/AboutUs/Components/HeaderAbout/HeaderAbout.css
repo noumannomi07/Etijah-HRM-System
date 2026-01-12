@@ -1,0 +1,21 @@
+.header-about-info .etijah-feature-web {
+  background: transparent;
+  padding: 0;
+}
+.header-about-info .etijah-feature-web .container-media {
+  max-width: 100% !important;
+  padding: 0 !important;
+}
+
+@media screen and (max-width: 575px) {
+  .page-about-us
+    :is(
+      .banner-main-area-bg .banner-one-area,
+      .banner-main-area-bg .info-banner-area
+    ) {
+    padding-bottom: 0;
+  }
+  .page-about-us .etijah-feature-web.padding-inside-section {
+    padding-bottom: 45px !important;
+  }
+}

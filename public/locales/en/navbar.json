@@ -1,0 +1,82 @@
+{
+  "greeting": {
+    "welcome": "Welcome {{name}} 👋",
+    "goodMorning": "Good Morning",
+    "goodEvening": "Good Evening"
+  },
+  "search": {
+    "placeholder": "Search for employee..."
+  },
+  "userMenu": {
+    "currentPackage": "Current Package",
+    "basicPackage": "Basic",
+    "securitySettings": "Security settings",
+    "profile": "Profile",
+    "logout": "Logout",
+    "logoutConfirmation": {
+      "title": "⚠️ Logout",
+      "message": "Are you sure you want to logout?",
+      "confirm": "Logout",
+      "cancel": "Cancel"
+    },
+    "logoutSuccess": "Logged out successfully"
+  },
+  "passwordForm": {
+    "title": "Security Settings",
+    "current_password": "Current Password",
+    "password": "New Password",
+    "password_confirmation": "Confirm Password",
+    "save_changes": "Save Changes",
+    "updating": "Updating...",
+    "password_requirements_title": "Password Requirements",
+    "password_requirement_length": "At least 6 characters",
+    "password_requirement_uppercase": "At least one uppercase letter",
+    "password_requirement_lowercase": "At least one lowercase letter",
+    "password_requirement_number": "At least one number",
+    "password_requirement_special": "At least one special character",
+    "validation": {
+      "current_password_required": "Current password is required",
+      "password_required": "New password is required",
+      "confirm_password_required": "Please confirm your password",
+      "password_min_length": "Must be at least 6 characters",
+      "password_requirements": "Password must contain an uppercase letter, lowercase letter, number, and special character",
+      "password_different": "New password must be different from current password",
+      "password_mismatch": "Passwords do not match"
+    },
+    "messages": {
+      "password_update_success": "Password updated successfully",
+      "password_update_error": "An error occurred while updating password"
+    }
+  },
+  "myTasksModal": {
+    "title": "My Tasks",
+    "addNewTask": "Add New Task",
+    "tabs": {
+      "all": "All",
+      "current": "Current",
+      "finished": "Finished"
+    },
+    "tableHeaders": {
+      "date": "Date",
+      "task": "Task",
+      "priority": "Priority",
+      "start": "Start",
+      "end": "End",
+      "status": "Status"
+    }
+  },
+  "website": {
+    "menuItems": {
+      "about": "About Us",
+      "services": "Services",
+      "aboutApp": "About App",
+      "packages": "Packages",
+      "blog": "Blog",
+      "contact": "Contact Us"
+    },
+    "buttons": {
+      "trySystem": "Try System",
+      "login": "Login"
+    }
+  }
+}

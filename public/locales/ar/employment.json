@@ -1,0 +1,208 @@
+{
+  "pageTitle": "التوظيف",
+  "breadcrumb": {
+    "employment": "التوظيف",
+    "addCandidate": "إضافة مرشح جديد",
+    "candidateFile": "ملف المترشح"
+  },
+  "cards": {
+    "accepted": "عدد المقبولين",
+    "rejected": "عدد المرفوضين",
+    "onHold": "عدد الإحتياط"
+  },
+  "table": {
+    "headers": {
+      "candidateName": "إسم المرشح",
+      "email": "البريد الإلكتروني",
+      "job": "الوظيفة",
+      "status": "وضع المرشح",
+      "dateAdded": "تاريخ الإضافة",
+      "actions": ""
+    },
+    "viewButton": "عرض",
+    "status": {
+      "pending": "قيد الانتظار",
+      "accepted": "مقبول",
+      "rejected": "مرفوض",
+      "on_hold": "احتياط",
+      "hired": "تم التوظيف"
+    }
+  },
+  "addCandidate": {
+    "tabs": {
+      "personalInfo": "المعلومات الشخصية",
+      "evaluation": "تقييم المرشح"
+    },
+    "form": {
+      "candidateName": "إسم المرشح",
+      "firstName": "الإسم الأول",
+      "phoneNumber": "رقم جوال العميل",
+      "email": "البريد الإلكتروني",
+      "birthDate": "تاريخ الميلاد",
+      "section": "القسم",
+      "jobTitle": "الوظيفة",
+      "maritalStatus": "الحالة الإجتماعية",
+      "nationality": "الجنسية",
+      "gender": "الجنس",
+      "cvImage": "صورة الـCV",
+      "placeholders": {
+        "candidateName": "إسم المرشح",
+        "firstName": "الإسم الأول",
+        "phoneNumber": "رقم جوال العميل",
+        "email": "البريد الإلكتروني",
+        "select": "-إختر-",
+        "date": "--/--/--"
+      },
+      "validation": {
+        "candidateNameRequired": "إسم المرشح مطلوب",
+        "firstNameRequired": "الإسم الأول مطلوب",
+        "phoneNumberRequired": "رقم الجوال مطلوب",
+        "phoneNumberInvalid": "رقم الجوال يجب أن يكون مكوناً من 10 أرقام",
+        "emailRequired": "البريد الإلكتروني مطلوب",
+        "emailInvalid": "صيغة البريد الإلكتروني غير صحيحة",
+        "jobTitleRequired": "الوظيفة مطلوبة",
+        "maritalStatusRequired": "الحالة الإجتماعية مطلوبة",
+        "nationalityRequired": "الجنسية مطلوبة",
+        "genderRequired": "الجنس مطلوب",
+        "sectionRequired": "يجب اختيار قسم"
+      },
+      "options": {
+        "nationality": {
+          "egypt": "مصر",
+          "usa": "الولايات المتحدة الأمريكية",
+          "canada": "كندا"
+        },
+        "jobTitle": {
+          "manager": "مدير",
+          "developer": "مطور",
+          "designer": "مصمم"
+        },
+        "maritalStatus": {
+          "single": "أعزب",
+          "married": "متزوج"
+        },
+        "gender": {
+          "male": "ذكر",
+          "female": "أنثى"
+        }
+      },
+      "messages": {
+        "addSuccess": "تم إضافة الطلب بنجاح!",
+        "cancelSuccess": "تم الالغاء بنجاح."
+      }
+    },
+    "evaluation": {
+      "ratingItems": "إسم البند",
+      "weakPoints": "نقاط الضعف",
+      "strengths": "نقاط القوة",
+      "notes": "الملاحظات",
+      "requestStatus": "حالة الطلب",
+      "accepted": "مقبول",
+      "rejected": "مرفوض",
+      "waitlist": "إحتياط",
+      "messages": {
+        "allFieldsRequired": "يجب عليك تقييم جميع البنود وتحديد حالة الطلب قبل الإرسال.",
+        "evaluationSuccess": "تم التقييم بنجاح."
+      }
+    }
+  },
+  "candidateFile": {
+    "statusActions": {
+      "accept": {
+        "title": "قبول المرشح ؟",
+        "confirmButton": "نعم , قبول",
+        "successMessage": "تم قبول المرشح بنجاح"
+      },
+      "reject": {
+        "title": "رفض المرشح ؟",
+        "confirmButton": "نعم , رفض",
+        "successMessage": "تم رفض المرشح"
+      },
+      "onHold": {
+        "title": "وضع المرشح على قائمة الإحتياط ؟",
+        "confirmButton": "نعم , نفذ",
+        "successMessage": "تم وضع المرشح على قائمة الإحتياط بنجاح"
+      },
+      "hire": {
+        "title": "توظيف المرشح ؟",
+        "confirmButton": "نعم , تأكيد",
+        "successMessage": "تم توظيف المرشح بنجاح"
+      },
+      "confirmationMessage": "سيتم تطبيق هذا الإجراء على المرشح ولن يمكن التراجع عنه لاحقاً",
+      "error": "حدث خطأ ما أثناء تطبيق الإجراء"
+    },
+    "tabs": {
+      "personalInfo": "المعلومات الشخصية",
+      "professionalInfo": "المعلومات المهنيه",
+      "rate": "التقييم",
+      "documents": "المستندات"
+    },
+    "personalData": {
+      "fullName": "الاسم الكامل",
+      "jobApplied": "الوظيفة المتقدمة لها",
+      "jobType": "نوع الوظيفة",
+      "email": "البريد الإلكتروني",
+      "phone": "رقم الهاتف",
+      "address": "العنوان",
+      "requestStatus": "حالة الطلب",
+      "applicationDate": "تاريخ التقديم",
+      "announcedSalary": "الراتب المعلن",
+      "cv": "السيرة الذاتية",
+      "notAvailable": "غير متوفر",
+      "uploaded": "تم الرفع",
+      "fullTimeOnsite": "دوام كامل في المقر",
+      "pending": "قيد المراجعة"
+    },
+    "professionalData": {
+      "job": "الوظيفة",
+      "jobType": "نوع الوظيفة",
+      "experience": "الخبرة",
+      "education": "التعليم",
+      "skills": "المهارات",
+      "cv": "السيرة الذاتية",
+      "notAvailable": "غير متوفر"
+    },
+    "rating": {
+      "editRate": "تعديل التقييم",
+      "submitting": "جاري التعديل",
+      "submit": "تعديل",
+      "cancel": "إلغاء",
+      "editRateSuccess": "تم تعديل التقييم بنجاح",
+      "editRateError": "فشل تعديل التقييم"
+    }
+  },
+  "filter": {
+    "title": "تصفية",
+    "candidate": "المرشح",
+    "email": "البريد الإلكتروني",
+    "nationality": "الجنسية",
+    "gender": "الجنس",
+    "dateFrom": "تاريخ الإضافة من",
+    "dateTo": "تاريخ الإضافة إلى",
+    "placeholders": {
+      "select": "-إختر-",
+      "email": "البريد الإلكتروني",
+      "date": "--/--/--"
+    },
+    "validation": {
+      "candidateRequired": "المرشح مطلوب",
+      "emailInvalid": "البريد الإلكتروني غير صالح",
+      "emailRequired": "البريد الإلكتروني مطلوب",
+      "nationalityRequired": "الجنسية مطلوبة",
+      "genderRequired": "الجنس مطلوب"
+    },
+    "candidates": {
+      "candidate1": "مرشح 1",
+      "candidate2": "مرشح 2",
+      "candidate3": "مرشح 3"
+    },
+    "messages": {
+      "filterSuccess": "تم تطبيق الفلتر بنجاح!",
+      "resetSuccess": "تم إستعادة الفلتر بنجاح!"
+    },
+    "buttons": {
+      "reset": "إعادة تعيين",
+      "search": "بحث"
+    }
+  }
+}

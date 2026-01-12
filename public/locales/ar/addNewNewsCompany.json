@@ -1,0 +1,17 @@
+{
+  "companyNews": "أخبار الشركة",
+  "addNewNews": "إضافة خبر جديد",
+  "titleNews": "عنوان الخبر",
+  "details": "تفاصيل الخبر",
+  "titleNewsPlaceholder": "أدخل عنوان الخبر",
+  "detailsPlaceholder": "أدخل تفاصيل الخبر",
+  "uploadFile": "إرفق ملف",
+  "submitSuccess": "تم إضافة الخبر بنجاح!",
+  "submitError": "حدث خطأ أثناء الإضافة",
+  "cancelSuccess": "تم الإلغاء بنجاح.",
+  "requiredTitle": "عنوان الخبر مطلوب",
+  "minTitle": "يجب أن يكون عنوان الخبر 5 أحرف على الأقل",
+  "requiredDetails": "تفاصيل الخبر مطلوبة",
+  "minDetails": "يجب أن تكون التفاصيل 10 أحرف على الأقل",
+  "fileRequired": "يجب إرفاق صورة أو فيديو على الأقل."
+}

@@ -1,0 +1,36 @@
+.header-partner-stages {
+  align-self: flex-start;
+  position: -webkit-sticky;
+  position: sticky !important;
+  top: 73px !important;
+  padding: 25px 0;
+}
+
+.web-page-home {
+  overflow: unset !important;
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1510px) {
+  .web-page-home {
+    overflow: hidden !important;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .header-partner-stages .web-section-title {
+    text-align: start;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header-partner-stages {
+    align-self: initial;
+    position: initial !important;
+    top: initial !important;
+    padding: initial;
+    margin-bottom: 20px;
+  }
+  .header-partner-stages .web-section-title {
+    text-align: center;
+  }
+}

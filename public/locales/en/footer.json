@@ -1,0 +1,33 @@
+{
+  "header": {
+    "title": "Get Started Now"
+  },
+  "left": {
+    "downloadApp": "Download App",
+    "followUs": "Follow Us on Social Media"
+  },
+  "right": {
+    "mainPages": "Main Pages",
+    "services": "Services",
+    "links": {
+      "about": "About Us",
+      "services": "Services",
+      "aboutApp": "About App",
+      "packages": "Packages",
+      "faq": "FAQ",
+      "blog": "Blog",
+      "contact": "Contact Us",
+      "privacy": "Privacy Policy"
+    },
+    "serviceLinks": {
+      "attendance": "Attendance & Departure Management",
+      "performance": "Performance Monitoring",
+      "payroll": "Payroll & Benefits Management",
+      "orders": "Request Management",
+      "recruitment": "Recruitment Management"
+    }
+  },
+  "bottom": {
+    "copyright": "All rights reserved Etijah@2024"
+  }
+}

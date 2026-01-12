@@ -1,0 +1,978 @@
+{
+  "common": {
+    "add": "إضافة",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "back": "رجوع",
+    "next": "التالي",
+    "previous": "السابق",
+    "search": "بحث",
+    "filter": "تصفية",
+    "view": "عرض",
+    "select": "اختيار",
+    "details": "تفاصيل",
+    "noData": "لا توجد بيانات متاحة",
+    "notAvailable": "غير متاح",
+    "DeleteTitle": "حذف من النظام نهائيا ؟",
+    "DeleteText": "هل أنت متأكد من رغبتك في الحذف؟",
+    "yes": "نعم",
+    "no": "لا",
+    "noOptions": "لا توجد خيارات",
+    "loading": "جاري التحميل..."
+  },
+  "pageTitle": {
+    "systemSettings": "إعدادات النظام"
+  },
+  "messages": {
+    "successAdd": "تمت الإضافة بنجاح",
+    "successUpdate": "تم التحديث بنجاح",
+    "successDelete": "تم الحذف بنجاح",
+    "error": "حدث خطأ",
+    "confirmDelete": "هل أنت متأكد من حذف هذا العنصر؟",
+    "cancelSuccess": "تم الالغاء بنجاح"
+  },
+  "tabs": {
+    "generalSettings": "إعدادات عامة",
+    "permissionsAndTasks": "إدارة الصلاحيات والمهام",
+    "workplaceManagement": "إدارة مقرات العمل",
+    "workTimeManagement": "إدارة أوقات العمل",
+    "advanceManagement": "إدارة السلف",
+    "allowancesManagement": "إدارة البدلات",
+    "lettersManagement": "إدارة الخطابات",
+    "expenseManagement": "إدارة نفقات العمل",
+    "approvalChainsManagement": "إدارة سلاسل الموافقات",
+    "leaveManagement": "إدارة الأجازات",
+    "discountsManagement": "إدارة تعديلات الراتب",
+    "violationsManagement": "إدارة المخالفات",
+    "projectManagement": "إدارة المشاريع",
+    "leavingReasonsManagement": "إدارة الاستئذان",
+    "performanceEvaluationManagement": "إدارة تقييم الأداء",
+    "currencyManagement": "إدارة العملات",
+    "bankManagement": "إدارة البنوك",
+    "documentManagement": "إدارة المستندات",
+    "countryTicket": "إدارة تذاكر الطيران",
+    "contractType": "إدارة الأنواع التعاقدية",
+    "jobType": "إدارة الأنواع الوظيفية",
+    "jobRate": "إدارة بنود التقييم ",
+    "overtimeManagement": "إدارة العمل الإضافي",
+    "rolesManagement": "إدارة الأدوار"
+  },
+  "contractTypeManagement": {
+    "title": "إدارة انواع العقود",
+    "tableHeaders": {
+      "id": "الرقم",
+      "nameArabic": "الاسم بالعربية",
+      "nameEnglish": "الاسم بالانجليزية",
+      "employeeCount": "عدد الموظفين",
+      "creationDate": "تاريخ الإنشاء",
+      "actions": "الإجراءات"
+    },
+    "form": {
+      "nameArabic": "الاسم باللغة العربية",
+      "nameEnglish": "الاسم باللغة الإنجليزية",
+      "nameArabicPlaceholder": "الاسم باللغة العربية",
+      "nameEnglishPlaceholder": "الاسم باللغة الإنجليزية"
+    },
+    "validation": {
+      "nameArabicRequired": "الاسم باللغة العربية مطلوب",
+      "nameArabicFormat": "يجب إدخال الاسم باللغة العربية فقط",
+      "nameEnglishRequired": "الاسم باللغة الإنجليزية مطلوب",
+      "nameEnglishFormat": "يجب إدخال الاسم باللغة الإنجليزية فقط"
+    },
+    "messages": {
+      "addSuccess": "تم إضافة نوع العقد بنجاح!",
+      "updateSuccess": "تم تعديل النوع بنجاح",
+      "deleteSuccess": "تم الحذف بنجاح",
+      "deleteError": "حدث خطأ أثناء الحذف",
+      "updateError": "حدث خطأ أثناء التعديل",
+      "addError": "حدث خطأ أثناء إضافة نوع العقد"
+    },
+    "deleteModal": {
+      "title": "حذف من النظام نهائيا ؟",
+      "text": "هل أنت متأكد من رغبتك في حذف هذا النوع؟ لن تتمكن من استرجاعها لاحقاً."
+    },
+    "editModal": {
+      "title": "تعديل نوع العقد"
+    },
+    "addNew": {
+      "title": "إضافة نوع عقد جديد",
+      "breadcrumb": "إضافة نوع عقد جديد"
+    }
+  },
+  "countryTicketManagement": {
+    "title": "إدارة التذاكر",
+    "tableHeaders": {
+      "id": "الرقم",
+      "nameArabic": "الاسم بالعربية",
+      "nameEnglish": "الاسم بالانجليزية",
+      "yearCount": "متاح كام مرة خلال السنة",
+      "amount": "المبلغ",
+      "adult": "البالغ",
+      "child": "الطفل",
+      "infant": "الرضيع",
+      "actions": "الإجراءات"
+    },
+    "form": {
+      "nameArabic": "الاسم باللغة العربية",
+      "nameEnglish": "الاسم باللغة الإنجليزية",
+      "nameArabicPlaceholder": "الاسم باللغة العربية",
+      "nameEnglishPlaceholder": "الاسم باللغة الإنجليزية",
+      "amount": "المبلغ",
+      "amountPlaceholder": "المبلغ",
+      "yearCount": "عدد الاستحقاق خلال سنة",
+      "yearCountPlaceholder": "عدد الاستحقاق خلال سنة",
+      "adultCount": "عدد البالغين",
+      "adultCountPlaceholder": "عدد البالغين",
+      "childCount": "عدد الأطفال",
+      "childCountPlaceholder": "عدد الأطفال",
+      "infantCount": "عدد الرضع",
+      "infantCountPlaceholder": "عدد الرضع"
+    },
+    "validation": {
+      "nameArabicRequired": "الاسم باللغة العربية مطلوب",
+      "nameArabicFormat": "يجب إدخال الاسم باللغة العربية فقط",
+      "nameEnglishRequired": "الاسم باللغة الإنجليزية مطلوب",
+      "nameEnglishFormat": "يجب إدخال الاسم باللغة الإنجليزية فقط",
+      "yearCountRequired": "يجب ادخال عدد السنوات",
+      "yearCountMax": "يجب ادخال عدد السنوات أقل من 10",
+      "amountRequired": "يجب ادخال المبلغ",
+      "adultRequired": "يجب ادخال عدد البالغين",
+      "childRequired": "يجب ادخال عدد الأطفال",
+      "infantRequired": "يجب ادخال عدد الأطفال"
+    },
+    "messages": {
+      "addSuccess": "تم إضافة التذاكر بنجاح!",
+      "updateSuccess": "تم تعديل التذاكر بنجاح",
+      "deleteSuccess": "تم الحذف بنجاح",
+      "deleteError": "حدث خطأ أثناء الحذف",
+      "updateError": "حدث خطأ أثناء التعديل",
+      "addError": "حدث خطأ أثناء إضافة التذاكر"
+    },
+    "deleteModal": {
+      "title": "حذف من النظام نهائيا ؟",
+      "text": "هل أنت متأكد من رغبتك في حذف هذه التذاكر؟ لن تتمكن من استرجاعها لاحقاً."
+    },
+    "editModal": {
+      "title": "التعديل علي تذاكر الـ"
+    },
+    "addNew": {
+      "title": "إضافة تذكرة جديدة",
+      "breadcrumb": "إضافة تذكرة جديدة"
+    }
+  },
+  "jobTypeManagement": {
+    "title": "إدارة انواع الوظائف",
+    "tableHeaders": {
+      "id": "الرقم",
+      "nameArabic": "الاسم بالعربية",
+      "nameEnglish": "الاسم بالانجليزية",
+      "employeeCount": "عدد الموظفين",
+      "creationDate": "تاريخ الإنشاء",
+      "actions": "الإجراءات"
+    },
+    "form": {
+      "nameArabic": "الاسم باللغة العربية",
+      "nameEnglish": "الاسم باللغة الإنجليزية",
+      "nameArabicPlaceholder": "الاسم باللغة العربية",
+      "nameEnglishPlaceholder": "الاسم باللغة الإنجليزية"
+    },
+    "validation": {
+      "nameArabicRequired": "الاسم باللغة العربية مطلوب",
+      "nameArabicFormat": "يجب إدخال الاسم باللغة العربية فقط",
+      "nameEnglishRequired": "الاسم باللغة الإنجليزية مطلوب",
+      "nameEnglishFormat": "يجب إدخال الاسم باللغة الإنجليزية فقط"
+    },
+    "messages": {
+      "addSuccess": "تم إضافة نوع الوظيفة بنجاح!",
+      "updateSuccess": "تم تعديل النوع بنجاح",
+      "deleteSuccess": "تم الحذف بنجاح",
+      "deleteError": "حدث خطأ أثناء الحذف",
+      "updateError": "حدث خطأ أثناء التعديل",
+      "addError": "حدث خطأ أثناء إضافة نوع الوظيفة"
+    },
+    "deleteModal": {
+      "title": "حذف من النظام نهائيا ؟",
+      "text": "هل أنت متأكد من رغبتك في حذف هذا النوع؟ لن تتمكن من استرجاعها لاحقاً."
+    },
+    "editModal": {
+      "title": "التعديل علي نوع الوظيفة الـ"
+    },
+    "addNew": {
+      "title": "إضافة نوع وظيفة جديد",
+      "breadcrumb": "إضافة نوع وظيفة جديد"
+    }
+  },
+  "jobRateManagement": {
+    "title": "إدارة بنود التقييم",
+    "tableHeaders": {
+      "id": "الرقم",
+      "nameArabic": "الاسم بالعربية",
+      "nameEnglish": "الاسم بالانجليزية",
+      "creationDate": "تاريخ الإنشاء",
+      "actions": "الإجراءات"
+    },
+    "form": {
+      "nameArabic": "الاسم باللغة العربية",
+      "nameEnglish": "الاسم باللغة الإنجليزية",
+      "nameArabicPlaceholder": "الاسم باللغة العربية",
+      "nameEnglishPlaceholder": "الاسم باللغة الإنجليزية"
+    },
+    "validation": {
+      "nameArabicRequired": "الاسم باللغة العربية مطلوب",
+      "nameArabicFormat": "يجب إدخال الاسم باللغة العربية فقط",
+      "nameEnglishRequired": "الاسم باللغة الإنجليزية مطلوب",
+      "nameEnglishFormat": "يجب إدخال الاسم باللغة الإنجليزية فقط"
+    },
+    "messages": {
+      "addSuccess": "تم الاضافة بنجاح!",
+      "updateSuccess": "تم تعديل الخطاب بنجاح",
+      "deleteSuccess": "تم الحذف بنجاح",
+      "deleteError": "حدث خطأ أثناء الحذف",
+      "updateError": "حدث خطأ أثناء التعديل",
+      "addError": "حدث خطأ أثناء الاضافة"
+    },
+    "deleteModal": {
+      "title": "حذف من النظام نهائيا ؟",
+      "text": "هل أنت متأكد من رغبتك في حذف الخطاب هذا؟ لن تتمكن من استرجاعه لاحقاً."
+    },
+    "editModal": {
+      "title": "تعديل الخطاب"
+    },
+    "detailsModal": {
+      "title": "عرض تفاصيل البند"
+    },
+    "addNew": {
+      "title": "بنود التقييم",
+      "breadcrumb": "بنود التقييم"
+    }
+  },
+  "generalSettings": {
+    "account_number": "رقم الحساب",
+    "title": "إعدادات عامة",
+    "companyInfo": "معلومات الشركة",
+    "companyLogo": "لوجو الشركة",
+    "language": "اللغة",
+    "timezone": "المنطقة الزمنية",
+    "dateFormat": "تنسيق التاريخ",
+    "currencyFormat": "تنسيق العملة",
+    "save": "حفظ",
+    "economicActivity": "النشاط الإقتصادي",
+    "subeconomicActivity": "النشاط الاقتصادي الفرعي",
+    "employee": "الموظف",
+    "uploadImage": "رفع الصورة",
+    "successMessage": "تم بنجاح!",
+    "requiredEconomic": "يجب اختيار النشاط الإقتصادي",
+    "requiredSubEconomic": "يجب اختيار النشاط الاقتصادي الفرعي",
+    "placeholderSelect": "-إختر-",
+    "iban": "IBAN",
+    "address": "العنوان",
+    "bank": "البنك",
+    "phone": "الهاتف",
+    "email": "البريد الإلكتروني",
+    "companyName": "اسم الشركة",
+    "Bank Information": "معلومات البنك"
+  },
+  "permissionsAndTasks": {
+    "title": "إدارة الصلاحيات والمهام",
+    "addPermission": "إضافة صلاحية",
+    "roles": "الأدوار",
+    "permissions": "الصلاحيات",
+    "tasks": "المهام",
+    "roleName": "اسم الدور",
+    "permissionName": "اسم الصلاحية",
+    "taskName": "اسم المهمة",
+    "validityNameRequired": "إسم الصلاحية مطلوب",
+    "arabicOnlyError": "يجب إدخال الاسم باللغة العربية فقط",
+    "validityNameEnglishRequired": "إسم الصلاحية باللغة الإنجليزية مطلوب",
+    "englishOnlyError": "يجب إدخال الاسم باللغة الإنجليزية فقط",
+    "usersMinError": "يجب اختيار مستخدم واحد على الأقل",
+    "usersRequired": "المستخدمون مطلوبون"
+  },
+  "workplaceManagement": {
+    "title": "إدارة مقرات العمل",
+    "addWorkplace": "إضافة مقر عمل",
+    "workplaceName": "اسم مقر العمل",
+    "location": "الموقع",
+    "address": "العنوان",
+    "city": "المدينة",
+    "country": "الدولة",
+    "deleteTitle": "حذف من النظام نهائيا ؟",
+    "deleteText": "هل أنت متأكد من رغبتك في حذف هذا المقر؟ لن تتمكن من استرجاعها لاحقاً.",
+    "createdAt": "تاريخ الإنشاء",
+    "editTitle": "التعديل علي مقر العمل الـ",
+    "successDelete": "تم الحذف بنجاح",
+    "errorDelete": "حدث خطأ أثناء الحذف",
+    "successUpdate": "تم تعديل مقر العمل بنجاح",
+    "errorUpdate": "حدث خطأ أثناء التعديل",
+    "index": "الرقم",
+    "nameAr": "الاسم بالعربية",
+    "nameEn": "الاسم بالانجليزية",
+    "form": {
+      "fields": {
+        "title_ar": "الاسم بالعربية",
+        "title_en": "الاسم بالإنجليزية",
+        "address": "العنوان",
+        "round": "المحيط",
+        "round_tooltip": "المسافة المحيطة بالمقر بالأمتار",
+        "map_heading": "حدد موقع مقر العمل على الخريطة",
+        "map_error": "يجب تحديد موقع مقر العمل على الخريطة"
+      },
+      "validation": {
+        "title_ar_required": "الاسم بالعربية مطلوب",
+        "title_ar_format": "يسمح فقط بالحروف العربية",
+        "title_en_required": "الاسم بالإنجليزية مطلوب",
+        "title_en_format": "يسمح فقط بالحروف الإنجليزية",
+        "address_required": "العنوان مطلوب",
+        "round_required": "نطاق المقر مطلوب",
+        "round_positive": "يجب أن يكون نطاق المقر رقمًا موجبًا"
+      }
+    }
+  },
+  "workTimeManagement": {
+    "title": "إدارة أوقات العمل",
+    "addWorkTime": "إضافة وقت عمل",
+    "workTimeName": "اسم وقت العمل",
+    "startTime": "وقت البدء",
+    "endTime": "وقت الانتهاء",
+    "breakTime": "وقت الاستراحة",
+    "workDays": "أيام العمل"
+  },
+  "advanceManagement": {
+    "title": "إدارة السلف",
+    "addAdvance": "إضافة سلفة",
+    "advanceName": "اسم السلفة",
+    "amount": "المبلغ",
+    "maxAmount": "الحد الأقصى للمبلغ",
+    "paymentMethod": "طريقة الدفع",
+
+    "number": "الرقم",
+    "arName": "الاسم بالعربية",
+    "enName": "الاسم بالانجليزية",
+    "paymentDays": "فترة السداد بالشهر",
+    "createdAt": "تاريخ الإنشاء",
+    "deleteConfirmText": "هل أنت متأكد من رغبتك في حذف هذه السلفة؟ لن تتمكن من استرجاعها لاحقاً.",
+    "deleteSuccess": "تم الحذف بنجاح",
+    "deleteError": "حدث خطأ أثناء الحذف",
+    "updateSuccess": "تم تعديل السلفة بنجاح",
+    "updateError": "حدث خطأ أثناء التعديل",
+    "editAdvance": "التعديل علي سلفة الـ",
+    "form": {
+      "fields": {
+        "nameAr": "الاسم باللغة العربية",
+        "nameEn": "الاسم باللغة الإنجليزية",
+        "repaymentPeriod": "فترة السداد",
+        "number_repayment_period": "عدد أشهر فترة السداد"
+      },
+      "validation": {
+        "title_ar_required": "الاسم بالعربية مطلوب",
+        "title_ar_format": "يسمح فقط بالحروف العربية",
+        "title_en_required": "الاسم بالإنجليزية مطلوب",
+        "title_en_format": "يسمح فقط بالحروف الإنجليزية",
+        "days_required": "يجب ادخال عدد أيام السداد",
+        "days_positive": "يجب أن يكون عدد الأيام موجب",
+        "months_required": "يجب ادخال عدد أشهر السداد",
+        "months_positive": "يجب أن يكون عدد الأشهر موجب"
+      }
+    }
+  },
+  "allowancesManagement": {
+    "title": "إدارة البدلات",
+    "addAllowance": "إضافة بدل",
+    "allowanceName": "اسم البدل",
+    "allowanceType": "نوع البدل",
+    "amount": "المبلغ",
+    "percentage": "النسبة المئوية",
+
+    "tableHeaders": {
+      "id": "الرقم",
+      "arName": "الاسم بالعربية",
+      "enName": "الاسم بالانجليزية",
+      "createdAt": "تاريخ الإنشاء",
+      "actions": ""
+    },
+    "toast": {
+      "deleteSuccess": "تم الحذف بنجاح",
+      "deleteError": "حدث خطأ أثناء الحذف",
+      "updateSuccess": "تم التعديل بنجاح",
+      "updateError": "حدث خطأ أثناء التعديل"
+    },
+    "deleteModal": {
+      "text": "هل أنت متأكد من رغبتك في حذف هذه الحركة؟ لن تتمكن من استرجاعها لاحقاً."
+    },
+    "editModal": {
+      "title": "التعديل علي الحركة الـ"
+    }
+  },
+  "lettersManagement": {
+    "title": "إدارة الخطابات",
+    "addLetter": "إضافة خطاب",
+    "letterName": "اسم الخطاب",
+    "letterType": "نوع الخطاب",
+    "template": "القالب",
+    "tableHeaders": {
+      "id": "الرقم",
+      "Name": "الاسم",
+      "arName": "الاسم بالعربية",
+      "enName": "الاسم بالانجليزية",
+      "roomOfCommerce": "الغرفة التجارية",
+      "createdAt": "تاريخ الإنشاء",
+      "actions": ""
+    },
+    "toast": {
+      "deleteSuccess": "تم الحذف بنجاح",
+      "deleteError": "حدث خطأ أثناء الحذف",
+      "updateSuccess": "تم تعديل الخطاب بنجاح",
+      "updateError": "حدث خطأ أثناء التعديل"
+    },
+    "deleteModal": {
+      "text": "هل أنت متأكد من رغبتك في حذف الخطاب هذا؟ لن تتمكن من استرجاعه لاحقاً."
+    },
+    "editModal": {
+      "title": "تعديل الخطاب - "
+    },
+    "showModal": {
+      "title": "عرض تفاصيل الخطاب - "
+    },
+    "yes": "نعم",
+    "no": "لا",
+    "salary_certificate": "خطاب تعريف بالراتب",
+    "not_available": "غير متاح",
+    "no_nationalities_selected": "لم يتم تحديد جنسيات",
+    "form": {
+      "all_nationalities": "لكل الجنسيات",
+
+      "IsItForAllNationalities": "هل لكل الجنسيات؟",
+      "chamber_of_commerce": "الغرفة التجارية",
+      "Specific_nationalities": "الجنسيات المحددة",
+      "You_correct_type": "يجب اختيار نوع صحيح",
+      "You_must_choose_type": "يجب اختيار النوع",
+      "A_valid_value_be_chosen": "يجب اختيار قيمة صالحة",
+      "valid_name_required": "يجب اختيار اسم صالح",
+      "select_at_least_one_nationality": "يجب اختيار جنسية واحدة على الأقل",
+      "nationality_required": "يجب اختيار الجنسية"
+    }
+  },
+  "expenseManagement": {
+    "title": "إدارة نفقات العمل",
+    "addExpense": "إضافة مصروف",
+    "expenseName": "اسم المصروف",
+    "expenseType": "نوع المصروف",
+    "amount": "المبلغ",
+    "category": "الفئة",
+    "edit_mileage_rate": "تعديل سعر الميل",
+    "edit_the_movement": "التعديل على الحركة الـ",
+    "content_in_arabic": "السياسة باللغة العربية",
+    "content_in_english": "السياسة باللغة الإنجليزية",
+    "by_mile": "بالميل",
+    "mile_price": "سعر الميل",
+    "mile_price_required": "سعر الميل مطلوب",
+    "content_in_arabic_required": "المحتوى باللغة العربية مطلوب",
+    "content_in_arabic_only": "يجب إدخال المحتوى باللغة العربية فقط",
+    "content_in_english_required": "المحتوى باللغة الإنجليزية مطلوب",
+    "content_in_english_only": "يجب إدخال المحتوى باللغة الإنجليزية فقط"
+  },
+  "approvalChainsManagement": {
+    "title": "إدارة سلاسل الموافقات",
+    "addApprovalChain": "إضافة سلسلة موافقات",
+    "chainName": "اسم السلسلة",
+    "steps": "الخطوات",
+    "approvers": "المعتمدون",
+    "no_data_for_this_section": "لا يوجد بيانات لهذا القسم",
+    "vacation": "الإجازات",
+    "leave": "الاستئذان",
+    "ticket": "التذاكر",
+    "expense": "النفقات",
+    "letter": "الخطابات",
+    "advance": "السلف",
+    "vacation_hr": "الإجازات",
+    "leave_hr": "الاستئذان",
+    "roles": {
+      "hr": "الموظف",
+      "manager": "المدير"
+    },
+    "vacation_hr_type": "vacation_hr_type",
+    "leave_hr_type": "leave_hr_type",
+    "edit": "تعديل",
+    "selectEmployees": "اختيار مسؤول الموافقة",
+    "selectEmployeesPlaceholder": "اختيار مسؤول الموافقة",
+    "noOptions": "لا يوجد خيارات",
+    "loading": "جاري التحميل...",
+    "selectRoles": "اختيار الأدوار",
+    "selectRolesPlaceholder": "اختيار الأدوار"
+  },
+  "leaveManagement": {
+    "title": "إدارة الأجازات",
+    "addLeave": "إضافة إجازة",
+    "leaveType": "نوع الإجازة",
+    "maxDuration": "الحد الأقصى للمدة",
+    "isAnnual": "سنوية",
+    "isSick": "مرضية",
+    "isEmergency": "طارئة",
+    "number": "الرقم",
+    "name_ar": "الاسم بالعربية",
+    "name_en": "الاسم بالانجليزية",
+    "days": "الايام",
+    "available_after": "يمكن الاستفادة منها بعد",
+    "paid": "مدفوعة",
+    "creation_date": "تاريخ الإنشاء",
+    "leave_updated_successfully": "تم تعديل الإجازة بنجاح",
+    "unpaid": "غير مدفوعة",
+    "days_type": " إحتساب الأيام حسب",
+    "week_days": "أيام الأسبوع",
+    "work_days": "أيام العمل",
+    "all_week": "ايام تقويمية",
+    "excludeHolidaysFromLeave": "لا يتم احتساب العطل ضمن أيام الإجازة",
+    "includeHolidaysInLeave": "يتم احتساب أيام العطل ضمن أيام الإجازة",
+    "edit_leave": "التعديل على إجازة الـ",
+    "validation": {
+      "days": {
+        "min": "علي الاقل يجب ادخال يوم واحد",
+        "max": "يجب ادخال عدد أيام اقل من 365",
+        "required": "يجب ادخال عدد أيام السداد"
+      },
+      "can_take_after": {
+        "positive": "يجب أن يكون عدد الأيام موجب"
+      },
+      "paid_percent": {
+        "min": "يجب ادخال نسبة اكبر من 0",
+        "max": "يجب ادخال نسبة اقل من او يساوي 100"
+      }
+    },
+    "fields": {
+      "days": "عدد الأيام",
+      "paid": "المدفوعة",
+      "paid_percent": "النسبة المدفوعة %"
+    },
+    "messages": {
+      "add_leave_error": "حدث خطأ أثناء إضافة الأجازة",
+      "add_leave_success": "تم إضافة الأجازة بنجاح!"
+    }
+  },
+  "discountsManagement": {
+    "title": "إدارة الخصومات",
+    "addDiscount": "إضافة خصم",
+    "discountName": "اسم الخصم",
+    "discountType": "نوع الخصم",
+    "amount": "المبلغ",
+    "percentage": "النسبة المئوية",
+    "orders_management": "إدارة الطلبات",
+    "ID": "الرقم",
+    "addon_name": "إسم الإضافة",
+    "created_at": "تاريخ الإنشاء",
+    "discount_name": "إسم الخصم",
+    "discounts": "الخصومات",
+    "additions": "الإضافات",
+    "discount": "الخصم",
+    "addition": "الإضافة",
+    "edit": "التعديل علي",
+
+    "discount_name_ar": "اسم الخصم بالعربية",
+    "discount_name_en": "اسم الخصم بالانجليزية",
+    "discount_name_ar_required": "يجب ادخال اسم الخصم بالعربية",
+    "discount_name_en_required": "يجب ادخال اسم الخصم بالانجليزية",
+    "discount_updated_success": "تم تعديل الخصم بنجاح!",
+
+    "addition_name": "إسم الإضافة",
+    "addition_name_required": "إسم الإضافة مطلوب",
+    "discount_name_required": "إسم الخصم مطلوب",
+    "request_updated_successfully": "تم تعديل الطلب بنجاح!"
+  },
+  "violationsManagement": {
+    "title": "إدارة المخالفات",
+    "addViolation": "إضافة مخالفة",
+    "violationType": "نوع المخالفة",
+    "description": "الوصف",
+    "penalty": "العقوبة",
+    "severity": "الشدة"
+  },
+  "projectManagement": {
+    "title": "إدارة المشاريع",
+    "addProject": "إضافة مشروع",
+    "projectName": "اسم المشروع",
+    "startDate": "تاريخ البدء",
+    "endDate": "تاريخ الانتهاء",
+    "status": "الحالة",
+    "budget": "الميزانية",
+    "tableHeaders": {
+      "id": "الرقم",
+      "projectName": "اسم المشروع",
+      "createdAt": "تاريخ الاضافه",
+      "status": "الحالة",
+      "actions": "الإجراءات"
+    },
+    "form": {
+      "projectNameArabic": "إسم المشروع باللغة العربية",
+      "projectNameEnglish": "إسم المشروع باللغة الإنجليزية",
+      "projectNameArabicPlaceholder": "إسم المشروع باللغة العربية",
+      "projectNameEnglishPlaceholder": "إسم المشروع باللغة الإنجليزية"
+    },
+    "validation": {
+      "projectNameArabicRequired": "مطلوب أسم المشروع باللغة العربية",
+      "projectNameEnglishRequired": "مطلوب أسم المشروع باللغة الإنجليزية"
+    },
+    "messages": {
+      "addSuccess": "تم إضافة المشروع بنجاح!",
+      "updateSuccess": "تم تعديل المشروع بنجاح",
+      "deleteSuccess": "تم حذف المشروع بنجاح",
+      "cancelSuccess": "تم الالغاء بنجاح.",
+      "addError": "حدث خطأ أثناء إضافة المشروع",
+      "updateError": "حدث خطأ أثناء تعديل المشروع"
+    },
+    "deleteModal": {
+      "title": "حذف من النظام نهائيا ؟",
+      "text": "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى."
+    },
+    "editModal": {
+      "title": "التعديل علي مشروع الـ '"
+    }
+  },
+  "leavingReasonsManagement": {
+    "title": "إدارة أسباب الاستئذان",
+    "addReason": "إضافة سبب",
+    "reasonName": "اسم السبب",
+    "description": "الوصف",
+    "category": "الفئة"
+  },
+  "performanceEvaluationManagement": {
+    "title": "إدارة تقييم الأداء",
+    "addCriteria": "إضافة معيار",
+    "criteriaName": "اسم المعيار",
+    "description": "الوصف",
+    "weight": "الوزن",
+    "scoreType": "نوع التقييم",
+    "tableHeaders": {
+      "id": "الرقم",
+      "criteriaName": "إسم المعيار",
+      "actions": "الإجراءات"
+    },
+    "form": {
+      "criteriaNameArabic": "اسم المعيار بالعربية",
+      "criteriaNameEnglish": "اسم المعيار بالانجليزية",
+      "criteriaNameArabicPlaceholder": "ادخل اسم المعيار",
+      "criteriaNameEnglishPlaceholder": "ادخل اسم المعيار"
+    },
+    "validation": {
+      "criteriaNameArabicRequired": "يجب ادخال اسم المعيار بالعربية",
+      "criteriaNameArabicFormat": "يجب إدخال الاسم باللغة العربية فقط",
+      "criteriaNameEnglishRequired": "يجب ادخال اسم المعيار بالانجليزية",
+      "criteriaNameEnglishFormat": "يجب إدخال الاسم باللغة الإنجليزية فقط"
+    },
+    "messages": {
+      "addSuccess": "تم إضافة الطلب بنجاح!",
+      "updateSuccess": "تم تعديل الطلب بنجاح!",
+      "deleteSuccess": "تم حذف المعيار بنجاح",
+      "cancelSuccess": "تم الالغاء بنجاح."
+    },
+    "deleteModal": {
+      "title": "حذف من النظام نهائيا ؟",
+      "text": "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى."
+    },
+    "editModal": {
+      "title": "تعديل تقييم الأداء "
+    },
+    "filter": {
+      "title": "تصفية",
+      "status": {
+        "label": "الحالة",
+        "active": "مفعل",
+        "inactive": "معطل"
+      },
+      "buttons": {
+        "reset": "اعادة تعيين",
+        "search": "بحث"
+      },
+      "messages": {
+        "resetSuccess": "تم إستعادة الفلتر بنجاح."
+      }
+    }
+  },
+  "currencyManagement": {
+    "title": "إدارة العملات",
+    "addCurrency": "إضافة عملة",
+    "currencyName": "اسم العملة",
+    "code": "الرمز",
+    "symbol": "الرمز المختصر",
+    "exchangeRate": "سعر الصرف"
+  },
+  "bankManagement": {
+    "title": "إدارة البنوك",
+    "addBank": "إضافة بنك",
+    "bankName": "اسم البنك",
+    "code": "كود البنك",
+    "swiftCode": "رمز SWIFT",
+    "country": "الدولة",
+    "tableHeaders": {
+      "id": "الرقم",
+      "bankName": "إسم البنك",
+      "creationDate": "تاريخ الإنشاء",
+      "actions": "الإجراءات"
+    },
+    "form": {
+      "bankNameArabic": "اسم البنك باللغة العربية",
+      "bankNameEnglish": "اسم البنك باللغة الإنجليزية",
+      "bankNameArabicPlaceholder": "اسم البنك باللغة العربية",
+      "bankNameEnglishPlaceholder": "اسم البنك باللغة الإنجليزية"
+    },
+    "validation": {
+      "bankNameArabicRequired": "إسم البنك باللغة العربية مطلوب",
+      "bankNameArabicFormat": "يجب إدخال الاسم باللغة العربية فقط",
+      "bankNameEnglishRequired": "إسم البnك باللغة الإنجليزية مطلوب",
+      "bankNameEnglishFormat": "يجب إدخال الاسم باللغة الإنجليزية فقط",
+      "bankNameArabicMinLength": "يجب أن يكون الاسم 3 أحرف على الأقل",
+      "bankNameEnglishMinLength": "يجب أن يكون الاسم 3 أحرف على الأقل"
+    },
+    "messages": {
+      "addSuccess": "تم إضافة البنك بنجاح!",
+      "updateSuccess": "تم تعديل البنك بنجاح!",
+      "deleteSuccess": "تم حذف البنك بنجاح",
+      "cancelSuccess": "تم الالغاء بنجاح."
+    },
+    "deleteModal": {
+      "title": "حذف من النظام نهائيا ؟",
+      "text": "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى."
+    },
+    "editModal": {
+      "title": "تعديل البنك "
+    },
+    "filter": {
+      "title": "تصفية",
+      "bankName": "إسم البنك",
+      "bankNamePlaceholder": "إسم البنك",
+      "status": {
+        "label": "الحالة",
+        "active": "مفعل",
+        "inactive": "معطل"
+      },
+      "buttons": {
+        "reset": "اعادة تعيين",
+        "search": "بحث"
+      },
+      "messages": {
+        "resetSuccess": "تم إستعادة الفلتر بنجاح."
+      }
+    }
+  },
+  "documentManagement": {
+    "title": "إدارة المستندات",
+    "addDocument": "إضافة مستند",
+    "documentName": "اسم المستند",
+    "documentType": "نوع المستند",
+    "category": "الفئة",
+    "template": "القالب",
+    "tableHeaders": {
+      "id": "الرقم",
+      "document": "المستند",
+      "creationDate": "تاريخ الإنشاء",
+      "documentCount": "عدد المستندات",
+      "status": "الحالة",
+      "actions": "الإجراءات"
+    },
+    "form": {
+      "documentNameArabic": "اسم المستند باللغة العربية",
+      "documentNameEnglish": "اسم المستند باللغة الإنجليزية",
+      "documentNameArabicPlaceholder": "اسم المستند باللغة العربية",
+      "documentNameEnglishPlaceholder": "اسم المستند باللغة الإنجليزية"
+    },
+    "validation": {
+      "documentNameArabicRequired": "إسم المستند باللغة العربية مطلوب",
+      "documentNameArabicFormat": "يجب إدخال إسم المستند باللغة العربية فقط",
+      "documentNameEnglishRequired": "إسم المستند باللغة الإنجليزية مطلوب",
+      "documentNameEnglishFormat": "يجب إدخال إسم المستند باللغة الإنجليزية فقط"
+    },
+    "messages": {
+      "addSuccess": "تم إضافة الطلب بنجاح!",
+      "updateSuccess": "تم تعديل المستند بنجاح",
+      "deleteSuccess": "تم حذف المستند بنجاح",
+      "cancelSuccess": "تم الالغاء بنجاح.",
+      "updateError": "حدث خطأ أثناء تعديل المستند"
+    },
+    "deleteModal": {
+      "title": "حذف من النظام نهائيا ؟",
+      "text": "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى."
+    },
+    "editModal": {
+      "title": "التعديل علي المستند الـ "
+    },
+    "filter": {
+      "title": "تصفية",
+      "documentName": "إسم المستند",
+      "documentNamePlaceholder": "إسم المستند",
+      "status": {
+        "label": "الحالة",
+        "active": "مفعل",
+        "inactive": "معطل"
+      },
+      "buttons": {
+        "reset": "اعادة تعيين",
+        "search": "بحث"
+      },
+      "messages": {
+        "resetSuccess": "تم إستعادة الفلتر بنجاح."
+      }
+    }
+  },
+  "rolesManagement": {
+    "tableHeaders": {
+      "id": "الرقم",
+      "name": "الاسم",
+      "createdAt": "تاريخ الإنشاء",
+      "actions": "الإجراءات"
+    },
+    "title": "إدارة الأدوار",
+    "addRole": "إضافة أدوار",
+    "toast": {
+      "deleteSuccess": "تم الحذف بنجاح",
+      "deleteError": "حدث خطأ أثناء الحذف",
+      "updateSuccess": "تم التعديل بنجاح",
+      "updateError": "حدث خطأ أثناء التعديل",
+      "addSuccess": "تم الاضافة بنجاح!",
+      "addError": "حدث خطأ أثناء الاضافة"
+    },
+    "addNew": {
+      "title": "إضافة دور جديد",
+      "breadcrumb": "إضافة دور جديد"
+    },
+    "deleteModal": {
+      "title": "حذف بإذن الله؟",
+      "text": "هل أنت متأكد من رغبتك في حذف هذا الأدوار؟ لن تتمكن من استرجاعه لاحقاً."
+    },
+    "editModal": {
+      "title": "تعديل الأدوار"
+    },
+    "form": {
+      "fields": {
+        "name": "الاسم"
+      },
+      "validation": {
+        "name_required": "الاسم مطلوب"
+      },
+      "ui": {
+        "roleInfoTitle": "معلومات الدور الأساسية",
+        "roleInfoSubtitle": "أدخل اسم الدور الذي تريد إنشاءه",
+        "roleCreationNote": "سيتم إنشاء الدور مع الصلاحيات المحددة أدناه",
+        "globalControlTitle": "التحكم العام في الصلاحيات",
+        "globalControlSubtitle": "إدارة جميع صلاحيات الدور بسهولة",
+        "selectAll": "تحديد جميع الصلاحيات",
+        "deselectAll": "إلغاء تحديد جميع الصلاحيات",
+        "progressLabel": "تقدم التحديد",
+        "of": "من",
+        "selected": "محدد",
+        "remaining": "متبقي",
+        "permissions": "الصلاحيات",
+        "selectGroupAll": "تحديد الكل",
+        "deselectGroupAll": "إلغاء تحديد الكل",
+        "actions": "الإجراءات",
+        "complete": "مكتمل",
+        "selectedPermission": "صلاحية محددة",
+        "permissionGroup": "مجموعة صلاحيات",
+        "completionRate": "نسبة الإكمال",
+        "progress": "التقدم"
+      }
+    },
+    "permissions": {
+      "homepage_statistics": "الإحصائيات العامة",
+      "employees": "الموظفين",
+      "employees_setting": "إعدادات الموظفين",
+      "vacations_requests": "طلبات الإجازات",
+      "advances_requests": "طلبات السلف",
+      "letters_requests": "طلبات الخطابات",
+      "flight_requests": "طلبات الرحلات",
+      "expenses_requests": "طلبات المصروفات",
+      "leave_requests": "طلبات الإجازات",
+      "attendance": "الحضور والغياب",
+      "payroll": "الرواتب",
+      "salary_adjustments": "تعديلات الرواتب",
+      "financial_transactions": "المعاملات المالية",
+      "violations": "المخالفات",
+      "jobs": "الوظائف",
+      "applicants": "المتقدمين",
+      "tasks": "المهام",
+      "rewards": "المكافآت",
+      "reports": "التقارير",
+      "performance": "الأداء",
+      "organizational_structure": "الهيكل التنظيمي",
+      "company_news": "الأخبار الشركية",
+      "files": "الملفات",
+      "notifications": "الإشعارات",
+      "settings": "الإعدادات"
+    },
+    "rolemap": {
+      "create": "إنشاء",
+      "read": "قراءة",
+      "update": "تعديل",
+      "delete": "حذف"
+    }
+  },
+  "manageAdditions": {
+    "title": "إدارة الإضافات",
+    "form": {
+      "additionNameArabic": "إسم الإضافة باللغة العربية",
+      "additionNameEnglish": "إسم الإضافة باللغة الإنجليزية",
+      "additionNameArabicPlaceholder": "إسم الإضافة باللغة العربية",
+      "additionNameEnglishPlaceholder": "إسم الإضافة باللغة الإنجليزية"
+    },
+    "validation": {
+      "additionNameArabicRequired": "إسم الإضافة باللغة العربية مطلوب",
+      "additionNameArabicFormat": "يجب إدخال إسم الإضافة باللغة العربية فقط",
+      "additionNameEnglishRequired": "إسم الإضافة باللغة الإنجليزية مطلوب",
+      "additionNameEnglishFormat": "يجب إدخال إسم الإضافة باللغة الإنجليزية فقط"
+    },
+    "messages": {
+      "addSuccess": "تم إضافة الطلب بنجاح!",
+      "cancelSuccess": "تم الالغاء بنجاح."
+    }
+  },
+  "manageDiscounts": {
+    "title": "إدارة الخصومات",
+    "discountNameArabic": "إسم الخصم باللغة العربية",
+    "discountNameEnglish": "إسم الخصم باللغة الإنجليزية",
+    "discountNameArabicRequired": "إسم الخصم باللغة العربية مطلوب",
+    "discountNameEnglishRequired": "إسم الخصم باللغة الإنجليزية مطلوب",
+    "arabicOnlyError": "يجب إدخال الاسم باللغة العربية فقط",
+    "englishOnlyError": "يجب إدخال الاسم باللغة الإنجليزية فقط",
+    "addSuccessMessage": "تم إضافة الخصم بنجاح!",
+    "addErrorMessage": "حدث خطأ أثناء إضافة الخصم",
+    "cancelSuccessMessage": "تم الالغاء بنجاح."
+  },
+  "managingReasonsLeaving": {
+    "title": "إدارة الاستئذان",
+    "tableHeaders": {
+      "number": "الرقم",
+      "reason": "الاستئذان",
+      "createdAt": "تاريخ الإنشاء",
+      "status": "الحالة",
+      "actions": ""
+    },
+    "form": {
+      "reasonNameArabic": "إسم الاستئذان باللغة العربية",
+      "reasonNameEnglish": "إسم الاستئذان باللغة الإنجليزية"
+    },
+    "toast": {
+      "updateSuccess": "تم تعديل الاستئذان بنجاح",
+      "updateError": "حدث خطأ أثناء تعديل الاستئذان",
+      "cancelSuccess": "تم الالغاء بنجاح."
+    },
+    "editModal": {
+      "title": "التعديل علي سبب الـ"
+    },
+    "addNew": {
+      "pageTitle": "إدارة أسباب الاستئذان",
+      "breadcrumb": "إدارة أسباب الاستئذان",
+      "addSuccessMessage": "تم إضافة الطلب بنجاح!",
+      "cancelSuccessMessage": "تم الالغاء بنجاح.",
+      "validation": {
+        "arabicNameRequired": "إسم السبب باللغة العربية مطلوب",
+        "arabicNameFormat": "يجب إدخال إسم السبب باللغة العربية فقط",
+        "englishNameRequired": "إسم السبب باللغة الإنجليزية مطلوب",
+        "englishNameFormat": "يجب إدخال إسم السبب باللغة الإنجليزية فقط"
+      }
+    },
+    "modal": {
+      "reasonLabel": "السبب",
+      "reasonPlaceholder": "السبب",
+      "reasonRequired": "السبب مطلوب"
+    }
+  }
+}

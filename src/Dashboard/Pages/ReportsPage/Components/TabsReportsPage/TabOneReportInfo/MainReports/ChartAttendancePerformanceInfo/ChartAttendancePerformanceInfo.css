@@ -1,0 +1,19 @@
+.chart-line-content .apexcharts-title-text {
+  display: none;
+}
+
+.chart-line-content .apexcharts-legend {
+  left: initial !important;
+  top: 40px !important;
+}
+
+.chart-info .apexcharts-legend-text {
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  color: theme("colors.darkColor") !important;
+  font-family: inherit !important;
+}
+
+.chart-info .apexcharts-legend-series {
+  gap: 10px;
+}

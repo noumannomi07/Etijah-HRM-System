@@ -1,0 +1,97 @@
+.cards-core-values-etijah {
+  position: relative;
+  max-width: 900px;
+  margin: auto;
+}
+
+.cards-core-values-etijah .card-one-line {
+  position: relative;
+  width: 50%;
+  padding: 10px 20px;
+}
+
+.cards-core-values-etijah .card-one-line.left-place {
+  right: 0;
+  padding-left: 50px;
+}
+
+.cards-core-values-etijah .card-one-line.right-place {
+  right: 50%;
+  padding-right: 50px;
+}
+
+.cards-core-values-etijah .card-one-line::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  width: 20px;
+  height: 20px;
+  background: theme("backgroundImage.custom-gradient");
+  border-radius: 50%;
+  animation: flash 1.5s infinite ease-in-out;
+}
+@keyframes flash {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+.card-one-line.left-place::before {
+  left: -10px;
+}
+
+.card-one-line.right-place::before {
+  right: -10px;
+}
+
+.cards-core-values-etijah::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 50%;
+  width: 2px;
+  background: theme("colors.grayColor2");
+  transform: translateX(50%);
+  z-index: -1;
+}
+
+/* SCREEN 767PX */
+@media screen and (max-width: 767px) {
+  .cards-core-values-etijah .cards-core-values-etijah {
+    max-width: 100%;
+  }
+  .cards-core-values-etijah .card-one-line.left-place {
+    padding-left: 30px;
+  }
+
+  .cards-core-values-etijah .card-one-line.right-place {
+    padding-right: 30px;
+  }
+}
+
+/* SCREEN 575PX */
+@media screen and (max-width: 575px) {
+  .cards-core-values-etijah .card-one-line {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .cards-core-values-etijah .card-one-line.left-place,
+  .cards-core-values-etijah .card-one-line.right-place {
+    right: 0;
+    padding: 0 0 0 20px;
+  }
+
+  .cards-core-values-etijah::after {
+    right: 100%;
+  }
+
+  .cards-core-values-etijah .card-one-line.right-place::before {
+    left: -10px;
+    right: initial;
+  }
+}

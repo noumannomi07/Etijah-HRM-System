@@ -1,0 +1,29 @@
+.main-cards-section-customer-opinions .card-section-cutomer-opinion {
+  display: flex !important;
+}
+
+.main-cards-section-customer-opinions
+  .card-section-cutomer-opinion
+  .icon-star-copy
+  svg {
+  width: 35px;
+  height: 35px;
+}
+.main-cards-section-customer-opinions
+  .card-section-cutomer-opinion
+  .title-head-review {
+  font-size: 22px;
+}
+
+.main-cards-section-customer-opinions .mySwiper-v {
+  padding: 50px 0;
+}
+.main-cards-section-customer-opinions .swiper .swiper-pagination {
+  bottom: 0;
+}
+
+@media screen and (max-width: 550px) {
+  .main-cards-section-customer-opinions .mySwiper-v {
+    padding: 25px 0 50px 0;
+  }
+}

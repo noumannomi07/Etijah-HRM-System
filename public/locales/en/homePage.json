@@ -1,0 +1,173 @@
+{
+  "pageTitle": "Home Page",
+  "header": {
+    "title": "Complete Digital System for Human Resources Management",
+    "subtitle": "Replace traditional systems and manual processes with advanced digital methods",
+    "sendRequestNow": "Send Request Now",
+    "userNames": {
+      "user1": "Noura bint Abdulaziz",
+      "user2": "Saud bin Khalid"
+    },
+    "userTitles": {
+      "user1": "Talent Acquisition Specialist",
+      "user2": "Human Resources Manager"
+    }
+  },
+  "services": {
+    "sectionTitle": "Etijah Services",
+    "sectionSubtitle": "Smart Solutions for Your Organization's Success",
+    "allServices": "All Services",
+    "cards": {
+      "attendance": {
+        "title": "Attendance and Departure Management",
+        "description": "Accurately track employee attendance and departure, facilitating leave and absence management and providing detailed reports to management."
+      },
+      "payroll": {
+        "title": "Payroll and Benefits Management",
+        "description": "Complete payroll calculation process and employee benefits delivery, ensuring accuracy and compliance with legal standards, and providing clear financial reports"
+      },
+      "orders": {
+        "title": "Request Management",
+        "description": "Organize and facilitate the process of receiving orders such as leave requests and advances. This service aims to enhance communication between employees and management."
+      },
+      "recruitment": {
+        "title": "Recruitment Management",
+        "description": "Facilitate the process of publishing jobs and receiving applications, in addition to sorting resumes and identifying suitable candidates through effective evaluation tools."
+      }
+    }
+  },
+  "features": {
+    "sectionTitle": "Etijah Features",
+    "sectionSubtitle": "Your Key to Achieving Human Resources Efficiency",
+    "items": {
+      "attendance": "Attendance and Departure Tracking",
+      "orders": "Employee Requests Management",
+      "calendar": "Calendar Monitoring",
+      "payroll": "Payroll Management",
+      "performance": "Performance Indicator",
+      "tasks": "Task Monitoring",
+      "recruitment": "Recruitment",
+      "rewards": "Rewards",
+      "violations": "Violations",
+      "structure": "Organizational Structure"
+    }
+  },
+  "about": {
+    "sectionTitle": "About the Application",
+    "sectionSubtitle": "Etijah Application",
+    "exploreMore": "Explore More"
+  },
+  "numbers": {
+    "sectionTitle": "Numbers Speak",
+    "sectionSubtitle": "Discover the Facts that Drive Success",
+    "statistics": {
+      "startups": {
+        "title": "Number of startups in our region last year",
+        "description1": "The General Authority for Small and Medium Enterprises \"Monshaat\" announced that the number of small and medium enterprises in the Kingdom reached 1.2 million enterprises, an increase of 4.8% compared to the fourth quarter of 2022.",
+        "description2": "Saudi Arabia recorded a 108% growth in the number of small and medium enterprises since 2016, according to Prince Fahd bin Mansour bin Nasser bin Abdulaziz, head of the Kingdom's delegation to the G20 Young Entrepreneurs Alliance Summit for 2024.",
+        "description3": "It was also mentioned that Saudi Arabia ranked first in venture capital financing in the Middle East and North Africa region, in addition to achieving 50% of the market share in the region, with an annual growth rate of 33%.",
+        "description4": "This growth reflects an increase in entrepreneurial spirit and young people's desire for innovation. With more than 2000 new companies, it shows that the market is heading towards more diversity and innovation."
+      }
+    }
+  },
+  "bannerSection": {
+    "title": "Start Your Journey Now",
+    "subtitle": "Embark on improving human resources management by subscribing to multiple packages with diverse benefits that meet all your needs and align with your budget.",
+    "userNames": {
+      "user1": "Al-Anoud Sulaiman",
+      "user2": "Abdulaziz Al-Mutairi"
+    },
+    "userTitles": {
+      "user1": "Recruitment Manager",
+      "user2": "Financial Analyst"
+    }
+  },
+  "successPartners": {
+    "sectionTitle": "Success Stories",
+    "sectionSubtitle": "Success Partners"
+  },
+  "searchPlaceholder": "Search",
+  "opinions": {
+    "sectionTitle": "Success Stories",
+    "sectionSubtitle": "Our Distinguished Customers' Opinions",
+    "defaultReviewTitle": "Very Successful System!",
+    "animationSection": {
+      "title": "Customer Reviews",
+      "subtitle": "Etijah is Your Ideal Success Partner"
+    },
+    "customers": {
+      "customer1": {
+        "name": "Muhannad Al-Suwaiket",
+        "title": "HR Manager at XYZ Company",
+        "testimonial": "The 'Etijah' system has completely transformed the way we work. Thanks to its simple interface, all our employees were able to use it easily without any training. The advanced features it provides, such as range calculator, end-of-service benefits calculator, and violations management, have helped us accomplish our work with greater accuracy and speed."
+      },
+      "customer2": {
+        "name": "Muaid Al-Harbi",
+        "title": "Talent Acquisition Specialist at UCA",
+        "testimonial": "A perfect system that covers all aspects of human resources. Its interface is easy to use and its performance is fast. However, I believe that adding 'Artificial Intelligence services' would be very beneficial."
+      },
+      "customer3": {
+        "name": "Abdullah bin Atiq",
+        "title": "HR Manager at BABEL Company",
+        "testimonial": "We at 'Babel' company would like to express our deep gratitude to the 'Etijah' team for the excellent support they provided in implementing the human resources management system. This system has significantly contributed to simplifying our daily operations, enabling us to efficiently manage employee attendance and departure, their salaries, performance evaluation, and recruitment processes. We are confident that this system will be a strategic partner in achieving our future goals."
+      },
+      "customer4": {
+        "name": "Mishal Al-Mutairi",
+        "title": "CEO of Future Law Company",
+        "testimonial": "We at Future Law Company consider the 'Etijah' system an essential tool for managing our business. The system has contributed to increasing operational efficiency by 30%, improving data accuracy, and reducing human errors, making us confident in our choice of this system."
+      }
+    }
+  },
+  "controlPanel": {
+    "sectionTitle": "Control Panel",
+    "sectionSubtitle": "Unifying All Human Resources Functions in One Platform",
+    "items": {
+      "dataAnalysis": {
+        "title": "Data Analysis",
+        "description": "The system enables analysis of performance and recruitment data, helping to make decisions based on accurate and comprehensive data."
+      },
+      "communication": {
+        "title": "Facilitating Communication",
+        "description": "The system enhances communication between employees and departments, facilitating information exchange and promoting cooperation within the organization."
+      },
+      "orderManagement": {
+        "title": "Efficient Request Management",
+        "description": "The system enables management of leave, training, and transfer requests, making the process faster and easier for employees and managers."
+      },
+      "userExperience": {
+        "title": "Easy User Experience",
+        "description": "The system allows customization of the user interface according to each employee's needs, making it easier for them to access important information quickly."
+      }
+    }
+  },
+  "partnerStages": {
+    "sectionTitle": "Your Partner in All Stages",
+    "sectionSubtitle": "Replace traditional systems and manual processes with advanced digital methods",
+    "items": {
+      "employeeDevelopment": {
+        "title": "Employee Development",
+        "description": "We provide you with customized solutions to enhance your team's skills and increase their productivity, contributing to raising the overall performance level."
+      },
+      "projectManagement": {
+        "title": "Project Management",
+        "description": "Manage projects efficiently through tools that allow you to define tasks, track progress, and achieve goals on time."
+      },
+      "performanceManagement": {
+        "title": "Performance Management",
+        "description": "Track your employees' progress and get valuable insights about their performance. Our system provides effective evaluation tools that help you set goals and motivate employees to achieve better results."
+      },
+      "employeeExperience": {
+        "title": "Enhanced Employee Experience",
+        "description": "We believe that a good employee experience enhances their loyalty and productivity. Our system provides tools to enhance internal communication and provide a positive work environment that supports innovation and success."
+      },
+      "compensationManagement": {
+        "title": "Compensation and Benefits Management",
+        "description": "Effectively manage the compensation and benefits system to ensure competitiveness and attract the best talents to your team."
+      },
+      "smartRecruitment": {
+        "title": "Smart Recruitment",
+        "description": "We provide you with advanced tools to facilitate the recruitment process and select the best candidates. Thanks to our system, you can find the right talents quickly and efficiently."
+      }
+    }
+  }
+}

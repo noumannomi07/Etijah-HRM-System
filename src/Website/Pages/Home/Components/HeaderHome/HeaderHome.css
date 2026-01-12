@@ -1,0 +1,113 @@
+.banner-header-home .banner-main-area-bg .info-banner-area {
+  padding-bottom: 300px;
+}
+.banner-header-home :is(.user-one-details-animation) {
+  top: 130px;
+  position: absolute;
+}
+:is(.banner-header-home, .about-etijah, .header-services-page)
+  .user-one-details-animation
+  .image-user
+  img {
+  object-position: top;
+}
+
+:is(.banner-header-home, .about-etijah) .user-one-details-animation {
+  right: 70%;
+}
+:is(.about-etijah) .user-one-details-animation {
+  top: 50px;
+}
+:is(.about-etijah) .user-one-details-animation-right {
+  top: 0;
+}
+:is(.banner-header-home, .about-etijah) .user-one-details-animation-right {
+  right: 8% !important;
+}
+:is(.banner-header-home, .about-etijah, .header-services-page)
+  .user-one-details-animation
+  .content-user-animation.short-name {
+  left: -107%;
+}
+:is(.banner-header-home, .about-etijah, .header-services-page)
+  .user-one-details-animation-right
+  .content-user-animation.short-name {
+  right: -80%;
+}
+html[dir="ltr"] .banner-header-home .user-one-details-animation-right,
+html[dir="ltr"]
+  :is(.banner-header-home, .about-etijah)
+  .user-one-details-animation-right {
+  left: 85% !important;
+}
+html[dir="ltr"]
+  :is(.banner-header-home, .about-etijah, .header-services-page)
+  .user-one-details-animation-right
+  .content-user-animation.short-name {
+  left: 90px;
+}
+@media screen and (min-width: 1250px) {
+  .banner-header-home .all-header-info-content-area .title {
+    font-size: 42px;
+  }
+  .banner-header-home .all-header-info-content-area .text {
+    font-size: 18px;
+    font-weight: 600;
+  }
+}
+@media screen and (max-width: 1059px) {
+  :is(.banner-header-home, .about-etijah) .user-one-details-animation {
+    right: 65%;
+  }
+  :is(.banner-header-home, .about-etijah) .user-one-details-animation-right {
+    right: 8%;
+  }
+}
+@media screen and (max-width: 991px) {
+  .banner-header-home :is(.user-one-details-animation) {
+    display: none;
+  }
+
+  :is(.about-etijah) .user-one-details-animation {
+    right: 55%;
+    top: 80px !important;
+  }
+  :is(.about-etijah) .user-one-details-animation-right {
+    top: 0 !important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .banner-header-home .banner-main-area-bg .info-banner-area {
+    padding-bottom: 250px;
+  }
+  .banner-header-home .image-banner-new {
+    margin-top: -250px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .banner-header-home .banner-main-area-bg .info-banner-area {
+    padding-bottom: 200px;
+  }
+  .banner-header-home .image-banner-new {
+    margin-top: -200px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .banner-header-home .banner-main-area-bg .info-banner-area {
+    padding-bottom: 150px;
+  }
+  .banner-header-home .image-banner-new {
+    margin-top: -150px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .banner-header-home .banner-main-area-bg .info-banner-area {
+    padding-bottom: 100px;
+  }
+  .banner-header-home .image-banner-new {
+    margin-top: -100px;
+  }
+}

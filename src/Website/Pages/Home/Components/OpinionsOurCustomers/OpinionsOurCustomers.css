@@ -1,0 +1,77 @@
+.opinion-customer-new :is(.custom-button, .custom-button-2),
+.custom-button-2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: transparent;
+  border: none;
+  border-top: 3px solid rgba(150, 151, 154, 0.11);
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--gray-01-color);
+  position: relative;
+  padding-top: 18px;
+}
+
+.opinion-customer-new .custom-button {
+  padding: 18px 0 15px 0;
+}
+.opinion-customer-new .custom-button.active {
+  color: theme("colors.primaryColor_01");
+}
+.opinion-customer-new .custom-button::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 3px;
+  background: theme("colors.primaryColor_01");
+  top: -2.7%;
+  border-radius: 10px;
+  transition: width 0.3s ease;
+}
+
+.opinion-customer-new .custom-button.active::after {
+  width: 100%;
+}
+
+.opinion-customer-new .buttons-group-info {
+  width: 100%;
+}
+
+.opinion-customer-new .data-filter-customer {
+  padding-top: 50px;
+}
+
+@media screen and (max-width: 991px) {
+  .opinion-customer-new .custom-button {
+    font-size: 15px;
+  }
+  .opinion-customer-new .buttons-group-info {
+    flex-wrap: wrap;
+  }
+  .opinion-customer-new .custom-button {
+    width: 50%;
+  }
+  .opinion-customer-new .image-one-filter img {
+    max-height: 385px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .opinion-customer-new .data-filter-customer {
+    padding-top: 30px;
+  }
+  .opinion-customer-new .image-one-filter img {
+    max-height: 285px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .opinion-customer-new .custom-button {
+    width: 100%;
+  }
+
+  .opinion-customer-new .custom-button {
+    font-size: 17px;
+    font-weight: 700;
+  }
+}

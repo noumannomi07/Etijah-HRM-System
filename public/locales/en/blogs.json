@@ -1,0 +1,70 @@
+{
+  "pageTitle": "Blog",
+  "mainPage": {
+    "header": {
+      "title": "Success Strategies in the Modern Work Environment",
+      "description": "Join us in the Etijah blog to receive the latest updates on how to effectively manage people, enhance performance, and build strong teams that contribute to the organization's success. We aim to provide valuable information and innovative ideas to help you face contemporary challenges in the business world."
+    },
+    "subscription": {
+      "emailPlaceholder": "Email Address",
+      "subscribeButton": "Subscribe",
+      "validation": {
+        "emailRequired": "Email is required",
+        "emailInvalid": "Invalid email address"
+      }
+    },
+    "content": {
+      "sectionTitle": "Latest Blogs",
+      "sectionDescription": "We provide you with everything you need to know about the art of people management and how to build a productive and innovative work environment. In this blog, we will cover a variety of important topics that contribute to developing your skills and understanding in the field of human resources."
+    },
+    "blogCategories": {
+      "all": "All",
+      "employees": "Employees",
+      "management": "Management",
+      "payroll": "Payroll",
+      "structure": "Structure",
+      "success": "Success",
+      "organizations": "Organizations"
+    },
+    "blogPosts": {
+      "employeeManagement": {
+        "title": "Employee Affairs Management",
+        "description": "If you need a larger number of paragraphs, the Arabic text generator allows you to increase the number of paragraphs as you want. The text will not appear divided and will not contain linguistic errors. The Arabic text generator is useful"
+      },
+      "managementStrategies": {
+        "title": "Management Strategies",
+        "description": "If you need a larger number of paragraphs, the Arabic text generator allows you to increase the number of paragraphs as you want. The text will not appear divided and will not contain linguistic errors. The Arabic text generator is useful"
+      },
+      "payrollSystem": {
+        "title": "Payroll System",
+        "description": "If you need a larger number of paragraphs, the Arabic text generator allows you to increase the number of paragraphs as you want. The text will not appear divided and will not contain linguistic errors. The Arabic text generator is useful"
+      },
+      "organizationalStructure": {
+        "title": "Organizational Structure",
+        "description": "If you need a larger number of paragraphs, the Arabic text generator allows you to increase the number of paragraphs as you want. The text will not appear divided and will not contain linguistic errors. The Arabic text generator is useful"
+      },
+      "successMetrics": {
+        "title": "Success Metrics",
+        "description": "If you need a larger number of paragraphs, the Arabic text generator allows you to increase the number of paragraphs as you want. The text will not appear divided and will not contain linguistic errors. The Arabic text generator is useful"
+      },
+      "organizationManagement": {
+        "title": "Organization Management",
+        "description": "If you need a larger number of paragraphs, the Arabic text generator allows you to increase the number of paragraphs as you want. The text will not appear divided and will not contain linguistic errors. The Arabic text generator is useful"
+      },
+      "employeePerformance": {
+        "title": "Employee Performance",
+        "description": "If you need a larger number of paragraphs, the Arabic text generator allows you to increase the number of paragraphs as you want. The text will not appear divided and will not contain linguistic errors. The Arabic text generator is useful"
+      },
+      "successStrategies": {
+        "title": "Success Strategies",
+        "description": "If you need a larger number of paragraphs, the Arabic text generator allows you to increase the number of paragraphs as you want. The text will not appear divided and will not contain linguistic errors. The Arabic text generator is useful"
+      }
+    }
+  },
+  "singlePage": {
+    "breadcrumb": {
+      "blog": "Blog",
+      "blogDetails": "Blog Details"
+    }
+  }
+}

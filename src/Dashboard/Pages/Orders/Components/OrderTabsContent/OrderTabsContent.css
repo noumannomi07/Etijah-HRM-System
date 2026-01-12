@@ -1,0 +1,25 @@
+.tab-label-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  position: relative;
+}
+
+.tab-text {
+  flex: 1;
+}
+
+.bg-light-red {
+    background: rgb(254, 245, 245);
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #fe5153;
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: auto;
+}

@@ -1,0 +1,82 @@
+.apexcharts-legend{
+    direction: rtl;
+}
+
+.chart-employee .apexcharts-legend {
+    top: 35% !important;
+    transform: translateY(-50%) !important;
+    overflow: auto !important;
+}
+
+.chart-employee .apexcharts-legend::-webkit-scrollbar{
+    display: none;
+}
+
+.chart-employee .apexcharts-canvas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+@media screen and (max-width:1100px) {
+    .chart-employee .apexcharts-legend{
+        max-height: 100px !important;
+        top: 85% !important;
+        margin-top: 15px !important;
+    }
+}
+
+
+@media screen and (max-width:1100px) {
+    .chart-employee .apexcharts-legend{
+        max-height: 100px !important;
+        top: 85% !important;
+        margin-top: 15px !important;
+    }
+}
+
+.progress-bar-item > div {
+    border-radius: 0;
+    color: #fff !important;
+}
+
+.chart-attendance .apexcharts-legend{
+    top: 77% !important;
+    
+
+}
+@media screen and (max-width:1023px) {
+    .chart-attendance .apexcharts-legend{
+        top: 83% !important;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .chart-attendance .apexcharts-legend{
+        top: 81% !important;
+        
+    
+    }
+}
+
+@media screen and (max-width:373px) {
+    .chart-attendance .apexcharts-legend{
+        top: 65% !important;
+    }
+}
+
+
+@media screen and (max-width:360px) {
+    .chart-attendance .apexcharts-legend{
+        top: 82% !important;
+    }
+}
+
+
+
+@media screen and (max-width:340px) {
+    .chart-attendance .apexcharts-legend{
+        top: 68% !important;
+    }
+}

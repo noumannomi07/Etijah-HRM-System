@@ -1,0 +1,114 @@
+{
+  "pageTitle": "Login",
+  "form": {
+    "header": {
+      "title": "Welcome Back",
+      "description": "Please enter your email and password to log in."
+    },
+    "fields": {
+      "email": {
+        "label": "Email Address",
+        "placeholder": "Email Address"
+      },
+      "password": {
+        "label": "Password",
+        "placeholder": "Password"
+      },
+      "confirmPassword": {
+        "label": "Confirm Password",
+        "placeholder": "Confirm Password"
+      },
+      "rememberMe": "Keep me logged in"
+    },
+    "validation": {
+      "email": {
+        "required": "Email is required",
+        "invalid": "Invalid email address"
+      },
+      "password": {
+        "required": "Password is required",
+        "tooShort": "Password is too short",
+        "tooLong": "Password is too long"
+      },
+      "confirmPassword": {
+        "required": "Password confirmation is required",
+        "mismatch": "Passwords do not match"
+      },
+      "otp": {
+        "required": "Security code is required",
+        "incomplete": "Security code is incomplete"
+      }
+    },
+    "buttons": {
+      "login": "Login",
+      "send": "Send",
+      "verify": "Verify",
+      "changePassword": "Change Password",
+      "confirmOtp": "Confirm Security Code"
+    },
+    "links": {
+      "forgotPassword": "Forgot Password?",
+      "backToLogin": "Login?",
+      "editEmail": "Edit Email",
+      "resendOtp": "Resend Code",
+      "backToVerify": "Back to Verification"
+    }
+  },
+  "forgotPassword": {
+    "steps": {
+      "reset": {
+        "title": "Reset Password",
+        "description": "Please enter your registered email address"
+      },
+      "verify": {
+        "title": "Verify Security Code",
+        "description": "Please enter the security code sent to your email"
+      },
+      "change": {
+        "title": "Change Password",
+        "description": "Please enter your new password and confirm it."
+      }
+    },
+    "messages": {
+      "otpSent": "Security code sent to email",
+      "otpVerified": "Security code verified",
+      "passwordUpdated": "Password updated successfully",
+      "otpError": "Error sending security code",
+      "verifyError": "Error verifying security code",
+      "updateError": "Error updating password"
+    }
+  },
+  "otp": {
+    "title": "Enter Security Code",
+    "description": "Please enter the security code sent to your email",
+    "successMessage": "Security code confirmed successfully!"
+  },
+  "messages": {
+    "loginSuccess": "Login successful",
+    "loginError": "Login failed"
+  },
+  "slider": {
+    "features": {
+      "performanceTracking": {
+        "title": "Performance Tracking",
+        "description": "Complete payroll calculation process and provide employee benefits, ensuring accuracy and compliance with legal standards, and providing clear financial reports"
+      },
+      "payrollManagement": {
+        "title": "Payroll and Benefits Management",
+        "description": "Accurate and fast calculation of salaries and bonuses with full compliance with legal standards and detailed financial reports."
+      },
+      "taskManagement": {
+        "title": "Effective Task Management",
+        "description": "Distribute and track tasks among employees, with notifications of updates and performance reports that help improve productivity."
+      },
+      "orderManagement": {
+        "title": "Request Management",
+        "description": "Accurate management of permission and leave requests, enhancing organization and maintaining workflow balance."
+      },
+      "attendanceTracking": {
+        "title": "Attendance Check-in/Check-out",
+        "description": "An effective system for recording attendance and departure, ensuring data accuracy and easy access."
+      }
+    }
+  }
+}

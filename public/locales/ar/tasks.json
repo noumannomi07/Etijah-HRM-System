@@ -1,0 +1,204 @@
+{
+  "common": {
+    "add": "إضافة",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "back": "رجوع",
+    "next": "التالي",
+    "previous": "السابق",
+    "search": "بحث",
+    "filter": "تصفية",
+    "view": "عرض",
+    "select": "اختيار",
+    "details": "تفاصيل",
+    "noData": "لا توجد بيانات متاحة",
+    "userAvatar": "صورة {{username}}"
+  },
+  "pageTitle": {
+    "tasks": "المهام"
+  },
+  "messages": {
+    "successAdd": "تمت إضافة المهمة بنجاح",
+    "successUpdate": "تم تحديث المهمة بنجاح",
+    "successDelete": "تم حذف المهمة بنجاح",
+    "statusUpdateSuccess": "تم تحديث حالة المهمة بنجاح",
+    "error": "حدث خطأ",
+    "confirmDelete": "هل أنت متأكد من حذف هذه المهمة؟"
+  },
+  "tabs": {
+    "employeeTasks": "مهام الموظفين",
+    "myTasks": "مهامي"
+  },
+  "table": {
+    "taskName": "اسم المهمة",
+    "startTime": "وقت البدء",
+    "endTime": "وقت الانتهاء",
+    "status": "الحالة",
+    "priority": "الأولوية",
+    "actions": "الإجراءات"
+  },
+  "tasksTable": {
+    "headers": {
+      "id": "#",
+      "taskName": "اسم المهمة",
+      "assignedTo": "مكلف إلى",
+      "startDate": "تاريخ البدء",
+      "endDate": "تاريخ الانتهاء",
+      "priority": "الأولوية",
+      "status": "الحالة",
+      "completionRate": "نسبة الإنجاز",
+      "actions": "الإجراءات"
+    },
+    "tooltips": {
+      "view": "عرض",
+      "edit": "تعديل",
+      "delete": "حذف"
+    },
+    "filters": {
+      "title": "تصفية",
+      "addFilter": "إضافة تصفية",
+      "apply": "تطبيق",
+      "clear": "مسح"
+    },
+    "actions": {
+      "addTask": "إضافة مهمة جديدة"
+    }
+  },
+  "priority": {
+    "high": "عالية",
+    "medium": "متوسطة",
+    "low": "منخفضة"
+  },
+  "priorities": {
+    "high": "عالية",
+    "medium": "متوسطة",
+    "low": "منخفضة"
+  },
+  "status": {
+    "inProgress": "قيد التنفيذ",
+    "completed": "مكتملة",
+    "pending": "معلقة",
+    "cancelled": "ملغاة"
+  },
+  "statuses": {
+    "notStarted": "لم تبدأ",
+    "inProgress": "قيد التنفيذ",
+    "completed": "مكتملة",
+    "onHold": "معلقة",
+    "cancelled": "ملغاة"
+  },
+  "cards": {
+    "totalTasks": "إجمالي المهام",
+    "completedTasks": "مهام مكتملة",
+    "inProgress": "قيد التنفيذ",
+    "lateTasks": "مهام متأخرة"
+  },
+  "taskCards": {
+    "totalTasks": "إجمالي المهام",
+    "completedTasks": "المهام المكتملة",
+    "inProgressTasks": "المهام قيد التنفيذ",
+    "notStartedTasks": "المهام التي لم تبدأ",
+    "overdueTasks": "المهام المتأخرة",
+    "highPriorityTasks": "المهام ذات الأولوية العالية"
+  },
+  "comments": {
+    "noComments": "لا توجد تعليقات",
+    "beFirstToComment": "كن أول من يضيف تعليقاً",
+    "enterComment": "أدخل تعليقك هنا..."
+  },
+  "buttons": {
+    "comments": "التعليقات",
+    "view": "عرض",
+    "edit": "تعديل",
+    "addNewTask": "إضافة مهمة جديدة",
+    "cancelTask": "إلغاء المهمة",
+    "completeTask": "إكمال المهمة",
+    "startTask": "بدء المهمة"
+  },
+  "deleteModal": {
+    "confirmDelete": "هل أنت متأكد أنك تريد حذف العنصر؟",
+    "confirmDeleteDetails": "سيتم حذف العنصر بشكل دائم ولا يمكن التراجع عن هذا الإجراء."
+  },
+  "addTask": {
+    "title": "إضافة مهمة جديدة",
+    "taskName": "اسم المهمة",
+    "description": "الوصف",
+    "assignedTo": "مكلف إلى",
+    "startDate": "تاريخ البدء",
+    "endDate": "تاريخ الانتهاء",
+    "priority": "الأولوية",
+    "status": "الحالة",
+    "attachments": "المرفقات",
+    "notes": "الملاحظات",
+    "saveTask": "حفظ المهمة"
+  },
+  "taskDetails": {
+    "title": "تفاصيل المهمة",
+    "taskName": "اسم المهمة",
+    "description": "الوصف",
+    "assignedTo": "مكلف إلى",
+    "startDate": "تاريخ البدء",
+    "endDate": "تاريخ الانتهاء",
+    "priority": "الأولوية",
+    "status": "الحالة",
+    "attachments": "المرفقات",
+    "notes": "الملاحظات",
+    "completionRate": "نسبة الإنجاز",
+    "comments": "التعليقات",
+    "addComment": "إضافة تعليق"
+  },
+  "validation": {
+    "taskNameRequired": "اسم المهمة مطلوب",
+    "taskTitleRequired": "يجب إدخال عنوان المهمة",
+    "descriptionRequired": "الوصف مطلوب",
+    "taskDetailsRequired": "يجب إدخال تفاصيل المهمة",
+    "assignedToRequired": "يرجى اختيار الشخص المكلف",
+    "employeesRequired": "يجب اختيار موظف واحد على الأقل",
+    "employeeIdRequired": "يجب أن يكون معرّف الموظف رقمًا صحيحًا",
+    "employeeTitleRequired": "يجب إدخال عنوان الموظف",
+    "startDateRequired": "يجب اختيار تاريخ البدء",
+    "endDateRequired": "يجب اختيار تاريخ الانتهاء",
+    "priorityRequired": "يجب اختيار الأولوية",
+    "statusRequired": "الحالة مطلوبة",
+    "invalidDateFormat": "التاريخ يجب أن يكون بصيغة YYYY-MM-DD",
+    "invalidTimeFormat": "الوقت يجب أن يكون بصيغة HH:MM",
+    "startTimeRequired": "يجب اختيار وقت البدء",
+    "endTimeRequired": "يجب اختيار وقت الانتهاء",
+    "endDateAfterStartDate": "يجب أن يكون تاريخ الانتهاء بعد تاريخ البدء"
+  },
+  "form": {
+    "employees": "الموظفين",
+    "taskName": "إسم المهمة",
+    "taskTitle": "إسم المهمة",
+    "priority": "الأولوية",
+    "startDate": "تاريخ البدء",
+    "endDate": "تاريخ الانتهاء",
+    "startTime": "وقت البدء",
+    "endTime": "وقت الانتهاء",
+    "taskDetails": "تفاصيل المهمة",
+    "taskContent": "تفاصيل المهمة",
+    "placeholders": {
+      "select": "-إختر-",
+      "taskName": "إسم المهمة",
+      "taskDetails": "تفاصيل المهمة",
+      "date": "--/--/--"
+    }
+  },
+  "toasts": {
+    "createSuccess": "تم إنشاء المهمة بنجاح",
+    "createError": "حدث خطأ أثناء إنشاء المهمة",
+    "updateSuccess": "تم تحديث المهمة بنجاح",
+    "updateError": "حدث خطأ أثناء تحديث المهمة",
+    "cancelSuccess": "تم الإلغاء بنجاح"
+  },
+  "breadcrumb": {
+    "companyTasks": "مهام الشركة",
+    "addNewTask": "إضافة مهمة جديدة"
+  },
+  "modal": {
+    "addTask": "إضافة مهمة جديدة",
+    "editTask": "تعديل المهمة"
+  }
+}

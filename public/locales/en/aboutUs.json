@@ -1,0 +1,36 @@
+{
+  "pageTitle": "About Us",
+  "header": {
+    "title": "A Story of Passion and Innovation",
+    "description": "With the goal of providing innovative and comprehensive solutions in the field of human resources management. Our story began with a team of enthusiastic experts who believe in the importance of providing modern tools and technologies to support companies in improving their resource management"
+  },
+  "coreValues": {
+    "sectionTitle": "Success Stories",
+    "sectionSubtitle": "Etijah's Core Values",
+    "values": {
+      "innovation": {
+        "title": "Innovation",
+        "description": "We believe that creativity is the key to progress. We are committed to embracing new ideas and developing innovative solutions that meet our clients' needs."
+      },
+      "quality": {
+        "title": "Quality",
+        "description": "We set high quality standards in everything we provide. We strive to ensure that our products and services meet our clients' expectations"
+      },
+      "transparency": {
+        "title": "Transparency",
+        "description": "We believe in the importance of open and honest communication. We share our information clearly and seek to build relationships based on trust."
+      },
+      "commitment": {
+        "title": "Commitment",
+        "description": "We are committed to achieving the goals we set for ourselves and our clients. We work hard and persevere to achieve sustainable success."
+      }
+    }
+  },
+  "opinion": {
+    "quote": "At 'Etijah', we don't just build a system, but we invest in building a new future for human resources management, a future that relies on the latest technologies and provides an exceptional experience. We work continuously in research and development to provide the latest solutions that adapt to the changes in the labor market, to be your partners in achieving success.",
+    "author": {
+      "name": "Abdulrahman Al-Humaidani",
+      "title": "Founder & CEO of Etijah"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+.packages-cards .package-card-details:nth-child(2) {
+  background: theme("colors.primaryColor_02");
+}
+
+.packages-cards .package-card-details:nth-child(2) * {
+  color: #fff;
+}
+
+.packages-cards .package-card-details:nth-child(2) .details-card-package {
+  border-color: #ffffff49;
+}
+
+.packages-cards
+  .package-card-details:nth-child(2)
+  .button-package-Subscribe
+  .btn-blue-01 {
+  background: theme("colors.lightColorWhite");
+  color: theme("colors.primaryColor_02") !important;
+  box-shadow: none;
+  border-color: theme("colors.lightColorWhite");
+}
+.packages-cards
+  .package-card-details:nth-child(2)
+  .button-package-Subscribe
+  .btn-blue-01:hover {
+  color: theme("colors.whiteColor") !important;
+}
+
+.packages-cards .package-card-details:nth-child(2) .icon-package {
+  background: theme("colors.lightColorWhite");
+}
+
+/* Removed display: none to show all cards */
+
+.packages-cards > .package-card-details:nth-child(2) {
+  /* Removed width and margin constraints to allow grid layout */
+}
+.packages-cards > .package-card-details:nth-child(2) .currency-icon svg {
+  width: 15px;
+  fill: #fff;
+
+}
+.packages-cards > .package-card-details:nth-child(2) .currency-icon .cls-1 {
+  fill: #fff;
+}
+.packages-cards {
+  display: grid;
+}

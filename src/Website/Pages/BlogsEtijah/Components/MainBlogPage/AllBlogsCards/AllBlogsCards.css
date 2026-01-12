@@ -1,0 +1,15 @@
+.all-cards-blogs .web-blog-section-title {
+  text-align: center !important;
+  margin: auto;
+  align-items: center;
+}
+.all-cards-blogs .web-blog-section-title .head-title-section {
+  max-width: 900px;
+  margin: auto;
+}
+
+@media screen and (max-width: 500px) {
+  .all-cards-blogs .image-card-blog .image-card-blog-src {
+    height: 100%;
+  }
+}

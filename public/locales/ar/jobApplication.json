@@ -1,0 +1,33 @@
+{
+    "jobApplication": {
+        "jobTitle": "طلب التوظيف",
+        "jobLocation": "الموقع",
+        "jobType": "نوع الوظيفة",
+        "jobDescription": "الوصف",
+        "applySuccess": "تم تقديم الطلب بنجاح",
+        "applyError": "حدث خطأ ما",
+        "phoneNumber": "رقم الهاتف",
+        "email": "البريد الإلكتروني",
+        "address": "العنوان",
+        "experience": "الخبرة",
+        "fullName": "الاسم الكامل",
+        "selectJobType": "اختر نوع الوظيفة",
+        "inHouse": "دوام كامل في المقر",
+        "remote": "عمل عن بُعد",
+        "hybrid": "عمل هجين",
+        "professionalInformation": "المعلومات المهنية",
+        "submitApplication": "تقديم الطلب",
+        "uploadCV": "رفع السيرة الذاتية",
+        "uploadCVError": "الرجاء رفع ملف سيرة ذاتية صالح",
+        "uploadCVSuccess": "تم رفع السيرة الذاتية بنجاح",
+        "clickToUpload": "انقر للرفع",
+        "orDragAndDrop": "أو اسحب وأفلت",
+        "confirmInformation": "أؤكد أن المعلومات المقدمة صحيحة وأوافق على الشروط والأحكام الخاصة بالشركة",
+        "submitting": "جاري التقديم...",
+        "back": "رجوع",
+        "skills": "المهارات",
+        "education": "المؤهلات التعليمية",
+        "location": "الموقع",
+        "experiencePlaceholder": "وصف خبرتك المناسبة"
+    }
+}

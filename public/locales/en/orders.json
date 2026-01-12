@@ -1,0 +1,443 @@
+{
+  "pageTitle": "Requests",
+  "myRequests": "My Requests",
+  "New order": "New Request",
+  "tabs": {
+    "orders": "Requests",
+    "myOrders": "My Requests"
+  },
+  "requestTypes": {
+    "vacationRequests": "Vacation Requests",
+    "permissionRequests": "Permission Requests",
+    "advanceRequests": "Advance Requests",
+    "letterRequests": "Letter Requests",
+    "businessExpenseRequests": "Business Expense Requests",
+    "airlineTicketRequests": "Airline Ticket Requests",
+    "leaveBalance": "Leave Balance"
+  },
+  "altText": {
+    "vacation": "vacation",
+    "permission": "permission",
+    "money": "money",
+    "letter": "letter",
+    "business": "business",
+    "airline": "airline",
+    "orderIcon": "request icon"
+  },
+  "tableHeaders": {
+    "requestNumber": "Request No.",
+    "employee": "Employee",
+    "requestType": "Request Type",
+    "date": "Date",
+    "departurePlace": "Departure Place",
+    "arrivalPlace": "Arrival Place",
+    "totalAmount": "Total Amount",
+    "vacationType": "Vacation Type",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "duration": "Duration",
+    "status": "Status",
+    "expenseCategory": "Expense Category",
+    "value": "Value",
+    "letterTemplate": "Letter Template",
+    "directedTo": "Directed To",
+    "actions": "Actions",
+    "permissionType": "Permission Type",
+    "permissionDate": "Permission Date",
+    "leaveTime": "Leave Time",
+    "hoursCount": "Hours Count",
+    "requestedAmount": "Requested Amount",
+    "repaymentPeriod": "Repayment Period",
+    "repaymentStartDate": "Repayment Start Date",
+    "day": "Day",
+    "leaveType": "Leave Type",
+    "totalDays": "Total Days",
+    "paidLeaves": "Paid Leaves",
+    "daysTaken": "Days Taken",
+    "remainingDays": "Remaining Days"
+  },
+  "buttons": {
+    "view": "View",
+    "display": "Display",
+    "accept": "Accept",
+    "reject": "Reject",
+    "approve": "Approve",
+    "comment": "Comment",
+    "send": "Send",
+    "back": "Back",
+    "cancel": "Cancel",
+    "submit": "Submit",
+    "viewDetails": "View Details"
+  },
+  "airlineTickets": {
+    "title": "Airline Ticket Requests",
+    "tabs": {
+      "bookTicket": "Book Flight Ticket",
+      "allowance": "Flight Ticket Allowance",
+      "payAmount": "Ticket Payment"
+    },
+    "ticketTypes": {
+      "reserveTicket": "Book Flight Ticket",
+      "ticketCompensation": "Flight Ticket Compensation",
+      "ticketPayment": "Ticket Payment"
+    },
+    "details": {
+      "tripReason": "Trip Reason",
+      "requestType": "Request Type",
+      "expenseDate": "Expense Date",
+      "destination": "Destination",
+      "ticketPrice": "Ticket Price",
+      "vatAmount": "VAT Amount",
+      "totalAmount": "Total Amount",
+      "notes": "Notes",
+      "businessMeeting": "Business Meeting",
+      "notSpecified": "Not Specified"
+    }
+  },
+  "businessExpenses": {
+    "title": "Business Expense Requests",
+    "tabs": {
+      "expense": "Expense",
+      "compensation": "Compensation"
+    },
+    "newRequest": "New Request",
+    "details": {
+      "expenseCategory": "Expense Category",
+      "requestedAmount": "Requested Amount",
+      "expenseDate": "Expense Date",
+      "notes": "Notes",
+      "employee": "Employee"
+    }
+  },
+  "letterRequests": {
+    "title": "Letter Requests",
+    "details": {
+      "letterTemplate": "Letter Template",
+      "directedTo": "Directed To",
+      "reason": "Reason",
+      "notes": "Notes",
+      "letterImage": "Letter Image"
+    },
+    "error": "An error occurred while loading the data."
+  },
+  "vacationRequests": {
+    "title": "Vacation Requests",
+    "details": {
+      "vacationType": "Vacation Type",
+      "vacationPeriod": "Vacation Period",
+      "startDate": "Vacation Start Date",
+      "endDate": "End Date",
+      "notes": "Notes",
+      "from": "From",
+      "to": "To",
+      "days": "days",
+      "file": "File"
+    },
+    "types": {
+      "paid": "Paid",
+      "unpaid": "Unpaid"
+    }
+  },
+  "permissionRequests": {
+    "title": "Permission Requests",
+    "details": {
+      "permissionType": "Permission Type",
+      "day": "Day",
+      "hoursCount": "Hours Count",
+      "reason": "Reason",
+      "approvalManager": "Approval Manager",
+      "previousComments": "Previous Comments",
+      "earlyDeparture": "Early Departure",
+      "hours": "hours"
+    },
+    "status": {
+      "underReview": "Under Review",
+      "approved": "Approved",
+      "rejected": "Rejected"
+    }
+  },
+    "supportCenter": {
+    "title": "Support Center",
+    "newTicket": "New Support Request",
+    "newRequest": "New Request",
+    "ticketDetails": "Support Ticket Details",
+    "tableHeaders": {
+      "ticketId": "TICKET ID",
+      "issueType": "ISSUE TYPE",
+      "status": "STATUS",
+      "priority": "PRIORITY",
+      "createdDate": "CREATED DATE",
+      "actions": "ACTIONS"
+    },
+    "issueTypes": {
+      "payroll_salary": "Payroll & Salary",
+      "leave_attendance": "Leave & Attendance",
+      "performance_appraisals": "Performance & Appraisals",
+      "recruitment_onboarding": "Recruitment / Onboarding",
+      "training_development": "Training & Development",
+      "expense_claims": "Expense Claims / Reimbursements",
+      "policy_compliance": "Policy & Compliance Queries",
+      "employee_data": "Employee Data / Profile Update",
+      "other_general": "Other / General Inquiry"
+    },
+    "priorities": {
+      "high": "High",
+      "medium": "Medium",
+      "low": "Low"
+    },
+    "statuses": {
+      "open": "Open",
+      "pending": "Pending",
+      "in_progress": "In Progress",
+      "closed": "Closed"
+    },
+    "form": {
+      "issueType": "Issue Type",
+      "priority": "Priority",
+      "description": "Description",
+      "attachFile": "Attach File (Optional)",
+      "selectPlaceholder": "Select",
+      "descriptionPlaceholder": "Describe your issue...",
+      "dragDropText": "Drag and Drop or",
+      "selectText": "Select",
+      "availableFormats": "Available formats: JPG / PNG / PDF",
+      "selectedFile": "Selected File:",
+      "noFileAttached": "No file attached",
+      "viewFile": "View File",
+      "submit": "Submit",
+      "submitting": "Submitting...",
+      "cancel": "Cancel"
+    },
+    "modal": {
+      "createdOn": "Created On",
+      "status": "Status",
+      "attachedFiles": "Attached Files",
+      "close": "Close",
+      "loadingTicket": "Loading ticket details...",
+      "errorLoading": "Error Loading Ticket",
+      "errorMessage": "Failed to load support ticket details. Please try again.",
+      "noData": "No ticket data available."
+    },
+    "messages": {
+      "ticketCreated": "تم إضافة التذكرة بنجاح",
+      "ticketDeleted": "تم الحذف بنجاح",
+      "errorCreating": "حدث خطأ أثناء إضافة التذكرة",
+      "errorDeleting": "حدث خطأ أثناء الحذف",
+      "errorViewing": "حدث خطأ أثناء عرض التذكرة",
+      "invalidFileType": "Please select a valid file type. Allowed formats: JPG, JPEG, PNG, PDF, DOC, DOCX, TXT",
+      "selectIssueType": "يرجى اختيار نوع المشكلة",
+      "selectPriority": "يرجى اختيار الأولوية",
+      "enterDescription": "يرجى كتابة وصف للمشكلة"
+    },
+    "deleteModal": {
+      "title": "Confirm Delete",
+      "message": "Are you sure you want to delete this support ticket?"
+    }
+  },
+  "advanceRequests": {
+    "title": "Advance Requests",
+    "details": {
+      "advancePurpose": "Advance Purpose",
+      "amount": "Amount",
+      "repaymentPeriod": "Repayment Period",
+      "repaymentStartDate": "Repayment Start Date",
+      "notes": "Notes",
+      "personal": "Personal",
+      "days": "days",
+      "months": "months",
+      "noNotes": "No notes for this request"
+    }
+  },
+  "addNewRequest": {
+    "vacation": {
+      "title": "Vacation Requests",
+      "newRequestTitle": "New Vacation Request",
+      "selectEmployee": "Select employee first",
+      "checkingVacation": "Checking vacation...",
+      "noVacationTypes": "No vacation types available",
+      "selectVacationType": "Select vacation type",
+      "remainingDays": "Remaining days",
+      "noRemainingDays": "No remaining days for this type of vacation",
+      "noRemainingDaysForMonth": "No remaining days for this type of vacation for this month",
+      "startDate": "Vacation start date",
+      "endDate": "Vacation end date",
+      "maxDays": "You can select a maximum of {days}",
+      "notes": "Notes",
+      "fillRequired": "Please fill in all required fields",
+      "cancelSuccess": "Successfully canceled."
+    }
+  },
+  "modals": {
+    "details": {
+      "title": "Request Details",
+      "remainingBalance": "Remaining Balance",
+      "daysOf": "days of",
+      "day": "days",
+      "approvalManager": "Approval Manager",
+      "addComment": "Add Comment"
+    },
+    "edit": {
+      "title": "Edit Vacation for"
+    },
+    "reject": {
+      "title": "Rejection Reason",
+      "label": "Reason for rejection",
+      "placeholder": "Write your comment",
+      "success": "Request Rejected",
+      "successMessage": "Request has been rejected"
+    },
+    "comment": {
+      "title": "Add Comment",
+      "label": "Comment",
+      "placeholder": "Write your comment",
+      "success": "Comment Sent",
+      "successMessage": "Comment has been sent successfully"
+    },
+    "success": {
+      "requestAccepted": "Request Accepted Successfully",
+      "requestAcceptedMessage": "The request has been accepted successfully",
+      "createSuccess": "Request created successfully.",
+      "createError": "An error occurred while creating the request."
+    },
+    "delete": {
+      "title": "Delete request permanently?",
+      "message": "This action cannot be undone. Are you sure you want to delete this request?",
+      "vacationTitle": "Delete from system permanently?",
+      "vacationMessage": "Are you sure you want to delete this vacation request? You won't be able to retrieve it later."
+    },
+    "filter": {
+      "title": "Filter",
+      "status": "Status",
+      "date": "Date",
+      "selectStatus": "Select Status",
+      "search": "Search",
+      "reset": "Reset"
+    }
+  },
+  "validation": {
+    "sectionRequired": "Department is required",
+    "employeeRequired": "Employee is required",
+    "workplaceRequired": "Workplace is required"
+  },
+  "toasts": {
+    "requestAddedSuccess": "Request added successfully!",
+    "filterResetSuccess": "Filter reset successfully!"
+  },
+  "forms": {
+    "selects": {
+      "timing": "timing",
+      "vacationType": "Vacation Type",
+      "employee": "Employee",
+      "currency": "Currency",
+      "jobTitle": "Job Title",
+      "leaveType": "Leave Type",
+      "manager": "Manager",
+      "nationality": "Nationality",
+      "office": "Office",
+      "section": "Section",
+      "destinationTemplate": "Destination Template",
+      "letterTemplate": "Letter Template",
+      "loanPurpose": "Loan Purpose",
+      "hoursNumber": "Number of Hours",
+      "reasonTemplate": "Reason Template",
+      "repaymentPeriod": "Repayment Period",
+      "request": "Request",
+      "workplace": "Workplace",
+      "workTime": "Work Time",
+      "category": "Category",
+      "selectPlaceholder": "-Select-"
+    },
+    "validation": {
+      "required": "This field is required",
+      "minChars": "Comment must contain at least 5 characters",
+      "maxChars": "Comment must not exceed 500 characters"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "currency": "SAR",
+    "editRequest": "Edit Request",
+    "newRequest": "New Request",
+    "selectPlaceholder": "-Select-"
+  },
+  "labels": {
+    "employee": "Employee",
+    "date": "Date",
+    "project": "Project",
+    "description": "Description",
+    "attachFile": "Attach File",
+    "descriptionOptional": "Description (Optional)",
+     "start_date": "Start Date",    "notes": "Notes",   "addNotes": "Add Notes",
+         "requiredEmployee": "Employee must be selected",
+    "requiredField": "This field is required",
+    "startDateMin": "Date must be later than today",
+    "fileRequired": "This field is required",
+    "fileSizeMax": "File size must be less than 10MB",
+    "amountRequired": "This field is required",
+    "amountPositive": "Amount must be greater than 0",
+    "amountMin": "Amount must be at least 1",
+    "requiredAdvancePurpose": "Advance purpose must be selected",
+    "noteMin": "Note must be at least 5 characters",
+    "noteMax": "Note must not exceed 500 characters",
+    
+    "directedTo": "Directed To",    "letterTemplate": "Letter Template"
+  },
+  "expenses": {
+    "requestedAmount": "Requested Amount",
+    "referenceNumber": "Reference Number",
+    "taxAmount": "Tax Amount",
+    "taxAmountOptional": "Tax Amount (Optional)",
+    "referenceNumberOptional": "Reference Number (Optional)", "oneWayTrip": "One-way Trip",
+    "roundTrip": "Round Trip",
+    "distanceCalculation": "Distance Calculation",
+    "distanceInMiles": "Distance in Miles",
+    "additionalInfo": "Additional Info",
+    "descriptionOptional": "Description (Optional)",
+    "distance": "Distance",
+    "description": "Description",
+     "startDistance": "Start Distance",
+    "enterStartDistance": "Enter Start Distance",
+    "endDistance": "End Distance",
+    "enterEndDistance": "Enter End Distance",
+    "startPoint": "Start Point",
+    "endPoint": "End Point",
+     "calculateBy": "Calculate By",
+    "distanceValue": "Distance Value",
+    "odometerValue": "Odometer Value",
+    "mapValue": "Map Value"
+  },
+   "advances": {
+    "purpose": "Purpose",
+    "requestedAmount": "Requested Amount"
+  },
+  "filters": {
+    "title": "Filter",
+    "requestStatus": "Request Status",
+    "section": {
+      "label": "Department",
+      "option1": "Department 1",
+      "option2": "Department 2"
+    },
+    "employee": {
+      "label": "Employee",
+      "option1": "Employee 1",
+      "option2": "Employee 2"
+    },
+    "workplace": {
+      "label": "Workplace",
+      "option1": "Office 1",
+      "option2": "Office 2"
+    },
+    "status": {
+      "all": "All",
+      "active": "Active",
+      "inactive": "Inactive"
+    }
+  },
+  "status": {
+    "all": "All",
+    "pending": "Pending",
+    "approved": "Approved",
+    "rejected": "Rejected"
+  }
+}

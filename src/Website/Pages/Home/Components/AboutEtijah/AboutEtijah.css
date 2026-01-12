@@ -1,0 +1,43 @@
+.about-etijah .animation-bg-plus:before {
+  background: theme("colors.primaryColor");
+}
+
+@media screen and (max-width: 1100px) {
+  .about-etijah .user-one-details-animation {
+    left: 28%;
+  }
+  .about-etijah .user-one-details-animation-right {
+    right: 15%;
+  }
+  .about-etijah .image-about-app {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .about-etijah .user-one-details-animation {
+    top: 20%;
+  }
+  .about-etijah .image-about-app-src{
+    width: 70% !important;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .about-etijah .user-one-details-animation {
+    display: none;
+  }
+  .about-etijah .about-etijah-header {
+    margin-bottom: 15px;
+  }
+  .about-etijah .image-about-app-src{
+    width: 80% !important;
+  }
+}
+
+@media screen and (max-width:620px) {
+  .about-etijah .image-about-app-src{
+    width: 100% !important;
+  }
+}
+

@@ -1,0 +1,79 @@
+{
+  "pageTitle": "Contact Us",
+  "header": {
+    "title": "We'd Love to Hear from You",
+    "cards": {
+      "email": {
+        "title": "Email Address",
+        "value": "info@etijah.sa"
+      },
+      "phone": {
+        "title": "Customer Service",
+        "value": "+966538180881"
+      },
+      "location": {
+        "title": "Address",
+        "value": "Saudi Arabia, Riyadh"
+      }
+    }
+  },
+  "main": {
+    "title": "Contact Us",
+    "subtitle": "About the System"
+  },
+  "form": {
+    "fields": {
+      "name": {
+        "label": "Name",
+        "placeholder": "Name"
+      },
+      "phone": {
+        "label": "Phone Number",
+        "placeholder": "Phone Number"
+      },
+      "email": {
+        "label": "Email Address",
+        "placeholder": "Email Address"
+      },
+      "message": {
+        "label": "Message Subject",
+        "placeholder": "Message Subject"
+      }
+    },
+    "validation": {
+      "name": {
+        "required": "Name is required",
+        "tooShort": "Name is too short",
+        "tooLong": "Name is too long"
+      },
+      "email": {
+        "required": "Email is required",
+        "invalid": "Invalid email address"
+      },
+      "phone": {
+        "required": "Phone number is required",
+        "invalid": "Phone number must be between 10 and 11 digits"
+      },
+      "message": {
+        "required": "Message subject is required",
+        "minWords": "Message must contain at least 3 words"
+      }
+    },
+    "buttons": {
+      "submit": "Send Request Now"
+    },
+    "success": {
+      "title": "Your Message Sent Successfully!",
+      "message": "We appreciate your interest and will review your message as soon as possible."
+    }
+  },
+  "social": {
+    "title": "Follow Us on Social Media",
+    "description": "If you need a larger number of paragraphs, the Arabic text generator allows you to increase the number of paragraphs as you want. The text will not appear divided and will not contain linguistic errors. The Arabic text generator is useful for website designers in particular, as the client often needs to see a real image of the website design.",
+    "platforms": {
+      "instagram": "Instagram",
+      "x": "X",
+      "facebook": "Facebook"
+    }
+  }
+}

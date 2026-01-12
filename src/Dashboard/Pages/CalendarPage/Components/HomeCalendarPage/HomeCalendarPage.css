@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500;600;700&display=swap');
+
+.drnpen {
+  position: initial !important;
+}
+
+.fc-daygrid-day-events .fc-event {
+  background: #F2F7FF;
+  color: #4C6CB2;
+ 
+}
+.fc-daygrid-day-events .fc-event .fc-daygrid-event-dot {
+  border-color: #4C6CB2;
+}
+.fc .fc-daygrid-day.fc-day-today {
+  background: #eaf9f3;
+}
+
+.fc .fc-daygrid-day.fc-day-today .fc-event {
+  color: #32a840;
+  background: #eaf9f3;
+}
+
+.fc .fc-daygrid-day.fc-day-today .fc-daygrid-event-dot {
+  border-color: #32a840;
+}
+
+.fc-col-header-cell-cushion {
+  padding: 15px 4px !important;
+}
+
+.fc-button {
+  background: theme("colors.primaryColor") !important;
+  border-color: theme("colors.primaryColor") !important;
+}
+.fc-button:focus {
+  box-shadow: #4c6cb252 0px 0px 0px 0.2rem !important;
+}
+
+.all-calendar-data .main-select-box {
+  margin: 0;
+}
+
+@media screen and (max-width: 550px) {
+  .fc .fc-toolbar.fc-header-toolbar {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .all-calendar-data :is(td, th) {
+    width: 200px;
+    height: 110px;
+  }
+  .all-calendar-data .fc-view-harness {
+    overflow: auto;
+    height: 100vh !important;
+  }
+  .all-calendar-data .fc-dayGridMonth-view {
+    width: 50rem;
+    height: 100%;
+  }
+  .all-calendar-data th .fc-scrollgrid-sync-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+}
+
+.fc-event {
+  border: none !important;
+  padding: 15px !important;
+  margin: 2px 0 !important;
+  border-radius: 4px !important;
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+  font-family: 'Baloo Bhaijaan 2', sans-serif !important;
+}
+
+.fc-event-title,
+.fc-event-time {
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+  font-family: 'Baloo Bhaijaan 2', sans-serif !important;
+}
+
+.fc-event-title div {
+  margin-top: 2px;
+  font-size: 0.875rem !important;
+  font-weight: 500 !important;
+  opacity: 0.8;
+}
+
+.fc-daygrid-event-dot {
+  border-color: #4C6CB2 !important;
+}
+
+.fc-h-event .fc-event-title {
+  font-weight: 500 !important;
+  padding: 2px 0 !important;
+}
+
+.fc-direction-rtl {
+  text-align: right !important;
+}
+
+.fc .fc-toolbar {
+  direction: rtl !important;
+}
+
+.fc .fc-button {
+  background-color: #f3f4f6 !important;
+  border: none !important;
+  color: #374151 !important;
+  font-weight: 500 !important;
+}
+
+.fc .fc-button-primary:not(:disabled).fc-button-active,
+.fc .fc-button-primary:not(:disabled):active {
+  background-color: #4c6cb2 !important;
+  color: white !important;  
+}
+
+.fc-theme-standard td, 
+.fc-theme-standard th {
+  border-color: #f3f4f6 !important;
+}
+
+.fc-day-today {
+  background-color: #f8fafc !important;
+}
+
+.fc-daygrid-day-number {
+  color: #374151 !important;
+  font-weight: 500 !important;
+}
+
+.fc-col-header-cell {
+  background-color: #f8fafc !important;
+  padding: 8px 0 !important;
+}
+
+.fc-col-header-cell-cushion {
+  color: #374151 !important;
+  font-weight: 600 !important;
+}
+
+.fc {
+  direction: rtl !important;
+  font-family: "Cairo", sans-serif !important;
+}
+
+/* تنسيق رأس التقويم */
+.fc .fc-toolbar.fc-header-toolbar {
+  margin-bottom: 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.fc .fc-toolbar-title {
+  font-size: 1.5rem !important;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+/* أزرار التنقل */
+.fc .fc-button {
+  background: #f8f9fa !important;
+  border: none !important;
+  color: #666 !important;
+  padding: 0.5rem 1rem !important;
+  font-weight: normal !important;
+  font-size: 0.875rem !important;
+  border-radius: 0.5rem !important;
+  margin: 0 0.25rem !important;
+}
+
+.fc .fc-button.fc-button-active {
+  background: #6366f1 !important;
+  color: white !important;
+}
+
+/* أيام الأسبوع */
+/* .fc-theme-standard th {
+  background-color: #f8f9fa !important;
+  padding: 1rem 0 !important;
+  font-weight: 600 !important;
+  color: #1a1a1a !important;
+  border: none !important;
+} */
+
+/* خلايا الأيام */
+.fc-theme-standard td {
+  border: 1px solid #f0f0f0 !important;
+}
+
+.fc .fc-daygrid-day-number {
+  font-size: 1rem;
+  color: #666;
+  padding: 0.5rem;
+  font-weight: normal;
+}
+
+/* اليوم الحالي */
+.fc .fc-day-today {
+  background-color: #fafaff !important;
+}
+
+.fc .fc-day-today .fc-daygrid-day-number {
+  color: #6366f1;
+  font-weight: 600;
+}
+
+/* تنسيق الأحداث */
+.fc-event {
+  margin: 2px 0 !important;
+  padding: 4px 8px !important;
+  border-radius: 4px !important;
+  border: none !important;
+  font-size: 0.875rem !important;
+}
+
+/* تنسيق عنوان الحدث */
+.fc-event-title {
+  font-weight: 500 !important;
+  line-height: 1.4 !important;
+}
+
+/* تحسينات للشاشات الصغيرة */
+@media screen and (max-width: 768px) {
+  .fc .fc-toolbar.fc-header-toolbar {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .fc .fc-toolbar-title {
+    font-size: 1.25rem !important;
+  }
+
+  .fc-view-harness {
+    height: auto !important;
+  }
+}
+
+/* تنسيق أزرار التبديل بين العرض */
+.fc-button-group {
+  background: #f8f9fa;
+  padding: 4px;
+  border-radius: 8px;
+}
+
+.fc-button-group .fc-button {
+  margin: 0 !important;
+  border-radius: 6px !important;
+}
+
+/* تنسيق الشهر السابق والقادم */
+.fc .fc-day-other .fc-daygrid-day-number {
+  color: #ccc;
+}
+
+/* تنسيق الأحداث المتعددة */
+.fc-daygrid-day-events {
+  margin-top: 4px !important;
+}
+
+/* تنسيق زر اليوم */
+.fc-today-button {
+  font-weight: 500 !important;
+}
+
+.fc-today-button:disabled {
+  opacity: 0.6 !important;
+}
+
+/* تنسيق القائمة الشهرية */
+.fc-list-view {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.fc-list-table {
+  border: none !important;
+}
+
+.fc-list-day-cushion {
+  background-color: #f8f9fa !important;
+  padding: 12px 16px !important;
+}
+
+.fc-list-event {
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.fc-list-event:hover {
+  background-color: #f8f9fa !important;
+}
+
+.fc-list-event td {
+  padding: 12px 16px !important;
+  border-color: #eee !important;
+}
+
+.fc-list-event-title {
+  font-weight: 600;
+  color: #333;
+}
+
+.fc-list-event-time {
+  color: #666;
+  font-weight: 500;
+}
+
+.fc-list-empty {
+  background: #f8f9fa;
+  padding: 40px;
+  text-align: center;
+  color: #666;
+}
+
+/* تنسيق رأس القائمة */
+.fc .fc-list-sticky .fc-list-day > * {
+  background: #f1f5f9 !important;
+  color: #1e293b !important;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+/* تنسيق الأحداث في القائمة */
+.fc-list-event-dot {
+  border-color: #3b82f6 !important;
+  margin: 0 8px !important;
+}

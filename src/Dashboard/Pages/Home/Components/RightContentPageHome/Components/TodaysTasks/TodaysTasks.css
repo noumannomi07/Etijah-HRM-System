@@ -1,0 +1,30 @@
+.todays-tasks .svg-inline--fa.fa-chevron-left {
+    display: none;
+}
+
+.todays-tasks .button-transparent{
+    background: transparent;
+    border: none;
+    padding: 0;
+}
+
+.todays-tasks .main-calendar .Calendar{
+    width: 100%;
+}
+
+.todays-tasks .main-calendar :is(.Calendar__header) {
+    padding: 0px 15px;
+}
+.todays-tasks .Calendar__day:not(.-blank):not(.-selectedStart):not(.-selectedEnd):not(.-selectedBetween):not(.-selected):hover{
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    
+}
+.todays-tasks .Calendar__weekRow{
+    padding-inline: 3px;
+}
+
+.todays-tasks .Calendar__weekDays{
+    padding: 15px 3px 0 3px;
+}

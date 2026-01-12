@@ -1,0 +1,27 @@
+.list-drop-lang {
+  top: 105px !important;
+  padding: 0 !important;
+  border: none !important;
+}
+
+.list-drop-lang .item-button-drop {
+  padding: 10px;
+  border-radius: 0;
+  transition: all 0.5s;
+}
+.list-drop-lang .item-button-drop:hover {
+  background: theme("colors.primaryColor_02") !important;
+}
+.list-drop-lang .item-button-drop:hover > * {
+  color: theme("colors.white") !important;
+}
+.list-drop-lang .item-button-drop:not(:last-child) {
+  border-bottom: 1px solid #ddd;
+}
+
+@media screen and (max-width: 575px) {
+  .list-drop-lang {
+    top: 90px !important;
+    z-index: 100000;
+  }
+}

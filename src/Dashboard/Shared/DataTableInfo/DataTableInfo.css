@@ -1,0 +1,267 @@
+.data-table-content--1 tr {
+  position: relative;
+}
+.data-table-content--1 thead tr .th-table {
+  text-align: center;
+}
+
+.data-table-content--1 thead tr .th-table .th-div {
+  width: max-content;
+  margin: auto;
+}
+
+.data-table-content--1 thead tr .th-table:nth-child(1) .th-div {
+  margin: initial;
+}
+
+.data-table-content--1 thead tr .th-table:nth-child(1) .th-div,
+.data-table-content--1 tbody tr td:nth-child(1) {
+  text-align: right !important;
+}
+
+/* .data-table-content--1 tbody tr td:nth-child(1) {
+  padding: 15px 15px 15px 60px;
+} */
+
+.data-table-content--1 tbody tr .td-check {
+  padding: 15px 15px 15px 0px !important;
+}
+
+.data-table-content--1 thead tr th {
+  font-size: 15px;
+  font-weight: 600;
+  color: theme("colors.darkColor");
+}
+
+.data-table-content--1 tr td {
+  font-size: 15px;
+  font-weight: 500;
+  color: theme("colors.grayColor");
+  text-align: center;
+}
+
+:is(.status-danger, .status-success, .status-primary, .status-oranged) {
+  padding: 6px 20px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 50px;
+  text-align: center;
+  max-width: max-content;
+  margin: auto;
+  width: max-content;
+}
+
+.status-success {
+  background: theme("colors.greenLightColor");
+  color: theme("colors.greenColor01");
+}
+
+.status-danger {
+  background: theme("colors.redLightColor");
+  color: theme("colors.redColor01");
+}
+
+.status-primary {
+  background: theme("colors.primaryLightColor");
+  color: theme("colors.primaryColor") !important;
+}
+
+.status-oranged {
+  background: theme("colors.orangeLightColor");
+  color: theme("colors.orangeColor");
+}
+.status-m :is(.status-danger, .status-success, .status-primary, .status-oranged) {
+  margin-inline: initial;
+  margin-top: 10px;
+}
+/* CUSTOMS CHECKBOX */
+
+.th-check-top {
+  padding-inline: 1rem !important;
+}
+
+.custom-checkbox-container {
+  display: inline-block;
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.custom-checkbox {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.custom-checkmark {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-80%);
+  left: 0;
+  height: 22px;
+  width: 22px;
+  background-color: theme("colors.primaryLightColor");
+  border: 2px solid #e3e3e3;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.custom-checkbox:checked + .custom-checkmark {
+  background-color: theme("colors.primaryColor");
+  border-color: theme("colors.primaryColor");
+}
+
+.custom-checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.custom-checkbox:checked + .custom-checkmark:after {
+  display: block;
+}
+
+.custom-checkmark:after {
+  left: 7px;
+  top: 4px;
+  width: 6px;
+  height: 10px;
+  border: solid theme("colors.whiteColor");
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.all-table-content .button-transparent {
+  padding: 13px;
+}
+
+.all-table-content .button-transparent > svg {
+  width: 25px;
+  height: 25px;
+}
+
+.data-table-checkbox thead tr .th-table:nth-child(2) {
+  padding-right: 0rem !important;
+}
+
+.all-table-content .main-table-top-content {
+  flex-wrap: wrap;
+}
+.all-table-content .all-input-search {
+  flex-grow: 1;
+  flex-basis: auto;
+}
+
+/* SCREEN 991px */
+@media screen and (max-width: 991px) {
+  .all-table-content .main-content-filter-top {
+    flex-wrap: nowrap;
+  }
+  .all-table-content .main-content-filter-top {
+    flex-wrap: wrap;
+  }
+  .all-table-content .all-input-search .input-search-info input {
+    width: 250px !important;
+  }
+
+  .all-table-content
+    .main-table-top-content
+    .all-input-search
+    .input-search-info
+    input {
+    width: 100% !important;
+  }
+
+  .all-table-content
+    .all-input-search
+    :is(.left-nav-dashboard, .all-left-content, .all-input-search .input-search-info) {
+    width: auto;
+  }
+  .all-table-content :is(.item-main--1, .item-main--1 .btn-main) {
+    width: 100%;
+  }
+  .all-table-content .activeMainContent :is(.item-main--1) {
+    flex-grow: 1;
+    flex-basis: 300px;
+  }
+  .all-table-content .activeMainContent {
+    flex-wrap: wrap;
+  }
+
+  .all-table-content .activeMainContent .btn-filter-table {
+    flex-grow: 1;
+    flex-basis: 300px;
+  }
+}
+/* SCREEN 890px */
+@media screen and (max-width: 890px) {
+  .all-table-content .main-content-filter-top {
+    flex-wrap: wrap;
+  }
+  .all-table-content .all-input-search .input-search-info input {
+    width: 100% !important;
+  }
+  .all-table-content
+    .all-input-search
+    :is(.left-nav-dashboard, .all-left-content, .all-input-search .input-search-info) {
+    width: 100%;
+  }
+}
+.all-table-content .all-input-search .btn-filter-table:hover svg :is(path) {
+  stroke: theme("colors.whiteColor");
+}
+/* SCREEN 450px */
+@media screen and (max-width: 420px) {
+  .all-table-content .main-content-filter-top {
+    flex-wrap: wrap;
+  }
+  .all-table-content .all-input-search .input-search-info input,
+  .all-table-content
+    :is(.buttons-modal-content .btn-main, .buttons-modal-content) {
+    width: 100% !important;
+  }
+  .all-table-content .all-input-search {
+    flex-wrap: wrap;
+  }
+  .all-table-content .all-input-search .btn-filter-table {
+    width: 100%;
+    justify-content: center;
+    padding: 10px !important;
+  }
+  .all-table-content
+    :is(.all-buttons-actions .button-transparent, .all-buttons-actions) {
+    width: 100%;
+    justify-content: center;
+  }
+  .all-table-content :is(.all-buttons-actions .button-transparent) {
+    height: 55px;
+    padding: 0;
+  }
+}
+/* تأثير hover على صفوف الجدول */
+.data-table-content--1 .table-row-hover:hover {
+  background-color: #f5f5f5 !important;
+  transition: background-color 0.2s ease;
+}
+.main-button-show .button-transparent{
+  background: theme("colors.primaryColor");
+  color: #fff;
+  border-radius: 8px 0 0 8px;
+  padding:  16px;
+  font-size: 14px;
+  border: 1px solid #fff!important;
+
+}
+.main-button-show .button-transparent:hover{
+  box-shadow: none !important;
+  outline: none !important;
+  transform: none !important;
+  border-color: #fff !important;
+
+
+}
+.main-button-show  .button-transparent > svg{
+  width: 17px;
+  height: 17px;
+}

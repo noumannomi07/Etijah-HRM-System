@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- Home Page -->
+  <url>
+    <loc>https://etijah.sa/</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://etijah.sa/?lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://etijah.sa/?lang=en"/>
+  </url>
+
+  <!-- About Us -->
+  <url>
+    <loc>https://etijah.sa/about</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://etijah.sa/about?lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://etijah.sa/about?lang=en"/>
+  </url>
+
+  <!-- Services -->
+  <url>
+    <loc>https://etijah.sa/services</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://etijah.sa/services?lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://etijah.sa/services?lang=en"/>
+  </url>
+
+  <!-- Service Pages -->
+  <url>
+    <loc>https://etijah.sa/services/attendance-management</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://etijah.sa/services/payroll-benefits</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://etijah.sa/services/recruitment-management</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://etijah.sa/services/performance-evaluation</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://etijah.sa/services/order-management</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://etijah.sa/services/smart-range-calculator</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Packages -->
+  <url>
+    <loc>https://etijah.sa/packages</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://etijah.sa/packages?lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://etijah.sa/packages?lang=en"/>
+  </url>
+
+  <!-- Mobile App -->
+  <url>
+    <loc>https://etijah.sa/mobile-app</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://etijah.sa/mobile-app?lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://etijah.sa/mobile-app?lang=en"/>
+  </url>
+
+  <!-- Contact Us -->
+  <url>
+    <loc>https://etijah.sa/contact</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://etijah.sa/contact?lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://etijah.sa/contact?lang=en"/>
+  </url>
+
+  <!-- FAQ -->
+  <url>
+    <loc>https://etijah.sa/faq</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://etijah.sa/faq?lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://etijah.sa/faq?lang=en"/>
+  </url>
+
+  <!-- Blogs -->
+  <url>
+    <loc>https://etijah.sa/blogs</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://etijah.sa/blogs?lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://etijah.sa/blogs?lang=en"/>
+  </url>
+
+  <!-- Privacy Policy -->
+  <url>
+    <loc>https://etijah.sa/privacy-policy</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Subscription Request -->
+  <url>
+    <loc>https://etijah.sa/subscription</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>
+

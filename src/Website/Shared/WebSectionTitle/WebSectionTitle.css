@@ -1,0 +1,26 @@
+.margin-initial {
+  margin: initial !important;
+}
+
+.web-white-content .head-title-section {
+  color: theme("colors.lightColorblue");
+}
+
+.web-white-content .title-web-section {
+  color: theme("colors.whiteColor");
+}
+
+.center-items {
+  align-items: center !important;
+}
+.center-items .head-title-section {
+  max-width: 680px;
+  text-align: center;
+  margin: auto;
+}
+
+@media screen and (max-width: 991px) {
+  .center-items .head-title-section {
+    max-width: 100%;
+  }
+}

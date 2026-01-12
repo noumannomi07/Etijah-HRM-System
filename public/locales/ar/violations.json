@@ -1,0 +1,135 @@
+{
+  "common": {
+    "add": "إضافة",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "save": "حفظ",
+    "saveWithPenalty": "حفظ مع تطبيق الغرامة",
+    "cancel": "إلغاء",
+    "back": "رجوع",
+    "next": "التالي",
+    "previous": "السابق",
+    "search": "بحث",
+    "filter": "تصفية",
+    "view": "عرض",
+    "select": "اختيار",
+    "details": "التفاصيل",
+    "noData": "لا توجد بيانات"
+  },
+  "pageTitle": {
+    "violationsManagement": "إدارة المخالفات"
+  },
+  "messages": {
+    "successAdd": "تمت إضافة المخالفة بنجاح",
+    "successUpdate": "تم تحديث المخالفة بنجاح",
+    "successDelete": "تم حذف المخالفة بنجاح",
+    "error": "حدث خطأ",
+    "confirmDelete": "هل أنت متأكد من حذف هذه المخالفة؟",
+    "confirmDeleteDetails": "سيتم حذف المخالفة بشكل دائم ولا يمكن التراجع عن هذا الإجراء."
+  },
+  "violationsTable": {
+    "headers": {
+      "id": "#",
+      "violationType": "نوع المخالفة",
+      "violationDate": "تاريخ المخالفة",
+      "employee": "الموظف",
+      "penalty": "العقوبة",
+      "description": "الوصف",
+      "status": "الحالة",
+      "actions": "الإجراءات",
+      "repetitionCount": "مرات التكرار",
+      "violationRule": "نوع المخالفة",
+      "employeeName": "الموظف",
+      "penaltyText": "الجزاء",
+      "notes": "الملاحظات",
+      "createdAt": "تاريخ الإنشاء",
+      "updatedAt": "تاريخ التحديث"
+    },
+    "tooltips": {
+      "view": "عرض",
+      "edit": "تعديل",
+      "delete": "حذف"
+    },
+    "filters": {
+      "title": "تصفية",
+      "addFilter": "إضافة تصفية",
+      "apply": "تطبيق",
+      "clear": "مسح"
+    },
+    "actions": {
+      "addViolation": "إضافة مخالفة جديدة"
+    }
+  },
+  "statuses": {
+    "pending": "قيد الانتظار",
+    "approved": "مقبولة",
+    "rejected": "مرفوضة",
+    "cancelled": "ملغاة"
+  },
+  "severityLevels": {
+    "low": "منخفضة",
+    "medium": "متوسطة",
+    "high": "عالية",
+    "critical": "حرجة"
+  },
+  "addViolation": {
+    "title": "إضافة مخالفة جديدة",
+    "violationType": "نوع المخالفة",
+    "description": "الوصف",
+    "violationDate": "تاريخ المخالفة",
+    "employee": "الموظف",
+    "penalty": "العقوبة",
+    "severityLevel": "مستوى الخطورة",
+    "attachments": "المرفقات",
+    "notes": "الملاحظات",
+    "saveViolation": "حفظ المخالفة"
+  },
+  "violationDetails": {
+    "title": "تفاصيل المخالفة",
+    "violationType": "نوع المخالفة",
+    "description": "الوصف",
+    "violationDate": "تاريخ المخالفة",
+    "employee": "الموظف",
+    "penalty": "العقوبة",
+    "severityLevel": "مستوى الخطورة",
+    "status": "الحالة",
+    "attachments": "المرفقات",
+    "notes": "الملاحظات",
+    "comments": "التعليقات",
+    "addComment": "إضافة تعليق"
+  },
+  "validation": {
+    "violationTypeRequired": "نوع المخالفة مطلوب",
+    "descriptionRequired": "الوصف مطلوب",
+    "employeeRequired": "يرجى اختيار الموظف",
+    "dateRequired": "التاريخ مطلوب",
+    "penaltyRequired": "العقوبة مطلوبة",
+    "invalidDateFormat": "تنسيق التاريخ غير صالح",
+    "employeeNotFound": "الموظف غير موجود"
+  },
+  "violationText": {
+    "noData": "لا تتوفر بيانات",
+    "noPenalty": "لا يوجد جزاء مطبق",
+    "unknownPenaltyType": "نوع الجزاء غير متوفر",
+    "dailySalaryDeduction": "خصم {{value}}% من الراتب اليومي",
+    "singleDayDeduction": "خصم يوم واحد من الراتب",
+    "multipleDaysDeduction": "خصم {{value}} أيام من الراتب",
+    "warning": "تحذير",
+    
+    "violationCount": {
+      "first": "أول مرة",
+      "second": "ثاني مرة",
+      "third": "ثالث مرة",
+      "fourth": "رابع مرة",
+      "fifth": "خامس مرة",
+      "custom": "{{count}} مرات"
+    }
+  },
+  "endService": {
+    "title": "إنهاء الخدمة",
+    "endDate": "تاريخ إنهاء الخدمة",
+    "reason": "سبب إنهاء الخدمة",
+    "endOfServiceCalculator": "حاسبة نهاية الخدمة",
+    "description": "يمكنك استخدام حاسبة نهاية الخدمة لحساب مستحقات الموظف عند إنهاء خدمته"
+  }
+}

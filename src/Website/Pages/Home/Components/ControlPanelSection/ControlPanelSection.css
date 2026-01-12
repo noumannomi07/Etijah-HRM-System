@@ -1,0 +1,31 @@
+.control-panel-section .all-control-panel-info {
+  display: grid;
+  grid-template-columns: 3.5fr 4.5fr;
+  gap: 30px;
+}
+
+.control-panel-section
+  .all-control-panel-info
+  .all-cards-content-control::-webkit-scrollbar {
+  display: none;
+}
+
+/* MIN SCREEN 1400px */
+@media screen and (min-width: 1400px) {
+  .control-panel-section .all-cards-content-control {
+    height: 540px;
+  }
+}
+/* SCREEN 991PX */
+
+@media screen and (max-width: 991px) {
+  .control-panel-section .all-control-panel-info {
+    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+.all-cards-content-control::-webkit-scrollbar {
+  display: none;
+}

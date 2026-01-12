@@ -1,0 +1,450 @@
+{
+  "pageTitle": "الطلبات",
+  "myRequests": "طلباتى",
+  "New order": "طلب جديد",
+  "tabs": {
+    "orders": "الطلبات",
+    "myOrders": "طلباتى"
+  },
+
+  "requestTypes": {
+    "vacationRequests": "طلبات الأجازات",
+    "permissionRequests": "طلبات الإستئذان",
+    "advanceRequests": "طلبات السلف",
+    "letterRequests": "طلبات الخطابات",
+    "businessExpenseRequests": "طلبات نفقات العمل",
+    "airlineTicketRequests": "طلبات تذاكر الطيران",
+    "leaveBalance": "رصيد الإجازات"
+  },
+  "altText": {
+    "vacation": "إجازة",
+    "permission": "إذن",
+    "money": "نقود",
+    "letter": "خطاب",
+    "business": "عمل",
+    "airline": "طيران",
+    "orderIcon": "أيقونة الطلبات"
+  },
+  "tableHeaders": {
+    "requestNumber": "رقم الطلب",
+    "employee": "الموظف",
+    "requestType": "نوع الطلب",
+    "date": "التاريخ",
+    "departurePlace": "مكان المغادرة",
+    "arrivalPlace": "مكان الوصول",
+    "totalAmount": "المبلغ الكلي",
+    "vacationType": "نوع الإجازة",
+    "startDate": "تاريخ البداية",
+    "endDate": "تاريخ الإنتهاء",
+    "duration": "المدة",
+    "status": "الحالة",
+    "expenseCategory": "فئة النفقة",
+    "value": "القيمة",
+    "letterTemplate": "نموذج الخطاب",
+    "directedTo": "موجه إلى",
+    "actions": "",
+    "permissionType": "نوع الإذن",
+    "permissionDate": "تاريخ الإذن",
+    "leaveTime": "وقت الإنصراف",
+    "hoursCount": "عدد الساعات",
+    "requestedAmount": "المبلغ المطلوب",
+    "repaymentPeriod": "فترة السداد",
+    "repaymentStartDate": "تاريخ بداية السداد",
+    "day": "اليوم",
+    "leaveType": "نوع الإجازة",
+    "totalDays": "إجمالي الأيام",
+    "paidLeaves": "الإجازات مدفوعة",
+    "daysTaken": "الأيام المأخوذة",
+    "remainingDays": "الأيام المتبقية"
+  },
+  "buttons": {
+    "view": "عرض",
+    "display": "عرض",
+    "accept": "قبول",
+    "reject": "رفض",
+    "approve": "موافقة",
+    "comment": "تعليق",
+    "send": "إرسال",
+    "back": "رجوع",
+    "cancel": "إلغاء",
+    "submit": "إرسال",
+    "viewDetails": "عرض التفاصيل"
+  },
+  "airlineTickets": {
+    "title": "طلبات تذاكر الطيران",
+    "tabs": {
+      "bookTicket": "حجز تذكرة طيران",
+      "allowance": "صرف بدل تذكرة طيران",
+      "payAmount": "سداد مبلغ تذكرة"
+    },
+    "ticketTypes": {
+      "reserveTicket": "حجز تذكرة طيران",
+      "ticketCompensation": "صرف بدل تذكرة طيران",
+      "ticketPayment": "سداد مبلغ تذكرة"
+    },
+    "details": {
+      "tripReason": "سبب الرحلة",
+      "requestType": "نوع الطلب",
+      "expenseDate": "تاريخ الإنفاق",
+      "destination": "الوجهه",
+      "ticketPrice": "سعر التذكرة",
+      "vatAmount": "مبلغ ضريبة القيمة المضافة",
+      "totalAmount": "المبلغ الكلي",
+      "notes": "ملاحظات",
+      "businessMeeting": "إجتماع عمل",
+      "notSpecified": "غير محددة"
+    }
+  },
+  "businessExpenses": {
+    "title": "طلبات نفقات العمل",
+    "tabs": {
+      "expense": "نفقة",
+      "compensation": "تعويض"
+    },
+    "newRequest": "طلب جديد",
+    "details": {
+      "expenseCategory": "فئة النفقة",
+      "requestedAmount": "المبلغ المطلوب",
+      "expenseDate": "تاريخ الإنفاق",
+      "notes": "ملاحظات",
+      "employee": "الموظف"
+    }
+  },
+  "letterRequests": {
+    "title": "طلبات الخطابات",
+    "details": {
+      "letterTemplate": "نموذج الخطاب",
+      "directedTo": "موجه إلى",
+      "reason": "السبب",
+      "notes": "ملاحظات",
+      "letterImage": "صورة الخطاب"
+    },
+    "error": "حدث خطأ أثناء تحميل البيانات."
+  },
+  "vacationRequests": {
+    "title": "طلبات الأجازات",
+    "details": {
+      "vacationType": "نوع الأجازة",
+      "vacationPeriod": "فترة الأجازة",
+      "startDate": "تاريخ الأجازة",
+      "endDate": "تاريخ الإنتهاء",
+      "notes": "ملاحظات",
+      "from": "من",
+      "to": "إلى",
+      "days": "يوم",
+      "file": "الملف"
+    },
+    "types": {
+      "paid": "مدفوعة",
+      "unpaid": "غير مدفوعة"
+    }
+  },
+  "permissionRequests": {
+    "title": "طلبات الإستئذان",
+    "details": {
+      "permissionType": "نوع الإذن",
+      "day": "اليوم",
+      "hoursCount": "عدد الساعات",
+      "reason": "السبب",
+      "approvalManager": "المسئول بالموافقة",
+      "previousComments": "تعليقات سابقة",
+      "earlyDeparture": "إنصراف مبكر",
+      "hours": "ساعات"
+    },
+    "status": {
+      "underReview": "قيد المراجعة",
+      "approved": "مقبول",
+      "rejected": "مرفوض"
+    }
+  },
+   "supportCenter": {
+    "title": "مركز الدعم",
+    "newTicket": "طلب دعم جديد",
+    "newRequest": "طلب دعم",
+    "ticketDetails": "تفاصيل تذكرة الدعم",
+    "tableHeaders": {
+      "ticketId": "رقم التذكرة",
+      "issueType": "نوع المشكلة",
+      "status": "الحالة",
+      "priority": "الأولوية",
+      "createdDate": "تاريخ الإنشاء",
+      "actions": "الإجراءات"
+    },
+    "issueTypes": {
+      "payroll_salary": "كشوف المرتبات والرواتب",
+      "leave_attendance": "الإجازات والحضور",
+      "performance_appraisals": "التقييمات والأداء",
+      "recruitment_onboarding": "التوظيف / التعيين",
+      "training_development": "التدريب والتطوير",
+      "expense_claims": "مطالبات المصروفات / الاسترداد",
+      "policy_compliance": "استفسارات السياسات والامتثال",
+      "employee_data": "بيانات الموظف / تحديث الملف الشخصي",
+      "other_general": "أخرى / استفسار عام"
+    },
+    "priorities": {
+      "high": "عالي",
+      "medium": "متوسط",
+      "low": "منخفض"
+    },
+    "statuses": {
+      "open": "مفتوح",
+      "pending": "معلق",
+      "in_progress": "قيد التنفيذ",
+      "closed": "مغلق"
+    },
+    "form": {
+      "issueType": "نوع المشكلة",
+      "priority": "الأولوية",
+      "description": "الوصف",
+      "attachFile": "إرفاق ملف (اختياري)",
+      "selectPlaceholder": "اختر",
+      "descriptionPlaceholder": "اوصف مشكلتك...",
+      "dragDropText": "اسحب وأفلت أو",
+      "selectText": "اختر",
+      "availableFormats": "الصيغ المتاحة: JPG / PNG / PDF",
+      "selectedFile": "الملف المحدد:",
+      "noFileAttached": "لم يتم إرفاق ملف",
+      "viewFile": "عرض الملف",
+      "submit": "إرسال",
+      "submitting": "جاري الإرسال...",
+      "cancel": "إلغاء"
+    },
+    "modal": {
+      "createdOn": "تاريخ الإنشاء",
+      "status": "الحالة",
+      "attachedFiles": "الملفات المرفقة",
+      "close": "إغلاق",
+      "loadingTicket": "جاري تحميل تفاصيل التذكرة...",
+      "errorLoading": "خطأ في تحميل التذكرة",
+      "errorMessage": "فشل في تحميل تفاصيل تذكرة الدعم. يرجى المحاولة مرة أخرى.",
+      "noData": "لا توجد بيانات تذكرة متاحة."
+    },
+    "messages": {
+      "ticketCreated": "تم إضافة التذكرة بنجاح",
+      "ticketDeleted": "تم الحذف بنجاح",
+      "errorCreating": "حدث خطأ أثناء إضافة التذكرة",
+      "errorDeleting": "حدث خطأ أثناء الحذف",
+      "errorViewing": "حدث خطأ أثناء عرض التذكرة",
+      "invalidFileType": "يرجى اختيار نوع ملف صحيح. الصيغ المسموحة: JPG, JPEG, PNG, PDF, DOC, DOCX, TXT",
+      "selectIssueType": "يرجى اختيار نوع المشكلة",
+      "selectPriority": "يرجى اختيار الأولوية",
+      "enterDescription": "يرجى كتابة وصف للمشكلة"
+    },
+    "deleteModal": {
+      "title": "تأكيد الحذف",
+      "message": "هل أنت متأكد من حذف هذه التذكرة؟"
+    }
+  },
+
+  "advanceRequests": {
+    "title": "طلبات السلف",
+    "details": {
+      "advancePurpose": "الغرض من السلفة",
+      "amount": "المبلغ",
+      "repaymentPeriod": "فترة السداد",
+      "repaymentStartDate": "تاريخ بداية السداد",
+      "notes": "ملاحظات",
+      "personal": "شخصي",
+      "days": "أيام",
+      "months": "شهر",
+      "noNotes": "لا يوجد ملاحظات لهذا الطلب"
+    }
+  },
+  "addNewRequest": {
+    "vacation": {
+      "title": "طلبات الأجازة",
+      "newRequestTitle": "طلب إجازة جديد",
+      "selectEmployee": "الرجاء اختيار موظف أولاً",
+      "checkingVacation": "يتم التحقق من الأجازة...",
+      "noVacationTypes": "لا يوجد أنواع إجازة متاحة",
+      "selectVacationType": "اختر نوع الاجازة",
+      "remainingDays": "الأيام المتبقية",
+      "noRemainingDays": "لا توجد أيام متبقية لهذا النوع من الإجازة",
+      "noRemainingDaysForMonth": "لا توجد أيام متبقية لهذا النوع من الإجازات لهذا الشهر",
+      "startDate": "تاريخ الأجازة من",
+      "endDate": "تاريخ الأجازة إلى",
+      "maxDays": "يمكنك اختيار {days} {days, plural, one=يوم zero=يوم two=يومين few=أيام many=أيام other=أيام} كحد أقصى",
+      "notes": "ملاحظات",
+      "fillRequired": "يرجى ملء جميع الحقول المطلوبة",
+      "cancelSuccess": "تم الالغاء بنجاح."
+    }
+  },
+  "modals": {
+    "details": {
+      "title": "تفاصيل الطلب",
+      "remainingBalance": "الرصيد المتبقي",
+      "daysOf": "يوم من",
+      "day": "يوم",
+      "approvalManager": "المسئول بالموافقة",
+      "addComment": "إضافة تعليق"
+    },
+    "edit": {
+      "title": "التعديل علي إجازة الـ"
+    },
+    "reject": {
+      "title": "سبب الرفض",
+      "label": "سبب رفض الاجازة",
+      "placeholder": "دون تعليقك",
+      "success": "تم رفض الطلب",
+      "successMessage": "تم رفض الطلب"
+    },
+    "comment": {
+      "title": "إضافة تعليق",
+      "label": "التعليق",
+      "placeholder": "دون تعليقك",
+      "success": "تم ارسال التعليق",
+      "successMessage": "تم ارسال التعليق بنجاح"
+    },
+    "success": {
+      "requestAccepted": "تم قبول الطلب بنجاح",
+      "requestAcceptedMessage": "تم قبول الطلب بنجاح",
+      "createSuccess": "تم إنشاء الطلب بنجاح.",
+      "createError": "حدث خطأ أثناء إنشاء الطلب."
+    },
+    "delete": {
+      "title": "حذف الطلب من النظام نهائيا ؟",
+      "message": "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذاالنص من مولد النص العربى.",
+      "vacationTitle": "حذف من النظام نهائيا ؟",
+      "vacationMessage": "هل أنت متأكد من رغبتك في حذف وقت العمل هذا؟ لن تتمكن من استرجاعه لاحقاً."
+    },
+    "filter": {
+      "title": "تصفية",
+      "status": "الحالة",
+      "date": "التاريخ",
+      "selectStatus": "اختر الحالة",
+      "search": "بحث",
+      "reset": "إعادة تعيين"
+    }
+  },
+  "validation": {
+    "sectionRequired": "القسم مطلوب",
+    "employeeRequired": "الموظف مطلوب",
+    "workplaceRequired": "مكان العمل مطلوب"
+  },
+  "toasts": {
+    "requestAddedSuccess": "تم إضافة الطلب بنجاح!",
+    "filterResetSuccess": "تم إستعادة الفلتر بنجاح!"
+  },
+  "forms": {
+    "selects": {
+      "timing": "توقيت",
+      "vacationType": "نوع الأجازة",
+      "employee": "الموظف",
+      "currency": "العملة",
+      "jobTitle": "المسمى الوظيفي",
+      "leaveType": "نوع الإجازة",
+      "manager": "المدير",
+      "nationality": "الجنسية",
+      "office": "المكتب",
+      "section": "القسم",
+      "destinationTemplate": "نموذج الوجهة",
+      "letterTemplate": "نموذج الخطاب",
+      "loanPurpose": "الغرض من القرض",
+      "hoursNumber": "عدد الساعات",
+      "reasonTemplate": "نموذج السبب",
+      "repaymentPeriod": "فترة السداد",
+      "request": "الطلب",
+      "workplace": "مكان العمل",
+      "workTime": "وقت العمل",
+      "category": "الفئة",
+      "selectPlaceholder": "-إختر-"
+    },
+    "validation": {
+      "required": "هذا الحقل مطلوب",
+      "minChars": "يجب أن يحتوي التعليق على 5 أحرف على الأقل",
+      "maxChars": "يجب ألا يتجاوز التعليق 500 حرفًا"
+    }
+  },
+  "common": {
+    "loading": "جاري التحميل...",
+    "currency": "ريال",
+    "addNotes": "أضف ملاحظاتك",
+    "notes": "الملاحظات",
+    "editRequest": "تعديل الطلب",
+    "newRequest": "طلب جديد",
+    "selectPlaceholder": "-إختر-"
+  },
+  "labels": {
+    "employee": "الموظف",
+    "date": "التاريخ",
+    "project": "المشروع",
+    "description": "الوصف",
+    "attachFile": "إرفاق ملف",
+    "descriptionOptional": "الوصف (اختياري)",
+    "notes": "ملاحظات",
+    "start_date": "تاريخ البدء",
+       "addNotes": "أضف ملاحظات",
+        "requiredEmployee": "يجب اختيار موظف",
+    "requiredField": "هذا الحقل مطلوب",
+    "startDateMin": "يجب أن يكون التاريخ أكبر من تاريخ اليوم",
+    "fileRequired": "هذا الحقل مطلوب",
+    "fileSizeMax": "يجب أن يكون حجم الملف أقل من 10MB",
+    "amountRequired": "هذا الحقل مطلوب",
+    "amountPositive": "يجب أن يكون المبلغ أكبر من 0",
+    "amountMin": "يجب أن يكون المبلغ على الأقل 1",
+    "requiredAdvancePurpose": "يجب اختيار الغرض من السلفة",
+    "noteMin": "يجب أن يحتوي التعليق على 5 أحرف على الأقل",
+    "noteMax": "يجب ألا يتجاوز التعليق 500 حرفًا",
+        "letterTemplate": "نموذج الخطاب",
+            "directedTo": "موجه إلى"
+  },
+  "expenses": {
+    "requestedAmount": "المبلغ المطلوب",
+    "referenceNumber": "رقم المرجع",
+    "taxAmount": "قيمة الضريبة",
+    "taxAmountOptional": "قيمة الضريبة (اختياري)",
+    "referenceNumberOptional": "رقم المرجع (اختياري)",
+    "oneWayTrip": "رحلة باتجاه واحد",
+    "roundTrip": "رحلة ذهاب وعودة",
+    "distanceCalculation": "حساب المسافة",
+    "distanceInMiles": "المسافة بالأميال",
+    "additionalInfo": "معلومات إضافية",
+    "descriptionOptional": "الوصف (اختياري)",
+    "distance": "المسافة",
+    "description": "الوصف",
+    "startDistance": "بداية المسافة",
+    "enterStartDistance": "أدخل بداية المسافة",
+    "endDistance": "نهاية المسافة",
+    "enterEndDistance": "أدخل نهاية المسافة",
+    "startPoint": "نقطة البداية",
+    "endPoint": "نقطة النهاية",
+    "calculateBy": "حساب عن طريق",
+    "distanceValue": "قيمة المسافة",
+    "odometerValue": "قيم عداد المسافات",
+    "mapValue": "قيم الخريطة"
+  },
+  "advances": {
+    "purpose": "الغرض",
+    "requestedAmount": "المبلغ المطلوب"
+  },
+  "filters": {
+    "title": "تصفية",
+    "requestStatus": "حالة الطلب",
+    "section": {
+      "label": "القسم",
+      "option1": "قسم 1",
+      "option2": "قسم 2"
+    },
+    "employee": {
+      "label": "الموظف",
+      "option1": "موظف 1",
+      "option2": "موظف 2"
+    },
+    "workplace": {
+      "label": "مكان العمل",
+      "option1": "مكتب 1",
+      "option2": "مكتب 2"
+    },
+    "status": {
+      "all": "الكل",
+      "active": "نشط",
+      "inactive": "غير نشط"
+    }
+  },
+  "status": {
+    "all": "الكل",
+    "pending": "قيد الانتظار",
+    "approved": "مقبول",
+    "rejected": "مرفوض"
+  }
+}

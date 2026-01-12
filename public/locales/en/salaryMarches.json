@@ -1,0 +1,102 @@
+{
+  "pageTitle": "Salary Marches",
+  "editTitle": "Edit",
+  "cards": {
+    "employeesCount": "Number of Employees",
+    "totalBasicSalary": "Total Basic Salary",
+    "totalBonuses": "Total Bonuses",
+    "totalDeductions": "Net Deductions",
+    "totalNetPay": "Total Net Pay",
+    "sendTransaction": "Send Transaction"
+  },
+  "date": {
+    "selectMonth": "Select Month",
+    "closed": "Closed",
+    "open": "Open"
+  },
+  "table": {
+    "headers": {
+      "employee": "Employee",
+      "basicSalary": "Basic Salary",
+      "allowances": "Allowances",
+      "insurance": "Insurance",
+      "netBonus": "Net Bonus",
+      "netDeduction": "Net Deduction",
+      "totalSalary": "Total Salary",
+      "paymentMethod": "Payment Method"
+    }
+  },
+  "common": {
+    "selectPlaceholder": "-Select-"
+  },
+  "modal": {
+    "details": {
+      "title": "Details",
+      "joinDate": "Join Date",
+      "basicSalaryAndAllowances": "Basic Salary and Allowances",
+      "basicSalary": "Basic Salary",
+      "allowance": "Allowance",
+      "totalSalary": "Total Salary",
+      "paymentElements": "Payment Elements",
+      "amount": "Amount",
+      "processed": "Processed",
+      "pendingApproval": "Pending Approval",
+      "unpaid": "Unpaid",
+      "notes": "Notes",
+      "totalNetPay": "Total Net Pay",
+      "paymentMethod": "Payment Method",
+      "period": "({month} {startDay} - {month} {endDay} {year})"
+    },
+    "filter": {
+      "title": "Filter",
+      "success": "Filter applied successfully!",
+      "resetSuccess": "Filter reset successfully.",
+      "resetButton": "Reset",
+      "searchButton": "Search",
+      "section": "Section",
+      "jobType": "Job Type",
+      "contractType": "Contract Type",
+      "paymentMethod": "Payment Method"
+    },
+    "sendTransaction": {
+      "title": "Send Transaction",
+      "message": "By clicking OK, the transaction will be sent to employees",
+      "confirm": "OK",
+      "cancel": "No, Go Back",
+      "errorSelectMonth": "You must select a month and year",
+      "success": "Transaction sent successfully",
+      "error": "An error occurred while sending the transaction"
+    }
+  },
+  "paymentMethods": {
+    "bank": "Bank",
+    "cash": "Cash",
+    "check": "Check",
+    "creditCard": "Credit Card",
+    "paypal": "PayPal",
+    "bankTransfer": "Bank Transfer",
+    "notSpecified": "Not Specified"
+  },
+  "form": {
+    "addNewTask": "Add New Task",
+    "employee": {
+      "label": "Employee",
+      "error": "You must select an employee"
+    },
+    "jobTitle": {
+      "label": "Job Title",
+      "error": "You must select a job title"
+    },
+    "basicSalary": {
+      "label": "Basic Salary",
+      "placeholder": "Basic Salary",
+      "error": "You must enter a task name"
+    },
+    "paymentMethod": {
+      "label": "Salary Payment Method",
+      "error": "You must select a job title"
+    },
+    "success": "Request added successfully!",
+    "cancelSuccess": "Cancelled successfully."
+  }
+}
